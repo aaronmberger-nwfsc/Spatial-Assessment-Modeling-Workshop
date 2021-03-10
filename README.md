@@ -20,6 +20,7 @@ A fine-scale, spatially complex operating model developed with the Spatial Popul
 ![overview_fig1_v2](https://user-images.githubusercontent.com/62513493/110580435-8926fb00-811d-11eb-952a-bbb1b19a6795.png)
 
 # Key milestones for simulation experiment
+
 1. Simulated YFT pseudo-data (100 datasets) each iteration aggregated at two spatial configurations (single area and five area, 1A and 5A, respectively) will be provided to analysts (no later than June 1, 2021)
 1. Analysts develop and apply their chosen assessment platform to a single representative dataset (SRD), i.e. 1 of the 100 datasets, for each of the two spatial configurations  (June 2021 - September 2021)
 1. Analysts document their model building decision process at each stage of model development focusing on key points 
