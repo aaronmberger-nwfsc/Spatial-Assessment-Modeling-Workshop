@@ -1,4 +1,4 @@
-# Spatial-Assessment-Modeling-Workshop
+# Spatial Assessment Modeling Experiment and Workshop
 2021 Spatial Assessment Modeling Experiment and 2022 In-Person Workshop
 
 # Experiment summary
