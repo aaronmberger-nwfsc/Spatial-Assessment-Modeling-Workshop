@@ -18,6 +18,7 @@ A population dynamics simulation experiment was designed to elicit the available
 A fine-scale, spatially complex operating model developed with the Spatial Population Model (SPM) and tailored to Indian Ocean yellowfin tuna (YFT; Thunnus albacares) will be utilized to provide realistic simulated pseudo-data that demonstrates realistic patterns of stochasticity and error as real world applications. Stock assessment models developed to fit simulated data will be explored as a research exercise and not intended to replace or supplement existing operational stock assessments for any species or fisheries management organization. 
 
 ![overview_fig1_v2](https://user-images.githubusercontent.com/62513493/110580435-8926fb00-811d-11eb-952a-bbb1b19a6795.png)
+Fig. 1) Simulation experiment conceptual flowchart as applied to each stock assessment platform
 
 # Key milestones for simulation experiment
 
@@ -36,3 +37,4 @@ A fine-scale, spatially complex operating model developed with the Spatial Popul
 1. Analysts attend an in-person workshop to continue discussions focused on key components on the next generation of spatial stock assessment model features (2022)
 
 ![gantt_chart_v2](https://user-images.githubusercontent.com/62513493/110581387-449c5f00-811f-11eb-97c9-024b4f8654a2.png)
+Fig. 2) Overview of key milestones associated with the simulation experiment.
