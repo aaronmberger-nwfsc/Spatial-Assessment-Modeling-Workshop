@@ -8,20 +8,20 @@ Many generic assessment platforms utilize common mathematical formulations for s
 
 The main feature of the workshop will be a spatial simulation experiment, which brings together assessment analysts familiar with developing spatial stock assessment models from across the globe. The simulation experiment is designed to elicit feedback on the existing suite of spatial stock assessment packages, while comparing similarities and differences across platforms. By exploring capabilities across spatial assessment models, the study will help summarize existing spatial capabilities, identify existing limitations and research needs, and determine components that need to be incorporated into the next generation of spatial stock assessment models. Additionally, discussions around the model building process undertaken by each analyst will help provide guidance on best practices for developing spatial models, including approaches to identify when spatial models are warranted (e.g., through residual analysis). The main objectives of the simulation experiment are to:
 
-1.	OBJECTIVE #1: Discuss best practices in spatial model development by exploring the decision-points performed by each analyst, which will highlight how fundamental differences in each platform influence decisions during each stage of development of a spatial stock assessment model, provide insight into why analysts choose certain spatial functionality, and how goodness of fit is determined in a spatial context; 
+1.	**OBJECTIVE #1**: Discuss best practices in spatial model development by exploring the decision-points performed by each analyst, which will highlight how fundamental differences in each platform influence decisions during each stage of development of a spatial stock assessment model, provide insight into why analysts choose certain spatial functionality, and how goodness of fit is determined in a spatial context; 
 
-2.	OBJECTIVE #2: Evaluate within platform performance and the impact of ignoring spatial structure by comparing spatial and spatially aggregated model configurations;  
+2.	**OBJECTIVE #2**: Evaluate within platform performance and the impact of ignoring spatial structure by comparing spatial and spatially aggregated model configurations;  
 
-3.	OBJECTIVE #3: Explore general performance across different categories of spatial models (e.g., non-spatial, spatially-implicit, spatially-stratified, and fully spatiotemporal) by comparing bias and precision across the broad categories. 
+3.	**OBJECTIVE #3**: Explore general performance across different categories of spatial models (e.g., non-spatial, spatially-implicit, spatially-stratified, and fully spatiotemporal) by comparing bias and precision across the broad categories. 
 
-To achieve these goals, a fine-scale, spatially complex operating model developed with the Spatial Population Model (SPM) and tailored to Indian Ocean yellowfin tuna (YFT; *Thunnus albacares*)  will be utilized [^1]. The operating model will provide simulated pseudo-data that reflects patterns of stochasticity and observation error, which mimic realistic real world applications. Each analyst will be provided an identical background document on the operating model from which to begin development of their chosen assessment application, including information on population structure, demographic rates, data sources, and error structure. Similarly, detailed guidance will be provided on how to summarize results and report to the workshop. Stock assessment models developed to fit simulated data will be explored as a research exercise and will not replace or supplement existing operational stock assessments for any species or fisheries management organization.
+To achieve these goals, a fine-scale, spatially complex operating model developed with the Spatial Population Model (SPM) and tailored to Indian Ocean yellowfin tuna (YFT; *Thunnus albacares*)  will be utilized [^*1*]. The operating model will provide simulated pseudo-data that reflects patterns of stochasticity and observation error, which mimic realistic real world applications. Each analyst will be provided an identical background document on the operating model from which to begin development of their chosen assessment application, including information on population structure, demographic rates, data sources, and error structure. Similarly, detailed guidance will be provided on how to summarize results and report to the workshop. Stock assessment models developed to fit simulated data will be explored as a research exercise and will not replace or supplement existing operational stock assessments for any species or fisheries management organization.
 
 We envision three primary stages of model development that each analyst will need to document (Figure 1). First, analysts will be provided a single representative, spatially explicit data set from which they will develop a spatial model and document a decision-point analysis at each stage, including why spatial assumptions were utilized, how the model fit to the data was assessed, and how/why model tweaks were made during this process (Objective #1). Second, the final spatial model will be applied to 100 simulated data sets. Finally, analysts will apply a panmictic (i.e., spatially-aggregated) version of their model to the same data aggregated across the spatial domain (again, to each of the 100 iterations). The authors will then provide brief comparisons of model estimates and data fits across the two parametrizations of their model, as well as, any alternate spatial parametrizations that they wish to develop and discuss (Objective #2). Each analyst group will be expected to provide an approximately one hour virtual seminar highlighting their model framework, walking workshop participants through their decision-point model building approach, illustrating model fits (to both the representative and full 100 data sets), and comparing outputs and residual analysis from their panmictic and spatially explicit models. Specific model results (e.g., time series of area-specific SSB, depletion, recruitment, fishing mortality, and residuals) will also be provided to the workshop hosts in a format specified at the outset, which will allow comparisons to the true population trajectories across categories of spatial models (Objective #3). Upon completion of the series of virtual seminars in late 2021 (Figure 2), an in-person workshop (2022, location and time TBA) will be held to discuss best practices and salient features of the next generation of spatial models.
 
 ![overview_fig_v3](https://user-images.githubusercontent.com/62513493/110732345-e16f0300-81d8-11eb-9b13-8fac3ae7cc64.png)
-**Fig. 1) Stages of model development for the simulation experiment conceptual flowchart as applied to each stock assessment platform.
+**Fig. 1) Stages of model development for the simulation experiment conceptual flowchart as applied to each stock assessment platform.**
 
-[^1]: Pending participant interest, experiment organizers will be able to provide (at a later date) datasets from a second spatially complex operating model developed with SPM and tailored to Antarctic Toothfish (AT; *Dissostichus mawsoni*). 
+[^*1]: Pending participant interest, experiment organizers will be able to provide (at a later date) datasets from a second spatially complex operating model developed with SPM and tailored to Antarctic Toothfish (AT; *Dissostichus mawsoni*). 
 
 # Timeframe
 The simulation experiment will occur over a ~12 month period, culminating in a seminar series to share individual and collective results. A follow-up in-person workshop is tentatively planned for 2022 to provide a forum for discussion of spatial modeling best practices and key features of future spatial assessment platforms. An outline of the experimental timeline, including key milestones, is described here and summarized in Figures 1 and 2.
@@ -42,11 +42,12 @@ The simulation experiment will occur over a ~12 month period, culminating in a s
 1. Analysts provide text, feedback, and edits on a manuscript highlighting the key findings of the experiment and workshop (2022)
 
 ![gantt_chart_v4](https://user-images.githubusercontent.com/62513493/110732398-f77cc380-81d8-11eb-9385-93ab0f2214d7.png)
-**Fig. 2) Overview of key milestones associated with the simulation experiment study design.
+**Fig. 2) Overview of key milestones associated with the simulation experiment study design.**
 
 # Next steps
 
 Analysts should expect to receive a “Guidance Document” by May 2021 that describes important background information, details about the YFT OM, and further guidance for conducting analyses.  Shortly thereafter, data sets will be disseminated and a webinar will be held to provide a verbal overview of the experiment and hold a Q&A session.
+
 Thank you for your participation!
 
 # Contacts
@@ -59,7 +60,7 @@ Please contact Caren Barcelo (caren.barcelo@noaa.gov), Aaron Berger (aaron.berge
 | Daniel Goethel | NOAA | Rick Methot | NOAA|
 | Simon Hoyle | NIWA | Rich Little | CSIRO |
 | Alistair Dunn | Ocean Environmental | Paul DeBruyn | IOTC|
-| Patrick Lynch | NOAA | Andrea Chan | NOAA |
+| Patrick Lynch | NOAA | Andrea Chan |ECS supporting NOAA |
 | Jeremy McKenzie | NIWA | Pamela Mace | MPI|
 | Jennifer Devine  | NIWA |  Aaron Berger | NOAA |
 | Craig Marsh  | U of Aukland | Daniel Goethel | NOAA |
