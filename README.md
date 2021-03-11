@@ -61,12 +61,9 @@ Please contact Caren Barcelo (caren.barcelo@noaa.gov), Aaron Berger (aaron.berge
 | Simon Hoyle | NIWA | Rich Little | CSIRO |
 | Alistair Dunn | Ocean Environmental | Paul DeBruyn | IOTC|
 | Patrick Lynch | NOAA | Andrea Chan |ECS supporting NOAA |
-| Jeremy McKenzie | NIWA | Pamela Mace | MPI|
-| Jennifer Devine  | NIWA |  Aaron Berger | NOAA |
-| Craig Marsh  | U of Aukland | Daniel Goethel | NOAA |
-| | | Simon Hoyle | NIWA |
+| Jeremy McKenzie | NIWA | Aaron Berger | NOAA|
+| Jennifer Devine  | NIWA | Daniel Goethel | NOAA |
+| Craig Marsh  | U of Aukland |Simon Hoyle | NIWA |
 | | | Alistair Dunn | Ocean Environmental |
 | | | Patrick Lynch | NOAA |
-| | | Jeremy McKenzie | NIWA |
-| | | Pamela Mace | MPI|
-
+| | |Jeremy McKenzie | NIWA |
