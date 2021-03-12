@@ -14,9 +14,11 @@ The main feature of the workshop will be a spatial simulation experiment, which 
 
 3.	**OBJECTIVE #3: Explore general performance across different categories of spatial models (e.g., non-spatial, spatially-implicit, spatially-stratified, and fully spatiotemporal) by comparing bias and precision across the broad categories.** 
 
-To achieve these goals, a fine-scale, spatially complex operating model developed with the Spatial Population Model (SPM) and tailored to Indian Ocean yellowfin tuna (YFT; Thunnus albacares)  will be utilized. The operating model will provide simulated pseudo-data that reflects patterns of stochasticity and observation error, which mimic realistic real world applications. Each analyst will be provided an identical background document on the operating model from which to begin development of their chosen assessment application, including information on population structure, demographic rates, data sources, and error structure. Similarly, detailed guidance will be provided on how to summarize results and report to the workshop. Stock assessment models developed to fit simulated data will be explored as a research exercise and will not replace or supplement existing operational stock assessments for any species or fisheries management organization.
+To achieve these goals, a fine-scale, spatially complex operating model developed with the Spatial Population Model (SPM) and tailored to Indian Ocean yellowfin tuna (YFT; *Thunnus albacares*)[^1] will be utilized. The operating model will provide simulated pseudo-data that reflects patterns of stochasticity and observation error, which mimic realistic real world applications. Each analyst will be provided an identical background document on the operating model from which to begin development of their chosen assessment application, including information on population structure, demographic rates, data sources, and error structure. Similarly, detailed guidance will be provided on how to summarize results and report to the workshop. Stock assessment models developed to fit simulated data will be explored as a research exercise and will not replace or supplement existing operational stock assessments for any species or fisheries management organization.
 
 We envision three primary stages of model development that each analyst will need to document (Figure 1). First, analysts will be provided a representative data set aggregated at two spatial scales: one area (fully aggregated) and four areas (spatially stratified). Each analyst will be expected to then develop a panmictic model (applied to the fully aggregated data) and a spatial model (applied to the four area spatially stratified data). Analysts will then document decision-points made at each stage of model development focusing primarily on development of the spatially explicit model, including why spatial assumptions were utilized, how model fit to the data was assessed, and how/why model tweaks were made during this process (Objective #1). Next, the final panmictic and spatial models will be applied to 100 simulated data sets (at the respective spatial aggregations of the model development stage). The authors will then provide brief comparisons of model estimates and data fits across the two parametrizations of their model, as well as, any alternate spatial parametrizations that they wish to develop and discuss (Objective #2). 
+
+[^1]  Pending participant interest, workshop organizers will be able to provide (at a later date) datasets from a second spatially complex operating model developed with SPM and tailored to Antarctic Toothfish (AT; *Dissostichus mawsoni*). 
 
 **Table 1) Spatial stock assessment modeling platforms and models that have confirmed participation in the simulation experiment and workshop.**
 
@@ -77,7 +79,7 @@ Please contact Caren Barcelo (caren.barcelo@noaa.gov), Aaron Berger (aaron.berge
 | Daniel Goethel | NOAA | Rick Methot | NOAA|
 | Simon Hoyle | NIWA | Rich Little | CSIRO |
 | Alistair Dunn | Ocean Environmental | Paul DeBruyn | IOTC|
-| Patrick Lynch | NOAA | |
+| Patrick Lynch | NOAA | Rosemary Hurst| NIWA |
 | Jeremy McKenzie | NIWA ||
 | Jennifer Devine  | NIWA | |
 | Craig Marsh  | U of Aukland ||
