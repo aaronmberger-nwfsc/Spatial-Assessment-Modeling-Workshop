@@ -74,11 +74,11 @@ Please contact Caren Barcelo (caren.barcelo@noaa.gov), Aaron Berger (aaron.berge
 
 | Working Group | WG Affiliation | Steering Committee | SG Affiliation |
 | ------------- | ------------- | ------------- | ------------- |
-| Caren Barceló | ECS supporting NOAA | Pamela Mace | NIWA|
+| Caren Barceló | ECS supporting NOAA | Pamela Mace | Fisheries NZ|
 | Aaron Berger | NOAA | Mark Maunder | IATTC|
 | Daniel Goethel | NOAA | Rick Methot | NOAA|
 | Simon Hoyle | NIWA | Rich Little | CSIRO |
-| Alistair Dunn | Ocean Environmental | Paul DeBruyn | IOTC|
+| Alistair Dunn | Ocean Environmental | Paul DeBruyn | IOTC/FAO |
 | Patrick Lynch | NOAA | Rosemary Hurst| NIWA |
 | Jeremy McKenzie | NIWA ||
 | Jennifer Devine  | NIWA | |
