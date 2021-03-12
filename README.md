@@ -20,7 +20,7 @@ We envision three primary stages of model development that each analyst will nee
 
 [^1] *Pending participant interest, workshop organizers will be able to provide (at a later date) datasets from a second spatially complex operating model developed with SPM and tailored to Antarctic Toothfish (AT; Dissostichus mawsoni).* 
 
-**Table 1) Spatial stock assessment modeling platforms and models that have confirmed participation in the simulation experiment and workshop.**
+**Table 1) Spatial stock assessment modeling platforms and models that have confirmed participation in the simulation experiment and workshop. (This is a working list that is subject to change).**
 
 | Stock Assessment platform or model | Acronym |
 | ------------- | ------------- |
