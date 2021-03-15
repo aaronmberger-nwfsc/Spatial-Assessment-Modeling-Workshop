@@ -1,4 +1,4 @@
-![currents](https://user-images.githubusercontent.com/62513493/111212141-79c80780-858c-11eb-8569-5468d74bfa3f.png)
+![currents](https://user-images.githubusercontent.com/62513493/111212141-79c80780-858c-11eb-8569-5468d74bfa3f.png =100x250)
 
 An Introduction to the Workshop and Experimental Design
 
