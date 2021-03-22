@@ -63,7 +63,7 @@ The simulation experiment will occur over a ~12-month period, culminating in a s
 1. Analysts and workshop organizers collaboratively provide text, feedback, and edits on a manuscript highlighting the key findings of the experiment and workshop (2022)
 
 ![gantt_chart_v4](https://user-images.githubusercontent.com/62513493/110732398-f77cc380-81d8-11eb-9385-93ab0f2214d7.png)
-**Fig. 2) Overview of key milestones associated with the simulation experiment study design.**
+**Fig. 2) Overview of key milestones associated with the YFT simulation experiment study design.**
 
 # Next steps
 
