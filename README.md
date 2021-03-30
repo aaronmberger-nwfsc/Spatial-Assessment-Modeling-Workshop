@@ -79,7 +79,7 @@ Please contact Caren Barcelo (caren.barcelo@noaa.gov), Aaron Berger (aaron.berge
 | Daniel Goethel | NOAA | Rick Methot | NOAA|
 | Simon Hoyle | NIWA | Rich Little | CSIRO |
 | Alistair Dunn | Ocean Environmental | Paul DeBruyn | IOTC/FAO |
-| Patrick Lynch | NOAA | Rosemary Hurst| NIWA |
+| Patrick Lynch | NOAA | Richard O’Driscoll | NIWA |
 | Jeremy McKenzie | NIWA ||
 | Jennifer Devine  | NIWA | |
 | Craig Marsh  | NIWA ||
