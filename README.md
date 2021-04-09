@@ -41,7 +41,7 @@ Next, the final panmictic and spatial models will be applied to 100 simulated da
 
 Finally, each analyst group will provide an approximately one hour virtual seminar highlighting their model framework, walking workshop participants through their decision-point model building approach, illustrating model fits (to both the representative and full 100 data sets), and comparing outputs and residual analysis from their panmictic and spatially explicit models. Specific model results (e.g., time series of area-specific SSB, depletion, recruitment, fishing mortality, and residuals) will be provided to the workshop in a format specified at the outset, which will allow comparisons (by the workshop hosts) to the true population trajectories across categories of spatial models (Objective #3). Upon completion of the series of virtual seminars in late 2021 (Figure 2), an in-person workshop (2022, location and dates TBA) will be held to discuss best practices and salient features of the next generation of spatial models.
 
-![overview_fig_v3](https://user-images.githubusercontent.com/62513493/110732345-e16f0300-81d8-11eb-9b13-8fac3ae7cc64.png)
+![analyst process](https://user-images.githubusercontent.com/62513493/114226168-18dfe500-9928-11eb-88ed-1af8eac4f6ec.png)
 **Fig. 1) Stages of model development for the YFT simulation experiment conceptual flowchart as applied to each stock assessment platform.**
 
 # Timeframe
@@ -61,7 +61,7 @@ The simulation experiment will occur over a ~12-month period, culminating in a s
 1. Analysts attend an in-person workshop to continue discussions focused on best practices and key components of the next generation of spatial stock assessment model features  (2022)
 1. Analysts and workshop organizers collaboratively provide text, feedback, and edits on a manuscript (to be submitted to a peer reviewed journal) highlighting the key findings of the experiment and workshop (2022)
 
-![gantt_chart_v4](https://user-images.githubusercontent.com/62513493/110732398-f77cc380-81d8-11eb-9385-93ab0f2214d7.png)
+![gantt_v6](https://user-images.githubusercontent.com/62513493/114226269-3c0a9480-9928-11eb-87c7-71442d11b837.png)
 **Fig. 2) Overview of key milestones associated with the YFT simulation experiment study design.**
 
 # Next steps
