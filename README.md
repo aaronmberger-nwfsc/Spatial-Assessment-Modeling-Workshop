@@ -1,7 +1,5 @@
 ![currents](https://user-images.githubusercontent.com/62513493/111232440-590dab00-85a8-11eb-9438-00a2e6cd20a4.png)
 
-https://zenodo.org/badge/327679907.svg
-
 An Introduction to the Workshop and Experimental Design
 
 # Workshop summary
