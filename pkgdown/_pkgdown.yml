@@ -1,0 +1,41 @@
+navbar:
+  structure:
+    left:
+    - articles
+    - reference
+    - questions
+    - github
+
+  components:
+    home: ~
+    
+    articles:
+      text: Articles
+      icon: fa fa-newspaper fa-lg
+      menu:
+      - text: Analyst Guidance document
+        href: articles/Analyst_guidance.html
+      - text: YFT OM Description
+        href: articles/YFT_OM_Description.html
+      - text: YFT Metadata
+        
+    reference:
+      text: Datasets
+      icon: fa fa-fish fa-lg
+      href: reference/index.html
+
+    questions:
+      text: Questions
+      icon: fa fa-question-circle fa-lg
+      menu:
+      - text: General Questions
+        href: https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/discussions/2
+      - text: YFT Questions
+        href: https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/discussions/6
+      - text: TOA Questions
+        href: https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/discussions/7
+
+    github:
+      text: Github
+      icon: fa fa-github fa-lg
+      href: https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/

@@ -1,0 +1,19 @@
+#' @title Spatial Stock Assessment Simulation Experiment
+#'
+#' @description Simulated Indian Ocean Yellowfin Tuna (YFT) datasets. Datasets created by simulating with observation and recruitment stochasticity with the Spatial Population Model and aggregated to the 4 area and panmictic (1 area) scales using S. Hoyle & A. Dunn wrapper functions.
+#'
+#' \itemize{
+#'   \item (Step 1a) YFT 1 area SINGLE REPRESENTATIVE DATASET: 1 single (representative) simulated dataset from the YFT SPM OM
+#'   \item (Step 1b) YFT 1 area 100 simulated datasets: 100 different simulations from YFT SPM OM at panmictic scale
+#'   \item (Step 2a) YFT 4 area SINGLE REPRESENTATIVE DATASET (SRD): 100 different simulations from YFT SPM OM
+#'   \item (Step 2b) YFT 4 area 100 simulated datasets: 100 different simulations from YFT SPM OM at four area scale
+#'   \item (Step 3) part1 100 YFT 221 cell scale (spatially disaggregated) simulated datasets
+#'   \item (Step 3) part2 100 YFT 221 cell scale (spatially disaggregated) simulated datasets
+
+#' }
+#'
+#' @docType data
+#' @name mydata
+#' @usage data(mydata)
+#' @format 6 dataframes with many lists. 1 and 4 area aggregations are formatted for data.ss files (and tested using SS v.3.24Z).
+NULL
