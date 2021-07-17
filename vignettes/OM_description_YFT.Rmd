@@ -3,16 +3,24 @@ title: |
   | __YELLOWFIN TUNA__ 
   | __OPERATING MODEL DESCRIPTION__
 date: "`r format(Sys.time(), '%d %B %Y')`"
-output:
-  html_document
+output: rmarkdown::html_vignette
 urlcolor: blue
-documentclass: scrartcl
+vignette: >
+  %\VignetteIndexEntry{OM_description_YFT}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
 ---
 
-<!-- ```{r include=FALSE} -->
-<!-- knitr::opts_chunk$set(echo = FALSE) -->
-<!-- ``` -->
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
 
+```{r setup}
+library(SpatialAssessmentModelingWorkshop)
+```
 # 1. Overview
 In this document, we provide a general description of the yellowfin tuna (*Thunnus albacares*) case study and associated operating model (OM) used for the simulation experiment. This document will help simulation experiment participants develop and apply both spatially stratified and spatially aggregated stock assessments using their chosen modeling platform. The following description provides an overview of the primary assumptions and main components of the YFT operating model, including spatial configuration, population dynamics, simulated data, and model stochasticity. 
 
@@ -43,8 +51,8 @@ We include only one OM scenario in this simulation experiment (which is based on
 ## 3.1	Spatial & temporal operating model dimensions
 Based on the domain assumed in the IOTC YFT operational assessment (Fig. 1a), a rectangular 13x17 grid of 5x5$^\circ$ cells (221 total), spanning 20$^\circ$E to 105$^\circ$E and 20$^\circ$N to 40$^\circ$S, demarcates the Indian Ocean into a planar Cartesian coordinate system. Of these, the 159 oceanic cells represent the spatial domain of the OM (Fig. 1b). No catch, CPUE or recruitment are attributed to cells fully on land. The temporal resolution in the OM is quarterly (referred to as a *pseudo-year*). The time series spans from pseudo-year 1 (first quarter of 1952) to pseudo-year 256 (fourth quarter of 2015). YFT ages are modeled from 0.25 age until 7 years of age (28 quarters or pseudo-years), where age 28 is a plus group. The quarterly ageing process moves fish between age classes.
 
-```{r echo=FALSE, out.width='75%',fig.align="center"}
-knitr::opts_chunk$set(file.path="man/figures/baseplot_gridwlabels_regions.png")
+```{r, echo=FALSE, out.width='75%',fig.align="center",include=FALSE}
+knitr::opts_chunk$set(file.path=images/baseplot_gridwlabels_regions.png)
 ```
   
 ***Fig. 1) a) Assessment regions defined from Fu et al. (2018); b) Grid cells for which SPM simulated YFT population and fishery dynamics. Note: Regions 1a (R1a) and 1b (R1b) are combined to form Region 1 in the 4-area model aggregation following Fu et al. (2018).***

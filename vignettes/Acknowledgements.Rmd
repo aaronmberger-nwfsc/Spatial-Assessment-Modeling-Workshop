@@ -1,0 +1,25 @@
+---
+title: "Acknowledgements"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Acknowledgements}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(SpatialAssessmentModelingWorkshop)
+```
+
+# Eli Holmes (NWFSC)
+For help with pkgdown and a wonderful, highly informative R workflow workshop.
+
+# NOAA OST Modeling Team (Bai Li, Christine Stawitz, Matthew Supernaw)
+For NOAA branding for pkgdown
