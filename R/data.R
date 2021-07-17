@@ -86,7 +86,7 @@ NULL
 #' @usage data('YFT_SRD_4A_4')
 #' @examples 
 #' data('YFT_SRD_4A_4')
-#' head(biol_dat)
+#' head(dat_1A_1$catch)
 NULL
 
 #' 100 simulated YFT datasets at the 1 area scale
@@ -115,65 +115,73 @@ NULL
 #' *tag_recaps*: 1 area tag recapture data with columns corresponding to generic tag release event number (tg), pseudo-year (yr), season (season), fleet index (fleet), and the number of recaptures (recaps)
 #' 
 #' 
-#' Explanations of list object items in the provided data files that analysts may find additionally useful. Much of these follow, or closely follow, Sstock Ssynthesis (version SS3.24Z) naming conventions.  The name is the list identifier in each Rdata object (e.g., the name styr is found using dat_1A_4$styr).
+#' Explanations of list object items in the provided data files that analysts may find additionally useful. Much of these follow, or closely follow, Stock Synthesis (version SS3.24Z) naming conventions.  The name is the list identifier in each Rdata object (e.g., the name styr is found using dat_1A_4$styr).
 #' 
-#' styr	Start year (pseudo-year)
+#' *styr*	Start year (pseudo-year)
 #' 
-#' endyr	End year (pseudo-year)
+#' *endyr*	End year (pseudo-year)
 #' 
-#' nseas	Number of seasons
+#' *nseas*	Number of seasons
 #' 
-#' months_per_seas	Months per season
+#' *months_per_seas*	Months per season
 #' 
-#' spawn_seas	Season when spawning occurs
+#' *spawn_seas*	Season when spawning occurs
 #' 
-#' Nfleet	Number of fishing fleets
+#' *Nfleet*	Number of fishing fleets
 #' 
-#' Nsurveys	Number of surveys (fishery-dependent CPUE)
+#' *Nsurveys*	Number of surveys (fishery-dependent CPUE)
 #' 
-#' N_areas	Number of spatial areas
+#' *N_areas*	Number of spatial areas
 #' 
-#' fleetnames	Specific fleet and survey index names
+#' *fleetnames*	Specific fleet and survey index names
 #' 
-#' surveytiming	Timing of fleet and surveys
+#' *surveytiming*	Timing of fleet and surveys
 #' 
-#' areas	Areas where each fleet or survey operate 
+#' *areas*	Areas where each fleet or survey operate 
 #' 
-#' units_of_catch	Specifies units for catch (2=numbers of fish)
+#' *units_of_catch*	Specifies units for catch (2=numbers of fish)
 #' 
-#' se_log_catch	Standard error associated with catch
+#' *se_log_catch*	Standard error associated with catch
 #' 
-#' Ngenders	Number of genders
+#' *Ngenders*	Number of sexes
 #' 
-#' Nages	Number of ages
+#' *Nages*	Number of ages
 #' 
-#' lbin_vector_pop	Vector of length bins in the population (cm)
+#' *lbin_vector_pop*	Vector of length bins in the population (cm)
 #' 
-#' lbin_vector	Vector of length bins in the data (cm)
+#' *lbin_vector*	Vector of length bins in the data (cm)
 #' 
-#' N_tag_groups	Number of tag release events
+#' *N_tag_groups*	Number of tag release events
 #' 
-#' N_recap_events	Number of recapture events
+#' *N_recap_events*	Number of recapture events
 #' 
-#' mixing_latency_period	Length of time units (psudo-years) necessary to allow for tag
+#' *mixing_latency_period*	Length of time units (psudo-years) necessary to allow for tag
 #' mixing
 
 #' The lists in __biol_dat__ include:
 #' 
 #' *M:* age varying natural mortality
+#' 
 #' *age*: first age to last age (pseudo-years)
+#' 
 #' *maturity*: maturity at age ogive (pseudo-years)
+#' 
 #' *k*: age varying growth coefficients
+#' 
 #' *L*: length (cm) 
+#' 
 #' *Linf*: length infinity (cm)
+#' 
 #' *Lmin*: length minimum (cm)
+#' 
 #' *a*: length-weight scaling coefficient
+#' 
 #' *b*: length-weight shape parameter
 #' 
 #' @usage data('YFT_1area_observations_1-100')
 #' @examples 
 #' data('YFT_1area_observations_1-100')
-#' head(biol_dat)
+#' head(dat_1A_1$catch)
 #' 
 NULL
 
@@ -218,6 +226,6 @@ NULL
 #' 
 #' @examples 
 #' data('YFT_4area_observations_1-100')
-#' head(biol_dat)
+#' head(dat_1A_1catch)
 NULL
 

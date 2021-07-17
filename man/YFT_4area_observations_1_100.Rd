@@ -44,5 +44,5 @@ The lists in \strong{biol_dat} include:
 }
 \examples{
 data('YFT_4area_observations_1-100')
-head(biol_dat)
+head(dat_1A_1catch)
 }
