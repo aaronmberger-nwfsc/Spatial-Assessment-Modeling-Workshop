@@ -16,7 +16,7 @@ navbar:
       - text: Analyst Guidance document
         href: articles/Analyst_guidance.html
       - text: YFT OM Description
-        href: articles/YFT_OM_Description.html
+        href: articles/OM_Description_YFT.html
         resource files: man/figures/baseplot_gridwlabels_regions.png
       - text: Relevant Literature Files
         href: https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/tree/main/docs/articles/Relevant_literature_files

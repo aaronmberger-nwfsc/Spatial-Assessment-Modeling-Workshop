@@ -44,7 +44,7 @@ We include only one OM scenario in this simulation experiment (which is based on
 Based on the domain assumed in the IOTC YFT operational assessment (Fig. 1a), a rectangular 13x17 grid of 5x5$^\circ$ cells (221 total), spanning 20$^\circ$E to 105$^\circ$E and 20$^\circ$N to 40$^\circ$S, demarcates the Indian Ocean into a planar Cartesian coordinate system. Of these, the 159 oceanic cells represent the spatial domain of the OM (Fig. 1b). No catch, CPUE or recruitment are attributed to cells fully on land. The temporal resolution in the OM is quarterly (referred to as a *pseudo-year*). The time series spans from pseudo-year 1 (first quarter of 1952) to pseudo-year 256 (fourth quarter of 2015). YFT ages are modeled from 0.25 age until 7 years of age (28 quarters or pseudo-years), where age 28 is a plus group. The quarterly ageing process moves fish between age classes.
 
 ```{r echo=FALSE, out.width='75%',fig.align="center"}
-knitr::opts_chunk$set(file.path="man/figures/baseplot_gridwlabels_regions.png")
+knitr::opts_chunk$set(file.path="baseplot_gridwlabels_regions.png")
 ```
   
 ***Fig. 1) a) Assessment regions defined from Fu et al. (2018); b) Grid cells for which SPM simulated YFT population and fishery dynamics. Note: Regions 1a (R1a) and 1b (R1b) are combined to form Region 1 in the 4-area model aggregation following Fu et al. (2018).***
@@ -94,9 +94,11 @@ Natural mortality (M) is age-specific (Fig. 3d), and assumed to be constant thro
 ### 3.2.4 Recruitment
 Recruitment into the population occurs at age 0.25 (i.e. pseudo-year 1), and recruitment events take place every quarter with spatial apportionment among grid cells. The OM assumes a global, population level Beverton-Holt spawner-recruitment relationship (SRR) based on the domain-wide total SSB and pseudo-year recruitment deviations referred to as pseudo-year class strength multipliers (YCS).  Steepness of the Beverton-Holt SRR is 0.8, and R~0~=97.2506 * 10^6^ individuals (based on the 2018 YFT stock assessment estimates). The base YCS values for each pseudo-year were determined during the conditioning stage, and subsequently stochasticity in YCS was included for each pseudo-year across the 100 simulated data sets (see section 3.5). The mean spatial apportionment of recruitment among grid cells is based on the observed distribution of small (<40cm) YFT caught in the purse seine fishery (Fig 3). 
 
-#'```{r knitr-logo2, out.width='75%',fig.align="center"}
-#'knitr::include_graphics(rep('C:/Users/caren.barcelo/Documents/images/Dunn_recruitment.png', 1))
-#'```
+#'```{r,fig.align="center"}
+#'knitr::include_graphics(images/Dunn_recruitment.png')
+#'``
+<img src="images/Dunn_recruitment.png" width="500 height="500">
+
 ***Fig. 3) Base layer (i.e., without stochasticity) of spatial apportionment of recruitment of age 1 YFT. Light blue to dark blue coloration represents low to high recruitment apportionment occurring in each cell. The base layer apportionment is based on the abundance of fish that were less than 40cm in length caught by the purse-seine fishery (Figure from Dunn et al., (2020)).***
 
 ## 3.5 Movement
