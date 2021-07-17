@@ -9,13 +9,14 @@ vignette: >
   %\VignetteIndexEntry{OM_description_YFT}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
-  options(rmarkdown.html_vignette.check_title = FALSE)
 ---
 
 ```{r, include = FALSE}
+
 knitr::opts_chunk$set(
   collapse = TRUE,
-  comment = "#>"
+  comment = "#>",
+  options(rmarkdown.html_vignette.check_title = FALSE)
 )
 ```
 ```{r setup}
@@ -154,11 +155,11 @@ CPUE is simulated for the longline fishery between pseudo-years 81-256 as an ind
 
 ***Fig. 4) Aggregated (summed across cell and pseudo-year) catch (in numbers) from each of the 7 fisheries included in the YFT SPM OM.***
 
-<img src="images/totalcatch_N_mt.png" width="600" height="250">
+<img src="images/totalcatch_N_mt.png" width="600" height="300">
 
 ***Fig. 5) Total catch of yellowfin tuna by model pseudo-year in numbers (black, left hand y axis) and metric tons (red, right hand y axis).***
 
-<img src="images/diff_fleets_catch.png" width="600" height="400">
+<img src="images/diff_fleets_catch.png" width="800" height="400">
 
 ***Fig. 6) Total catch by cell for the seven fisheries included in the OM. Bubble size is scaled to fleet specific catch. ***
 
@@ -171,7 +172,7 @@ Tag recapture observations were simulated for each model pseudo-year and cell fo
 
 Aside from initial mortality (i.e., the assumed proportion of fish that either lost their tags or died during the tagging process) and ongoing tag loss (i.e., an assumed rate that fish lost tags over time and were no longer identifiable as tagged fish), the population and movement processes applied to tagged fish were the same as the general population. Initial tag retention and survival is assumed to be 0.9 (i.e., 10% of fish with tags were assumed to have either lost their tag immediately or died as a result of the tagging process, or otherwise were not identifiable as tagged fish in the population), and implemented as a fixed process by discounting the numbers of released fish in each cohort by 10%. Ongoing tag loss rates were assumed to be 20% per 2000 days (Fu et al. (2018)), and is implemented as a model pseudo-year (i.e. quarterly) mortality of 0.91%. Age of recaptured fish is set equal to the age of that individual at release plus its time at liberty. Tag recaptures were reported solely by the purse seine fishery, equivalent to 90% reporting rate. Tag detection in other fisheries is not considered (i.e. only the purse seine fleet is assumed to report tags and reporting rates for other fisheries are set to 0%).
 
-<img src="images/tagreleaserecapt_movement.png" width="600" height="400">
+<img src="images/tagreleaserecapt_movement.png" width="600" height="500">
 
 ***Fig. 7) Movement of tagged yellowfin tuna in the Indian Ocean; a) spatially binned release locations, b) spatially binned recapture locations, c) distance moved by each fish between release and recapture locations. Warmer colors reflect highest releases and recaptures in subpanels (a) and (b).***
 
