@@ -39,7 +39,7 @@ NULL
 #' head(biol_dat)
 NULL
 
-#' 1 AREA SINGLE REPRESENTATIVE DATASET
+#' 1 area single representative dataset
 #'
 #' A single representative datasets aggregated at the 1 area scale. The chosen dataset is simulation #4.
 #' List objects include aggregated catch, cpue, length frequencies, and tagging data (along with biological data).
@@ -60,7 +60,7 @@ NULL
 #' head(biol_dat)
 NULL
 
-#' 4 AREA SINGLE REPRESENTATIVE DATASET
+#' 4 area single representative dataset
 #'
 #' A single representative datasets aggregated at the 4 area scale. The chosen dataset is simulation #4.
 #' List objects include aggregated catch, cpue, length frequencies, and tagging data (along with biological data).

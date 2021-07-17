@@ -3,9 +3,9 @@
 \docType{data}
 \name{YFT_SRD_1A_4}
 \alias{YFT_SRD_1A_4}
-\title{YFT_4area_observations_1-100}
+\title{1 AREA SINGLE REPRESENTATIVE DATASET}
 \format{
-A data frame 'YFT_4area_observations_1-100.RData' with variables:
+A data frame 'YFT_SRD_1A_4.RData' with variables:
 \describe{
 \item{YFT_SRD_1A_4}{Simulated aggregated 1 area datasets for YFT; Simulation #4}
 \item{biol_dat}{Biological data for YFT}
@@ -15,10 +15,11 @@ A data frame 'YFT_4area_observations_1-100.RData' with variables:
 data('YFT_SRD_1A_4')
 }
 \description{
-A dataset 100 simulations of the YFT 1 area aggregated catch, cpue, length frequencies, and tagging data (along with biological data).
+A single representative datasets aggregated at the 1 area scale. The chosen dataset is simulation #4.
+List objects include aggregated catch, cpue, length frequencies, and tagging data (along with biological data).
 }
 \details{
-each sim list with following:
+Each simulation specific list object contains the following:
 }
 \examples{
 data('YFT_SRD_1A_4')
