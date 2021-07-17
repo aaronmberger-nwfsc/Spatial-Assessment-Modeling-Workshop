@@ -332,7 +332,7 @@ NULL
 #' @usage data('YFT_221cell_observations_1_33')
 #' @examples 
 #' data('YFT_221cell_observations_1_33')
-#' head(sim$catch)
+#' head(sim_1$simulated_cpue_ll_jpn_86$data$ob)
 NULL
 
 #' SUPPLEMENTAL DATASET: Fully spatial simulated datasets (Simulation #: 34_66)
@@ -382,7 +382,7 @@ NULL
 #' @usage data('YFT_221cell_observations_34_66')
 #' @examples 
 #' data('YFT_221cell_observations_34_66')
-#' head(sim_1$catch)
+#' head(sim_34$simulated_cpue_ll_jpn_86$data$obs)
 NULL
 
 #' SUPPLEMENTAL DATASET: Fully spatial simulated datasets (Simulation #: 67-100)
@@ -398,7 +398,7 @@ NULL
 #'   \item{biol_dat}{Biological data for YFT}
 #' }
 #' 
-#' @name YFT_221cell_observations_34_66
+#' @name YFT_221cell_observations_67_100
 #' @docType data
 #' @details 
 #' The key lists in __sim_X$__ (e.g., sim_1$) include: 
@@ -432,5 +432,5 @@ NULL
 #' @usage data('YFT_221cell_observations_67_100')
 #' @examples 
 #' data('YFT_221cell_observations_67_100')
-#' head(sim_1$catch)
+#' head(sim_67$simulated_cpue_ll_jpn_86$data$obs)
 NULL
