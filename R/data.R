@@ -89,9 +89,10 @@ NULL
 #' head(dat_1A_1$catch)
 NULL
 
-#' 100 simulated YFT datasets at the 1 area scale
+#' MAIN DATASET: 100 simulated YFT datasets at the 1 area scale
 #'
-#' 100 simulations of the YFT __1 area aggregated__ catch, cpue, length frequencies, and tagging data (along with biological data).
+#' This R data file contains 100 data sets for a one area YFT model.  
+#' 100 simulations of the YFT 1 area aggregated catch, cpue, length frequencies, and tagging data (along with biological data).
 #'
 #' @format A data frame 'YFT_1area_observations_1_100.RData' with variables:
 #' \describe{
@@ -187,9 +188,10 @@ NULL
 #' 
 NULL
 
-#' 100 simulated YFT datasets at the 4 area scale
+#' MAIN DATASET: 100 simulated YFT datasets at the 4 area scale
 #'
-#' 100 simulations of the YFT 1 area aggregated catch, cpue, length frequencies, and tagging data (along with biological data).
+#' This R data file contains 100 data sets for a four area YFT model.  
+#' 100 simulations of the YFT 4 area aggregated catch, cpue, length frequencies, and tagging data (along with biological data).
 #'
 #' @format A data frame 'YFT_4area_observations_1_100.RData' with variables:
 #' \describe{
@@ -283,3 +285,52 @@ NULL
 #' head(biol_dat)
 NULL
 
+#' SUPPLEMENTAL DATASETS: Fully spatial simulated datasets (Simulation #: 1-33)
+#'
+#'This R data file contains 1-33 simulated data sets at the 221 5x5 gird cell level, which 
+#'matches the spatial resolution used in the OM.  These data are provided for your 
+#'information and in a usable format if participants wish to develop spatially 
+#'structured models beyond the one and four area aggregations already provided.
+#'
+#' @format A data frame 'YFT_221cell_observations_1_33' with variables:
+#' \describe{
+#'   \item{dat_4A_4}{Simulated aggregated 1 area datasets for YFT; Simulation #1-33}
+#'   \item{biol_dat}{Biological data for YFT}
+#' }
+#' 
+#' @name YFT_221cell_observations_1_33
+#' @docType data
+#' @details 
+#' The key lists in __sim_X$__ (e.g., sim_1$) include: 
+#' 
+#' Sim_X (X: sim # 1-100) Length frequencies CPUE
+#' Tag release data Tag recapture data Layers
+#' Base Cell Latitude
+#' Longitude Regions
+#' Catch (spatial catch by fishery)
+
+#' The lists in __biol_dat__ include:
+#' 
+#' *M:* age varying natural mortality
+#' 
+#' *age*: first age to last age (pseudo-years)
+#' 
+#' *maturity*: maturity at age ogive (pseudo-years)
+#' 
+#' *k*: age varying growth coefficients
+#' 
+#' *L*: length (cm) 
+#' 
+#' *Linf*: length infinity (cm)
+#' 
+#' *Lmin*: length minimum (cm)
+#' 
+#' *a*: length-weight scaling coefficient
+#' 
+#' *b*: length-weight shape parameter
+#' 
+#' @usage data('YFT_221cell_observations_1_33')
+#' @examples 
+#' data('YFT_221cell_observations_1_33')
+#' head(sim$catch)
+NULL
