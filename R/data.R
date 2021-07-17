@@ -91,7 +91,7 @@ NULL
 
 #' 100 simulated YFT datasets at the 1 area scale
 #'
-#' A dataset 100 simulations of the YFT 1 area aggregated catch, cpue, length frequencies, and tagging data (along with biological data).
+#' 100 simulations of the YFT __1 area aggregated__ catch, cpue, length frequencies, and tagging data (along with biological data).
 #'
 #' @format A data frame 'YFT_1area_observations_1_100.RData' with variables:
 #' \describe{
@@ -158,6 +158,7 @@ NULL
 #' *mixing_latency_period*	Length of time units (psudo-years) necessary to allow for tag
 #' mixing
 
+#' 
 #' The lists in __biol_dat__ include:
 #' 
 #' *M:* age varying natural mortality
@@ -178,7 +179,7 @@ NULL
 #' 
 #' *b*: length-weight shape parameter
 #' 
-#' @usage data('YFT_1area_observations_1-100')
+#' @usage data('YFT_1area_observations_1_100')
 #' @examples 
 #' data('YFT_1area_observations_1_100')
 #' head(dat_1A_1$catch)
@@ -274,10 +275,11 @@ NULL
 #' *a*: length-weight scaling coefficient
 #' 
 #' *b*: length-weight shape parameter
-#' @usage data('YFT_4area_observations_1-100')
+#' @usage data('YFT_4area_observations_1_100')
 #' 
 #' @examples 
 #' data('YFT_4area_observations_1_100')
 #' head(dat_4A_1$catch)
+#' head(biol_dat)
 NULL
 

@@ -12,10 +12,10 @@ A data frame 'YFT_1area_observations_1_100.RData' with variables:
 }
 }
 \usage{
-data('YFT_1area_observations_1-100')
+data('YFT_1area_observations_1_100')
 }
 \description{
-A dataset 100 simulations of the YFT 1 area aggregated catch, cpue, length frequencies, and tagging data (along with biological data).
+100 simulations of the YFT \strong{1 area aggregated} catch, cpue, length frequencies, and tagging data (along with biological data).
 }
 \details{
 The key lists in \strong{YFT_SRD_1A_4$} (e.g., dat_1A_4$lencomp) include:
@@ -72,6 +72,7 @@ Explanations of list object items in the provided data files that analysts may f
 
 \emph{mixing_latency_period}	Length of time units (psudo-years) necessary to allow for tag
 mixing
+
 The lists in \strong{biol_dat} include:
 
 \emph{M:} age varying natural mortality

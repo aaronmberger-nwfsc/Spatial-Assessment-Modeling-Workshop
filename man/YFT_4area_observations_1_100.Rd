@@ -12,7 +12,7 @@ A data frame 'YFT_4area_observations_1_100.RData' with variables:
 }
 }
 \usage{
-data('YFT_4area_observations_1-100')
+data('YFT_4area_observations_1_100')
 }
 \description{
 100 simulations of the YFT 1 area aggregated catch, cpue, length frequencies, and tagging data (along with biological data).
@@ -95,4 +95,5 @@ The lists in \strong{biol_dat} include:
 \examples{
 data('YFT_4area_observations_1_100')
 head(dat_4A_1$catch)
+head(biol_dat)
 }
