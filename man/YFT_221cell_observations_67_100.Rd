@@ -50,5 +50,5 @@ The lists in \strong{biol_dat} include:
 }
 \examples{
 data('YFT_221cell_observations_67_100')
-head(sim_67$simulated_cpue_ll_jpn_86$data$obs)
+head(sim_67$obs$simulated_cpue_ll_jpn_86$data$obs)
 }
