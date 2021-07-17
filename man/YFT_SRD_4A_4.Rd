@@ -15,7 +15,7 @@ A data frame 'YFT_SRD_1A_4.RData' with variables:
 data('YFT_SRD_4A_4')
 }
 \description{
-A single representative datasets aggregated at the 4 area scale. The chosen dataset is simulation #4.
+A single representative dataset aggregated at the 4 area scale. The chosen dataset is simulation #4.
 List objects include aggregated catch, cpue, length frequencies, and tagging data (along with biological data).
 }
 \details{

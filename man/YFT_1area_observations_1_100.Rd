@@ -95,5 +95,6 @@ The lists in \strong{biol_dat} include:
 \examples{
 data('YFT_1area_observations_1_100')
 head(dat_1A_1$catch)
+head(biol_dat)
 
 }
