@@ -1,6 +1,6 @@
 Package: SpatialAssessmentModelingWorkshop
 Title: Spatial Stock Assessment Simulation Experiment Project
-Version: 0.0.0.1000
+Version: 0.0.0.1
 Authors@R: person(given = "Caren", family = "Barcelo", email = "caren.barcelo@noaa.gov", role = c("cre"))
 Maintainer: Caren Barcelo <caren.barcelo@noaa.gov>
 Description: The main feature of the workshop will be a spatial simulation experiment, which brings together 	assessment analysts and spatial stock assessment software from across the globe. The simulation 	experiment is designed to elicit feedback on the existing suite of spatial stock assessment packages, while comparing approaches across platforms. By exploring capabilities across spatial assessment models, the study will help summarize existing spatial capabilities, identify limitations and research needs, and determine components to incorporate in the next generation of spatial stock assessment models. Additionally, discussions of each analyst's model building process will help to create guidance on best practices for developing spatial models, including how to identify when spatial models are warranted (e.g., through residual analysis)
