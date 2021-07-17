@@ -3,7 +3,7 @@
 \docType{data}
 \name{YFT_SRD_1A_4}
 \alias{YFT_SRD_1A_4}
-\title{1 AREA SINGLE REPRESENTATIVE DATASET}
+\title{1 area single representative dataset}
 \format{
 A data frame 'YFT_SRD_1A_4.RData' with variables:
 \describe{

@@ -3,7 +3,7 @@
 \docType{data}
 \name{YFT_4area_observations_1-100}
 \alias{YFT_4area_observations_1-100}
-\title{YFT_4area_observations_1-100}
+\title{100 simulated YFT datasets at the 4 area scale}
 \format{
 A data frame 'YFT_4area_observations_1-100.RData' with variables:
 \describe{

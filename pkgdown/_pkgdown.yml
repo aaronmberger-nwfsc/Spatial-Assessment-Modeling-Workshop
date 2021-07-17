@@ -20,6 +20,8 @@ navbar:
       - text: YFT Metadata
         
     reference:
+      title: Datasets
+      desc: Yellowfin Tuna simulated datasets
       text: Datasets
       icon: fa fa-fish fa-lg
       href: reference/index.html
