@@ -42,9 +42,8 @@ We include only one OM scenario in this simulation experiment (which is based on
 ## 3.1	Spatial & temporal operating model dimensions
 Based on the domain assumed in the IOTC YFT operational assessment (Fig. 1a), a rectangular 13x17 grid of 5x5$^\circ$ cells (221 total), spanning 20$^\circ$E to 105$^\circ$E and 20$^\circ$N to 40$^\circ$S, demarcates the Indian Ocean into a planar Cartesian coordinate system. Of these, the 159 oceanic cells represent the spatial domain of the OM (Fig. 1b). No catch, CPUE or recruitment are attributed to cells fully on land. The temporal resolution in the OM is quarterly (referred to as a *pseudo-year*). The time series spans from pseudo-year 1 (first quarter of 1952) to pseudo-year 256 (fourth quarter of 2015). YFT ages are modeled from 0.25 age until 7 years of age (28 quarters or pseudo-years), where age 28 is a plus group. The quarterly ageing process moves fish between age classes.
 
-#'```{r knitr-logo, out.width='100%', fig.show='hold',fig.align="center"}
-#'knitr::include_graphics(rep('C:/Users/caren.barcelo/Documents/images/baseplot_gridwlabels_5regions.png', 1))
-#'```
+![analyst process](https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/tree/main/imagesbaseplot_gridwlabels_regions.png', 1))
+
 ***Fig. 1) a) Assessment regions defined from Fu et al. (2018); b) Grid cells for which SPM simulated YFT population and fishery dynamics. Note: Regions 1a (R1a) and 1b (R1b) are combined to form Region 1 in the 4-area model aggregation following Fu et al. (2018).***
 
 ## 3.2	Biological Processes
