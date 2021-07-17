@@ -18,7 +18,29 @@ data('YFT_1area_observations_1-100')
 A dataset 100 simulations of the YFT 1 area aggregated catch, cpue, length frequencies, and tagging data (along with biological data).
 }
 \details{
-each sim list with following:
+The key lists in \strong{YFT_SRD_1A_4$} (e.g., dat_1A_4$lencomp) include:
+
+\emph{lencomp}: (list) 1 area dataframe of aggregated length frequencies by length bin with columns corresponding to pseudo-year (Yr), season(Seas), fleet/survey index (FltSvy), gender (Gender),  partition – length data come from all fish encountered (Part=0), number of lengths sampled (Nsamp), and the set of length bins (purse seine only)
+
+\emph{catch}: (list) 1 area dataframe of catch by fishery, including pseudo-year (year), and    season (seas)
+
+\emph{CPUE/cpu}: (list) 1 area cpue with columns for pseudo-year (year), season (seas), cpue (cpu), standard deviation associated with lognormal error in cpue (cv), and survey index (index); note that CPUE is for longline only
+
+\emph{tag_releases}: 1 area tag release data with columns corresponding to generic tag release event number (tg), area of release (reg), pseudo-year (yr), season (season), gender (gender), age (age), and number of releases (nrel) adjusted for initial tag mortality
+
+\emph{tag_recaps}: 1 area tag recapture data with columns corresponding to generic tag release event number (tg), pseudo-year (yr), season (season), fleet index (fleet), and the number of recaptures (recaps)
+
+The lists in \strong{biol_dat} include:
+
+\emph{M:} age varying natural mortality
+\emph{age}: first age to last age (pseudo-years)
+\emph{maturity}: maturity at age ogive (pseudo-years)
+\emph{k}: age varying growth coefficients
+\emph{L}: length (cm)
+\emph{Linf}: length infinity (cm)
+\emph{Lmin}: length minimum (cm)
+\emph{a}: length-weight scaling coefficient
+\emph{b}: length-weight shape parameter
 }
 \examples{
 data('YFT_1area_observations_1-100')
