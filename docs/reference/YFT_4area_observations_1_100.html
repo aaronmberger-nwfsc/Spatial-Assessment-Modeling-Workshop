@@ -181,21 +181,70 @@
 <p><em>CPUE/cpu</em>: (list) 1 area cpue with columns for pseudo-year (year), season (seas), cpue (cpu), standard deviation associated with lognormal error in cpue (cv), and survey index (index); note that CPUE is for longline only</p>
 <p><em>tag_releases</em>: 1 area tag release data with columns corresponding to generic tag release event number (tg), area of release (reg), pseudo-year (yr), season (season), gender (gender), age (age), and number of releases (nrel) adjusted for initial tag mortality</p>
 <p><em>tag_recaps</em>: 1 area tag recapture data with columns corresponding to generic tag release event number (tg), pseudo-year (yr), season (season), fleet index (fleet), and the number of recaptures (recaps)</p>
-<p>The lists in <strong>biol_dat</strong> include:</p>
-<p><em>M:</em> age varying natural mortality
-<em>age</em>: first age to last age (pseudo-years)
-<em>maturity</em>: maturity at age ogive (pseudo-years)
-<em>k</em>: age varying growth coefficients
-<em>L</em>: length (cm)
-<em>Linf</em>: length infinity (cm)
-<em>Lmin</em>: length minimum (cm)
-<em>a</em>: length-weight scaling coefficient
-<em>b</em>: length-weight shape parameter</p>
+<p>Explanations of list object items in the provided data files that analysts may find additionally useful. Much of these follow, or closely follow, Stock Synthesis (version SS3.24Z) naming conventions.  The name is the list identifier in each Rdata object (e.g., the name styr is found using dat_1A_4$styr).</p>
+<p><em>styr</em>	Start year (pseudo-year)</p>
+<p><em>endyr</em>	End year (pseudo-year)</p>
+<p><em>nseas</em>	Number of seasons</p>
+<p><em>months_per_seas</em>	Months per season</p>
+<p><em>spawn_seas</em>	Season when spawning occurs</p>
+<p><em>Nfleet</em>	Number of fishing fleets</p>
+<p><em>Nsurveys</em>	Number of surveys (fishery-dependent CPUE)</p>
+<p><em>N_areas</em>	Number of spatial areas</p>
+<p><em>fleetnames</em>	Specific fleet and survey index names</p>
+<p><em>surveytiming</em>	Timing of fleet and surveys</p>
+<p><em>areas</em>	Areas where each fleet or survey operate</p>
+<p><em>units_of_catch</em>	Specifies units for catch (2=numbers of fish)</p>
+<p><em>se_log_catch</em>	Standard error associated with catch</p>
+<p><em>Ngenders</em>	Number of sexes</p>
+<p><em>Nages</em>	Number of ages</p>
+<p><em>lbin_vector_pop</em>	Vector of length bins in the population (cm)</p>
+<p><em>lbin_vector</em>	Vector of length bins in the data (cm)</p>
+<p><em>N_tag_groups</em>	Number of tag release events</p>
+<p><em>N_recap_events</em>	Number of recapture events</p>
+<p><em>mixing_latency_period</em>	Length of time units (psudo-years) necessary to allow for tag
+mixing
+The lists in <strong>biol_dat</strong> include:</p>
+<p><em>M:</em> age varying natural mortality</p>
+<p><em>age</em>: first age to last age (pseudo-years)</p>
+<p><em>maturity</em>: maturity at age ogive (pseudo-years)</p>
+<p><em>k</em>: age varying growth coefficients</p>
+<p><em>L</em>: length (cm)</p>
+<p><em>Linf</em>: length infinity (cm)</p>
+<p><em>Lmin</em>: length minimum (cm)</p>
+<p><em>a</em>: length-weight scaling coefficient</p>
+<p><em>b</em>: length-weight shape parameter</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span><span class='op'>(</span><span class='st'>'YFT_4area_observations_1_100'</span><span class='op'>)</span>
-<span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span><span class='op'>(</span><span class='va'>dat_4A_1catch</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; <span class='error'>Error in head(dat_4A_1catch): object 'dat_4A_1catch' not found</span></div></pre>
+<span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span><span class='op'>(</span><span class='va'>dat_4A_1</span><span class='op'>$</span><span class='va'>catch</span><span class='op'>)</span>
+</div><div class='output co'>#&gt;   fishing_gi_1 fishing_gi_4 fishing_hd_1 fishing_ll_1 fishing_ll_2 fishing_ll_3
+#&gt; 1     13.71748     13.33279     5.710196            0            0            0
+#&gt; 2     13.71748     13.13353     5.710196            0            0            0
+#&gt; 3     13.71748     13.14095     5.710196            0            0            0
+#&gt; 4     13.71748     12.85522     5.710196            0            0            0
+#&gt; 5     15.73445     12.26299     5.713287            0            0            0
+#&gt; 6     15.73445     12.11916     5.713287            0            0            0
+#&gt;   fishing_ll_4 fishing_other_1 fishing_other_4 fishing_bb_1 fishing_ps_1
+#&gt; 1     0.000000      0.02576857        2.652977     92.61856            0
+#&gt; 2     0.000000      0.02576857        2.652977     92.61856            0
+#&gt; 3     0.000000      0.02576857        2.652977     92.61856            0
+#&gt; 4     0.000000      0.02576857        2.652977     92.61856            0
+#&gt; 5     0.000000      0.02938521        2.073448     93.03106            0
+#&gt; 6     4.612134      0.02938521        2.073448     93.03106            0
+#&gt;   fishing_ps_2 fishing_ps_4 fishing_trol_1 fishing_trol_2 fishing_trol_4 year
+#&gt; 1            0            0       5.138943       12.91881       45.93675    1
+#&gt; 2            0            0       5.138943       12.91881       45.93675    2
+#&gt; 3            0            0       5.138943       12.91881       45.93675    3
+#&gt; 4            0            0       5.138943       12.91881       45.93675    4
+#&gt; 5            0            0       5.700175       13.27055       43.62298    5
+#&gt; 6            0            0       5.700175       13.27055       43.62298    6
+#&gt;   seas
+#&gt; 1    1
+#&gt; 2    1
+#&gt; 3    1
+#&gt; 4    1
+#&gt; 5    1
+#&gt; 6    1</div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
