@@ -17,7 +17,8 @@ navbar:
         href: articles/Analyst_guidance.html
       - text: YFT OM Description
         href: articles/YFT_OM_Description.html
-      - text: YFT Metadata
+      - text: Relevant Literature Files
+        href: articles/Relevant_literature_files/
         
     reference:
       title: Datasets

@@ -1,12 +1,6 @@
 ---
 title:  |
-  | Spatial Stock Assessment Methods:
-  | International Approaches and Advancements
-# header-includes:
-#    - \usepackage[default]{sourcesanspro}
-#    - \usepackage[T1]{fontenc}
-author: 
- __ANALYST GUIDANCE FOR SIMULATION EXPERIMENT__
+  | ANALYST GUIDANCE FOR SIMULATION EXPERIMENT
 date: "`r format(Sys.time(), '%d %B %Y')`"
 output:
   html_document
@@ -24,9 +18,9 @@ An overview of the [Study Design](https://carenbarcelo-noaa.github.io/Spatial-As
 
 1. A single area, panmictic assessment to then apply it to the 100 one area simulated data sets (i.e., simulation runs) using their chosen assessment application; 
 2. A 4 area, spatially stratified assessment and apply it to the 100 spatial (4 area) simulated data sets (i.e., simulation runs) using their chosen assessment application; 
-3. A summary of their decision point model development process, which outlines how analysts arrived at the final spatially stratified stock assessment model parametrization ([Study Design](https://carenbarcelo-noaa.github.io/Spatial-Assessment-Modeling-Workshop/) Objective #1; see Section 4)
+3. A summary of their decision point model development process, which outlines how analysts arrived at the final spatially stratified stock assessment model parametrization ([Study Design](https://carenbarcelo-noaa.github.io/Spatial-Assessment-Modeling-Workshop/) __Objective #1__; see Section 4)
 4. A summary of results from each model configuration (i.e., 1 area & 4 area models); 
-5. A brief comparison of the panmictic and spatial assessment outputs and diagnostics (Objective #2); 
+5. A brief comparison of the panmictic and spatial assessment outputs and diagnostics (__Objective #2__); 
 6. Output files to be provided to the workshop/experiment organizers via Box (links and folder structure to be provided).
 
 After the base runs (i.e., 1 and 4 area assessment models) are complete, the analysts are encouraged to develop other model parametrizations or implement alternate data aggregations (e.g. 2 areas or 8 areas for the YFT model) and comparisons across spatial aggregation approaches are very much welcomed. Results can be pushed to a Box repository (given space limitations on Github) and analysts are encouraged to pursue publication of their results and comparisons across parametrizations (see Section 7.3 for more info on publications and deliverables).  
@@ -124,7 +118,7 @@ Questions can be directed to Caren Barcelo (caren.barcelo@noaa.gov) or other wor
 
 Analysts are asked to give a 90 minute virtual webinar (approximately 45min seminar with 45min for questions and discussion with analysts using other platforms). These will be public seminars and are intended to elicit feedback and discussions on the decision point analysis, model diagnostics, and within-model comparisons.
 
-We will provide further details regarding guidance on webinar and presentation formats. But, generally, we hope analysts will walk through their model development approach including providing responses to the questions outlined in the decision point analysis section, explore model diagnostics, provide population trends and stock status, and compare results across different model runs (e.g., between the panmictic and spatially stratified models). For the within model comparisons (i.e., panmictic vs. spatially stratified assessments; Objective #2 of [Study Design](https://carenbarcelo-noaa.github.io/Spatial-Assessment-Modeling-Workshop/), we request that you provide summary statements and figures addressing the following questions:
+We will provide further details regarding guidance on webinar and presentation formats. But, generally, we hope analysts will walk through their model development approach including providing responses to the questions outlined in the decision point analysis section, explore model diagnostics, provide population trends and stock status, and compare results across different model runs (e.g., between the panmictic and spatially stratified models). For the within model comparisons (i.e., panmictic vs. spatially stratified assessments; __Objective #2__ of [Study Design](https://carenbarcelo-noaa.github.io/Spatial-Assessment-Modeling-Workshop/), we request that you provide summary statements and figures addressing the following questions:
 
 a. How did model estimates compare? 
 b. Did panmictic models give similar estimates of total biomass? 
@@ -134,7 +128,7 @@ e. How did uncertainty compare among models, and what were the main differences 
 
 ## 7.2 Organizers synthesize data
 
-Organizers will compile all information from each assessment platform and synthesize differences and similarities among model types and across panmictic v. spatial assessment results (Objective #3 of [Study Design](https://carenbarcelo-noaa.github.io/Spatial-Assessment-Modeling-Workshop/). The organizers will conclude the virtual webinars with a summary presentation discussing these aggregate results. The results will be made available to each analyst at the conclusion of the study and all will be encouraged to participate in a collaborative manuscript(s) resulting from the experiment (Section 7.3).
+Organizers will compile all information from each assessment platform and synthesize differences and similarities among model types and across panmictic v. spatial assessment results (__Objective #3__ of [Study Design](https://carenbarcelo-noaa.github.io/Spatial-Assessment-Modeling-Workshop/). The organizers will conclude the virtual webinars with a summary presentation discussing these aggregate results. The results will be made available to each analyst at the conclusion of the study and all will be encouraged to participate in a collaborative manuscript(s) resulting from the experiment (Section 7.3).
 
 ## 7.3 Manuscript development
 We aim to develop results from the YFT simulation experiment into a collaborative manuscript on best practices for spatial assessment model development. We will use information from each analyst's description of their decision points when developing models, diagnostics used, and a comparison of spatial vs panmictic assessment results for the YFT case study. We invite all those who are interested/have time and who actively participated in the simulation experiment with their assessment model/platforms to be co-authors on the resulting manuscript led by the workshop organizers. 
