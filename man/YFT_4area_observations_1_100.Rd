@@ -3,7 +3,7 @@
 \docType{data}
 \name{YFT_4area_observations_1_100}
 \alias{YFT_4area_observations_1_100}
-\title{100 simulated YFT datasets at the 4 area scale}
+\title{MAIN DATASET: 100 simulated YFT datasets at the 4 area scale}
 \format{
 A data frame 'YFT_4area_observations_1_100.RData' with variables:
 \describe{
@@ -15,7 +15,8 @@ A data frame 'YFT_4area_observations_1_100.RData' with variables:
 data('YFT_4area_observations_1_100')
 }
 \description{
-100 simulations of the YFT 1 area aggregated catch, cpue, length frequencies, and tagging data (along with biological data).
+This R data file contains 100 data sets for a four area YFT model.
+100 simulations of the YFT 4 area aggregated catch, cpue, length frequencies, and tagging data (along with biological data).
 }
 \details{
 The key lists in \strong{YFT_SRD_1A_4$} (e.g., dat_1A_4$lencomp) include:
