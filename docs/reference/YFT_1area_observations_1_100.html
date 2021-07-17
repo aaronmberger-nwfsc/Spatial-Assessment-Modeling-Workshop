@@ -172,7 +172,44 @@
 
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
-    <p>each sim list with following:</p>
+    <p>The key lists in <strong>YFT_SRD_1A_4$</strong> (e.g., dat_1A_4$lencomp) include:</p>
+<p><em>lencomp</em>: (list) 1 area dataframe of aggregated length frequencies by length bin with columns corresponding to pseudo-year (Yr), season(Seas), fleet/survey index (FltSvy), gender (Gender),  partition – length data come from all fish encountered (Part=0), number of lengths sampled (Nsamp), and the set of length bins (purse seine only)</p>
+<p><em>catch</em>: (list) 1 area dataframe of catch by fishery, including pseudo-year (year), and    season (seas)</p>
+<p><em>CPUE/cpu</em>: (list) 1 area cpue with columns for pseudo-year (year), season (seas), cpue (cpu), standard deviation associated with lognormal error in cpue (cv), and survey index (index); note that CPUE is for longline only</p>
+<p><em>tag_releases</em>: 1 area tag release data with columns corresponding to generic tag release event number (tg), area of release (reg), pseudo-year (yr), season (season), gender (gender), age (age), and number of releases (nrel) adjusted for initial tag mortality</p>
+<p><em>tag_recaps</em>: 1 area tag recapture data with columns corresponding to generic tag release event number (tg), pseudo-year (yr), season (season), fleet index (fleet), and the number of recaptures (recaps)</p>
+<p>Explanations of list object items in the provided data files that analysts may find additionally useful. Much of these follow, or closely follow, Sstock Ssynthesis (version SS3.24Z) naming conventions.  The name is the list identifier in each Rdata object (e.g., the name styr is found using dat_1A_4$styr).</p>
+<p>styr	Start year (pseudo-year)</p>
+<p>endyr	End year (pseudo-year)</p>
+<p>nseas	Number of seasons</p>
+<p>months_per_seas	Months per season</p>
+<p>spawn_seas	Season when spawning occurs</p>
+<p>Nfleet	Number of fishing fleets</p>
+<p>Nsurveys	Number of surveys (fishery-dependent CPUE)</p>
+<p>N_areas	Number of spatial areas</p>
+<p>fleetnames	Specific fleet and survey index names</p>
+<p>surveytiming	Timing of fleet and surveys</p>
+<p>areas	Areas where each fleet or survey operate</p>
+<p>units_of_catch	Specifies units for catch (2=numbers of fish)</p>
+<p>se_log_catch	Standard error associated with catch</p>
+<p>Ngenders	Number of genders</p>
+<p>Nages	Number of ages</p>
+<p>lbin_vector_pop	Vector of length bins in the population (cm)</p>
+<p>lbin_vector	Vector of length bins in the data (cm)</p>
+<p>N_tag_groups	Number of tag release events</p>
+<p>N_recap_events	Number of recapture events</p>
+<p>mixing_latency_period	Length of time units (psudo-years) necessary to allow for tag
+mixing
+The lists in <strong>biol_dat</strong> include:</p>
+<p><em>M:</em> age varying natural mortality
+<em>age</em>: first age to last age (pseudo-years)
+<em>maturity</em>: maturity at age ogive (pseudo-years)
+<em>k</em>: age varying growth coefficients
+<em>L</em>: length (cm)
+<em>Linf</em>: length infinity (cm)
+<em>Lmin</em>: length minimum (cm)
+<em>a</em>: length-weight scaling coefficient
+<em>b</em>: length-weight shape parameter</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span><span class='op'>(</span><span class='st'>'YFT_1area_observations_1-100'</span><span class='op'>)</span>

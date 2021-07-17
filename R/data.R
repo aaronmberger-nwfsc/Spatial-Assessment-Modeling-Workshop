@@ -40,7 +40,7 @@
 #' @usage data('YFT_SRD_1A_4')
 #' @examples 
 #' data('YFT_SRD_1A_4')
-#' head(YFT_SRD_1A_4$dat_1A_4$catch)
+#' head(dat_1A_4$catch)
 NULL
 
 #' 4 area single representative dataset
@@ -115,6 +115,49 @@ NULL
 #' *tag_recaps*: 1 area tag recapture data with columns corresponding to generic tag release event number (tg), pseudo-year (yr), season (season), fleet index (fleet), and the number of recaptures (recaps)
 #' 
 #' 
+#' Explanations of list object items in the provided data files that analysts may find additionally useful. Much of these follow, or closely follow, Sstock Ssynthesis (version SS3.24Z) naming conventions.  The name is the list identifier in each Rdata object (e.g., the name styr is found using dat_1A_4$styr).
+#' 
+#' styr	Start year (pseudo-year)
+#' 
+#' endyr	End year (pseudo-year)
+#' 
+#' nseas	Number of seasons
+#' 
+#' months_per_seas	Months per season
+#' 
+#' spawn_seas	Season when spawning occurs
+#' 
+#' Nfleet	Number of fishing fleets
+#' 
+#' Nsurveys	Number of surveys (fishery-dependent CPUE)
+#' 
+#' N_areas	Number of spatial areas
+#' 
+#' fleetnames	Specific fleet and survey index names
+#' 
+#' surveytiming	Timing of fleet and surveys
+#' 
+#' areas	Areas where each fleet or survey operate 
+#' 
+#' units_of_catch	Specifies units for catch (2=numbers of fish)
+#' 
+#' se_log_catch	Standard error associated with catch
+#' 
+#' Ngenders	Number of genders
+#' 
+#' Nages	Number of ages
+#' 
+#' lbin_vector_pop	Vector of length bins in the population (cm)
+#' 
+#' lbin_vector	Vector of length bins in the data (cm)
+#' 
+#' N_tag_groups	Number of tag release events
+#' 
+#' N_recap_events	Number of recapture events
+#' 
+#' mixing_latency_period	Length of time units (psudo-years) necessary to allow for tag
+#' mixing
+
 #' The lists in __biol_dat__ include:
 #' 
 #' *M:* age varying natural mortality
