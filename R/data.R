@@ -332,7 +332,7 @@ NULL
 #' @usage data('YFT_221cell_observations_1_33')
 #' @examples 
 #' data('YFT_221cell_observations_1_33')
-#' head(sim_1$simulated_cpue_ll_jpn_86$data$ob)
+#' head(sim_1$obs$simulated_cpue_ll_jpn_86$data$obs)
 NULL
 
 #' SUPPLEMENTAL DATASET: Fully spatial simulated datasets (Simulation #: 34_66)
@@ -382,7 +382,7 @@ NULL
 #' @usage data('YFT_221cell_observations_34_66')
 #' @examples 
 #' data('YFT_221cell_observations_34_66')
-#' head(sim_34$simulated_cpue_ll_jpn_86$data$obs)
+#' head(sim_34$obs$simulated_cpue_ll_jpn_86$data$obs)
 NULL
 
 #' SUPPLEMENTAL DATASET: Fully spatial simulated datasets (Simulation #: 67-100)
@@ -432,5 +432,5 @@ NULL
 #' @usage data('YFT_221cell_observations_67_100')
 #' @examples 
 #' data('YFT_221cell_observations_67_100')
-#' head(sim_67$simulated_cpue_ll_jpn_86$data$obs)
+#' head(sim_67$obs$simulated_cpue_ll_jpn_86$data$obs)
 NULL
