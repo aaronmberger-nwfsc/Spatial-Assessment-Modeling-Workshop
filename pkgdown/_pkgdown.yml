@@ -18,7 +18,7 @@ navbar:
       - text: YFT OM Description
         href: articles/YFT_OM_Description.html
       - text: Relevant Literature Files
-        href: articles/Relevant_literature_files/
+        href: https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/tree/main/docs/articles/Relevant_literature_files
         
     reference:
       title: Datasets
