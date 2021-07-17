@@ -18,8 +18,8 @@ knitr::opts_chunk$set(
 library(SpatialAssessmentModelingWorkshop)
 ```
 
-# Eli Holmes (NWFSC)
-For help with pkgdown and a wonderful, highly informative R workflow workshop.
+### Elizabeth Holmes (NWFSC)
+For help implementation issues in pkgdown and a wonderful, highly informative R workflow workshop.
 
-# NOAA OST Modeling Team (Bai Li, Christine Stawitz, Matthew Supernaw)
-For NOAA branding for pkgdown
+### Bai Li, Christine Stawitz, Matthew Supernaw (NOAA OST Modeling Team)
+For developing pkgdown NOAA branding
