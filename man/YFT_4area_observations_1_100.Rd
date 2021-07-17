@@ -30,19 +30,69 @@ The key lists in \strong{YFT_SRD_1A_4$} (e.g., dat_1A_4$lencomp) include:
 
 \emph{tag_recaps}: 1 area tag recapture data with columns corresponding to generic tag release event number (tg), pseudo-year (yr), season (season), fleet index (fleet), and the number of recaptures (recaps)
 
+Explanations of list object items in the provided data files that analysts may find additionally useful. Much of these follow, or closely follow, Stock Synthesis (version SS3.24Z) naming conventions.  The name is the list identifier in each Rdata object (e.g., the name styr is found using dat_1A_4$styr).
+
+\emph{styr}	Start year (pseudo-year)
+
+\emph{endyr}	End year (pseudo-year)
+
+\emph{nseas}	Number of seasons
+
+\emph{months_per_seas}	Months per season
+
+\emph{spawn_seas}	Season when spawning occurs
+
+\emph{Nfleet}	Number of fishing fleets
+
+\emph{Nsurveys}	Number of surveys (fishery-dependent CPUE)
+
+\emph{N_areas}	Number of spatial areas
+
+\emph{fleetnames}	Specific fleet and survey index names
+
+\emph{surveytiming}	Timing of fleet and surveys
+
+\emph{areas}	Areas where each fleet or survey operate
+
+\emph{units_of_catch}	Specifies units for catch (2=numbers of fish)
+
+\emph{se_log_catch}	Standard error associated with catch
+
+\emph{Ngenders}	Number of sexes
+
+\emph{Nages}	Number of ages
+
+\emph{lbin_vector_pop}	Vector of length bins in the population (cm)
+
+\emph{lbin_vector}	Vector of length bins in the data (cm)
+
+\emph{N_tag_groups}	Number of tag release events
+
+\emph{N_recap_events}	Number of recapture events
+
+\emph{mixing_latency_period}	Length of time units (psudo-years) necessary to allow for tag
+mixing
 The lists in \strong{biol_dat} include:
 
 \emph{M:} age varying natural mortality
+
 \emph{age}: first age to last age (pseudo-years)
+
 \emph{maturity}: maturity at age ogive (pseudo-years)
+
 \emph{k}: age varying growth coefficients
+
 \emph{L}: length (cm)
+
 \emph{Linf}: length infinity (cm)
+
 \emph{Lmin}: length minimum (cm)
+
 \emph{a}: length-weight scaling coefficient
+
 \emph{b}: length-weight shape parameter
 }
 \examples{
 data('YFT_4area_observations_1_100')
-head(dat_4A_1catch)
+head(dat_4A_1$catch)
 }
