@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Function reference • SpatialAssessmentModelingWorkshop</title>
+<title>SUPPLEMENTAL DATASET: Fully spatial simulated datasets (Simulation #: 67-100) — YFT_221cell_observations_67_100 • SpatialAssessmentModelingWorkshop</title>
 
 
 <!-- jquery -->
@@ -41,7 +41,11 @@
   <link href="../extra.css" rel="stylesheet">
   
 
-<meta property="og:title" content="Function reference" />
+<meta property="og:title" content="SUPPLEMENTAL DATASET: Fully spatial simulated datasets (Simulation #: 67-100) — YFT_221cell_observations_67_100" />
+<meta property="og:description" content="This R data file contains 1-33 simulated data sets at the 221 5x5 gird cell level, which
+matches the spatial resolution used in the OM.  These data are provided for your
+information and in a usable format if participants wish to develop spatially
+structured models beyond the one and four area aggregations already provided." />
 
 
 
@@ -60,7 +64,7 @@
   </head>
 
   <body data-spy="scroll" data-target="#toc">
-    <div class="container template-reference-index">
+    <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -150,78 +154,55 @@
       </header>
 
 <div class="row">
-  <div class="contents col-md-9">
+  <div class="col-md-9 contents">
     <div class="page-header">
-      <h1>Reference</h1>
+    <h1>SUPPLEMENTAL DATASET: Fully spatial simulated datasets (Simulation #: 67-100)</h1>
+    <small class="dont-index">Source: <a href='https://github.com/caren.barcelo-NOAA/Spatial-Assessment-Modeling-Workshop/blob/master/R/data.R'><code>R/data.R</code></a></small>
+    <div class="hidden name"><code>YFT_221cell_observations_67_100.Rd</code></div>
     </div>
 
-    <table class="ref-index">
+    <div class="ref-description">
+    <p>This R data file contains 1-33 simulated data sets at the 221 5x5 gird cell level, which
+matches the spatial resolution used in the OM.  These data are provided for your
+information and in a usable format if participants wish to develop spatially
+structured models beyond the one and four area aggregations already provided.</p>
+    </div>
 
-    <colgroup>
-      
-      <col class="alias" />
-      <col class="title" />
-    </colgroup>
+    <pre class="usage"><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span><span class='op'>(</span><span class='st'>'YFT_221cell_observations_67_100'</span><span class='op'>)</span></pre>
 
-    <tbody>
-      <tr>
-        <th colspan="2">
-          <h2 id="section-all-functions" class="hasAnchor"><a href="#section-all-functions" class="anchor"></a>All functions</h2>
-          <p class="section-desc"></p>
-        </th>
-      </tr>
-      
-      
-    </tbody><tbody>
-      
-      
-      <tr>
-        
-        <td>
-          <p><code><a href="YFT_1area_observations_1_100.html">YFT_1area_observations_1_100</a></code> </p>
-        </td>
-        <td><p>MAIN DATASET: 100 simulated YFT datasets at the 1 area scale</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="YFT_221cell_observations_1_33.html">YFT_221cell_observations_1_33</a></code> </p>
-        </td>
-        <td><p>SUPPLEMENTAL DATASET: Fully spatial simulated datasets (Simulation #: 1-33)</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="YFT_221cell_observations_34_66.html">YFT_221cell_observations_34_66</a></code> </p>
-        </td>
-        <td><p>SUPPLEMENTAL DATASET: Fully spatial simulated datasets (Simulation #: 34_66)</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="YFT_221cell_observations_67_100.html">YFT_221cell_observations_67_100</a></code> </p>
-        </td>
-        <td><p>SUPPLEMENTAL DATASET: Fully spatial simulated datasets (Simulation #: 67-100)</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="YFT_4area_observations_1_100.html">YFT_4area_observations_1_100</a></code> </p>
-        </td>
-        <td><p>MAIN DATASET: 100 simulated YFT datasets at the 4 area scale</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="YFT_SRD_1A_4.html">YFT_SRD_1A_4</a></code> </p>
-        </td>
-        <td><p>1 area single representative dataset</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="YFT_SRD_4A_4.html">YFT_SRD_4A_4</a></code> </p>
-        </td>
-        <td><p>4 area single representative dataset</p></td>
-      </tr>
-    </tbody>
-    </table>
+
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
+
+    <p>A data frame 'YFT_221cell_observations_67_100' with variables:</p><dl>
+<dt>sim_1</dt><dd><p>Simulated aggregated 1 area datasets for YFT; Simulation #67-100</p></dd>
+<dt>biol_dat</dt><dd><p>Biological data for YFT</p></dd>
+
+</dl>
+
+    <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
+
+    <p>The key lists in <strong>sim_X$</strong> (e.g., sim_1$) include:</p>
+<p>Sim_X (X: sim # 1-100) Length frequencies CPUE
+Tag release data Tag recapture data Layers
+Base Cell Latitude
+Longitude Regions
+Catch (spatial catch by fishery)
+The lists in <strong>biol_dat</strong> include:</p>
+<p><em>M:</em> age varying natural mortality</p>
+<p><em>age</em>: first age to last age (pseudo-years)</p>
+<p><em>maturity</em>: maturity at age ogive (pseudo-years)</p>
+<p><em>k</em>: age varying growth coefficients</p>
+<p><em>L</em>: length (cm)</p>
+<p><em>Linf</em>: length infinity (cm)</p>
+<p><em>Lmin</em>: length minimum (cm)</p>
+<p><em>a</em>: length-weight scaling coefficient</p>
+<p><em>b</em>: length-weight shape parameter</p>
+
+    <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
+    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span><span class='op'>(</span><span class='st'>'YFT_221cell_observations_67_100'</span><span class='op'>)</span>
+</div><div class='output co'>#&gt; <span class='warning'>Warning: data set 'YFT_221cell_observations_67_100' not found</span></div><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span><span class='op'>(</span><span class='va'>sim_67</span><span class='op'>$</span><span class='va'>simulated_cpue_ll_jpn_86</span><span class='op'>$</span><span class='va'>data</span><span class='op'>$</span><span class='va'>obs</span><span class='op'>)</span>
+</div><div class='output co'>#&gt; <span class='error'>Error in head(sim_67$simulated_cpue_ll_jpn_86$data$obs): object 'sim_67' not found</span></div></pre>
   </div>
-
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
       <h2 data-toc-skip>Contents</h2>

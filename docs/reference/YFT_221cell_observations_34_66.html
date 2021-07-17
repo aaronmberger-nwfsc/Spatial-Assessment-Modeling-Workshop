@@ -45,10 +45,6 @@
 <meta property="og:description" content="This R data file contains 1-33 simulated data sets at the 221 5x5 gird cell level, which
 matches the spatial resolution used in the OM.  These data are provided for your
 information and in a usable format if participants wish to develop spatially
-structured models beyond the one and four area aggregations already provided.
-This R data file contains 1-33 simulated data sets at the 221 5x5 gird cell level, which
-matches the spatial resolution used in the OM.  These data are provided for your
-information and in a usable format if participants wish to develop spatially
 structured models beyond the one and four area aggregations already provided." />
 
 
@@ -170,27 +166,15 @@ structured models beyond the one and four area aggregations already provided." /
 matches the spatial resolution used in the OM.  These data are provided for your
 information and in a usable format if participants wish to develop spatially
 structured models beyond the one and four area aggregations already provided.</p>
-<p>This R data file contains 1-33 simulated data sets at the 221 5x5 gird cell level, which
-matches the spatial resolution used in the OM.  These data are provided for your
-information and in a usable format if participants wish to develop spatially
-structured models beyond the one and four area aggregations already provided.</p>
     </div>
 
-    <pre class="usage"><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span><span class='op'>(</span><span class='st'>'YFT_221cell_observations_34_66'</span><span class='op'>)</span>
-
-<span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span><span class='op'>(</span><span class='st'>'YFT_221cell_observations_67_100'</span><span class='op'>)</span></pre>
+    <pre class="usage"><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span><span class='op'>(</span><span class='st'>'YFT_221cell_observations_34_66'</span><span class='op'>)</span></pre>
 
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
     <p>A data frame 'YFT_221cell_observations_34_66' with variables:</p><dl>
 <dt>sim_1</dt><dd><p>Simulated aggregated 1 area datasets for YFT; Simulation #34-66</p></dd>
-<dt>biol_dat</dt><dd><p>Biological data for YFT</p></dd>
-
-</dl>
-
-<p>A data frame 'YFT_221cell_observations_67_100' with variables:</p><dl>
-<dt>sim_1</dt><dd><p>Simulated aggregated 1 area datasets for YFT; Simulation #67-100</p></dd>
 <dt>biol_dat</dt><dd><p>Biological data for YFT</p></dd>
 
 </dl>
@@ -213,29 +197,11 @@ The lists in <strong>biol_dat</strong> include:</p>
 <p><em>Lmin</em>: length minimum (cm)</p>
 <p><em>a</em>: length-weight scaling coefficient</p>
 <p><em>b</em>: length-weight shape parameter</p>
-<p>The key lists in <strong>sim_X$</strong> (e.g., sim_1$) include:</p>
-<p>Sim_X (X: sim # 1-100) Length frequencies CPUE
-Tag release data Tag recapture data Layers
-Base Cell Latitude
-Longitude Regions
-Catch (spatial catch by fishery)
-The lists in <strong>biol_dat</strong> include:</p>
-<p><em>M:</em> age varying natural mortality</p>
-<p><em>age</em>: first age to last age (pseudo-years)</p>
-<p><em>maturity</em>: maturity at age ogive (pseudo-years)</p>
-<p><em>k</em>: age varying growth coefficients</p>
-<p><em>L</em>: length (cm)</p>
-<p><em>Linf</em>: length infinity (cm)</p>
-<p><em>Lmin</em>: length minimum (cm)</p>
-<p><em>a</em>: length-weight scaling coefficient</p>
-<p><em>b</em>: length-weight shape parameter</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span><span class='op'>(</span><span class='st'>'YFT_221cell_observations_34_66'</span><span class='op'>)</span>
-<span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span><span class='op'>(</span><span class='va'>sim_1</span><span class='op'>$</span><span class='va'>catch</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; NULL</div><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span><span class='op'>(</span><span class='st'>'YFT_221cell_observations_67_100'</span><span class='op'>)</span>
-<span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span><span class='op'>(</span><span class='va'>sim_1</span><span class='op'>$</span><span class='va'>catch</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; NULL</div></pre>
+</div><div class='output co'>#&gt; <span class='warning'>Warning: data set 'YFT_221cell_observations_34_66' not found</span></div><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span><span class='op'>(</span><span class='va'>sim_34</span><span class='op'>$</span><span class='va'>simulated_cpue_ll_jpn_86</span><span class='op'>$</span><span class='va'>data</span><span class='op'>$</span><span class='va'>obs</span><span class='op'>)</span>
+</div><div class='output co'>#&gt; <span class='error'>Error in head(sim_34$simulated_cpue_ll_jpn_86$data$obs): object 'sim_34' not found</span></div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
