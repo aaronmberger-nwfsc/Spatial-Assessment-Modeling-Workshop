@@ -1,6 +1,5 @@
 ---
-title:  |
-  | __ANALYST GUIDANCE FOR SIMULATION EXPERIMENT__
+title: ANALYST GUIDANCE FOR SIMULATION EXPERIMENT
 date: "`r format(Sys.time(), '%d %B %Y')`"
 output:
   html_document

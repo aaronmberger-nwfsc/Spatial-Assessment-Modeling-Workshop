@@ -1,7 +1,5 @@
 ---
-title: | 
-  | __YELLOWFIN TUNA__ 
-  | __OPERATING MODEL DESCRIPTION__
+title: YELLOWFIN TUNA OPERATING MODEL DESCRIPTION
 date: "`r format(Sys.time(), '%d %B %Y')`"
 output: rmarkdown::html_vignette
 urlcolor: blue
@@ -12,7 +10,6 @@ vignette: >
 ---
 
 ```{r, include = FALSE}
-
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
