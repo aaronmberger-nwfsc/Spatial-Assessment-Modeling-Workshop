@@ -346,9 +346,9 @@ L_{t+1,a} = L_{t,a} + (L_{t,a-k_{a}} - L_{inf}) (e^{-k_{a}-1}) \tag{Eq. 1}
 </table>
 <p><img src="images/totalcatch_barplotbyfleet.png" width="600" height="250"></p>
 <p><strong><em>Fig. 4) Aggregated (summed across cell and pseudo-year) catch (in numbers) from each of the 7 fisheries included in the YFT SPM OM.</em></strong></p>
-<p><img src="images/totalcatch_N_mt.png" width="600" height="250"></p>
+<p><img src="images/totalcatch_N_mt.png" width="600" height="300"></p>
 <p><strong><em>Fig. 5) Total catch of yellowfin tuna by model pseudo-year in numbers (black, left hand y axis) and metric tons (red, right hand y axis).</em></strong></p>
-<p><img src="images/diff_fleets_catch.png" width="600" height="400"></p>
+<p><img src="images/diff_fleets_catch.png" width="800" height="400"></p>
 <p><strong><em>Fig. 6) Total catch by cell for the seven fisheries included in the OM. Bubble size is scaled to fleet specific catch. </em></strong></p>
 </div>
 <div id="tagging-dynamics" class="section level2">
@@ -358,7 +358,7 @@ L_{t+1,a} = L_{t,a} + (L_{t,a-k_{a}} - L_{inf}) (e^{-k_{a}-1}) \tag{Eq. 1}
 <p>Tagging is implemented in categories (immature and mature) for each model pseudo-year where there were releases. Tagged fish were assigned to immature or mature in proportion to the ratios of immature or mature fish in the population at the time of release based on a binomial probability distribution. Tag releases occured in sub-time step (a) (see Section 3.2.1) in a given model pseudo-year and the cell that they were reported as released (from the real world tagging data). Tagged fish from each pseudo-year and cell were aggregated into either the immature or mature tag category; hence, a tag release cohort is defined by the pseudo-year, age, and maturity stage of release (but due to computational limitations, release cell was not tracked for the purpose of cohort tracking in this simulation).</p>
 <p>Tag recapture observations were simulated for each model pseudo-year and cell following release until the terminal model pseudo-year. Recaptures were recorded by release cohort (which does not include release cell), pseudo-year of recovery, age at recapture, and cell of recapture. For recaptures, a plus group was implemented at pseudo-year age 20, which helped reduce computation time.</p>
 <p>Aside from initial mortality (i.e., the assumed proportion of fish that either lost their tags or died during the tagging process) and ongoing tag loss (i.e., an assumed rate that fish lost tags over time and were no longer identifiable as tagged fish), the population and movement processes applied to tagged fish were the same as the general population. Initial tag retention and survival is assumed to be 0.9 (i.e., 10% of fish with tags were assumed to have either lost their tag immediately or died as a result of the tagging process, or otherwise were not identifiable as tagged fish in the population), and implemented as a fixed process by discounting the numbers of released fish in each cohort by 10%. Ongoing tag loss rates were assumed to be 20% per 2000 days (Fu et al. (2018)), and is implemented as a model pseudo-year (i.e. quarterly) mortality of 0.91%. Age of recaptured fish is set equal to the age of that individual at release plus its time at liberty. Tag recaptures were reported solely by the purse seine fishery, equivalent to 90% reporting rate. Tag detection in other fisheries is not considered (i.e. only the purse seine fleet is assumed to report tags and reporting rates for other fisheries are set to 0%).</p>
-<p><img src="images/tagreleaserecapt_movement.png" width="600" height="400"></p>
+<p><img src="images/tagreleaserecapt_movement.png" width="600" height="500"></p>
 <p><strong><em>Fig. 7) Movement of tagged yellowfin tuna in the Indian Ocean; a) spatially binned release locations, b) spatially binned recapture locations, c) distance moved by each fish between release and recapture locations. Warmer colors reflect highest releases and recaptures in subpanels (a) and (b).</em></strong></p>
 </div>
 <div id="stochasticity-and-observation-error" class="section level2">
