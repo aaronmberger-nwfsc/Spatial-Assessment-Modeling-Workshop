@@ -93,7 +93,7 @@ The lists in \strong{biol_dat} include:
 \emph{b}: length-weight shape parameter
 }
 \examples{
-data('YFT_1area_observations_1-100')
+data('YFT_1area_observations_1_100')
 head(dat_1A_1$catch)
 
 }

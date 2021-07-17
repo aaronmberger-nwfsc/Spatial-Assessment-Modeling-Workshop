@@ -15,7 +15,7 @@ A data frame 'YFT_4area_observations_1_100.RData' with variables:
 data('YFT_4area_observations_1-100')
 }
 \description{
-A dataset 100 simulations of the YFT 1 area aggregated catch, cpue, length frequencies, and tagging data (along with biological data).
+100 simulations of the YFT 1 area aggregated catch, cpue, length frequencies, and tagging data (along with biological data).
 }
 \details{
 The key lists in \strong{YFT_SRD_1A_4$} (e.g., dat_1A_4$lencomp) include:
@@ -43,6 +43,6 @@ The lists in \strong{biol_dat} include:
 \emph{b}: length-weight shape parameter
 }
 \examples{
-data('YFT_4area_observations_1-100')
-head(dat_1A_1catch)
+data('YFT_4area_observations_1_100')
+head(dat_4A_1catch)
 }

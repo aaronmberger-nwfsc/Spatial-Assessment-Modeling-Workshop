@@ -180,14 +180,14 @@ NULL
 #' 
 #' @usage data('YFT_1area_observations_1-100')
 #' @examples 
-#' data('YFT_1area_observations_1-100')
+#' data('YFT_1area_observations_1_100')
 #' head(dat_1A_1$catch)
 #' 
 NULL
 
 #' 100 simulated YFT datasets at the 4 area scale
 #'
-#' A dataset 100 simulations of the YFT 1 area aggregated catch, cpue, length frequencies, and tagging data (along with biological data).
+#' 100 simulations of the YFT 1 area aggregated catch, cpue, length frequencies, and tagging data (along with biological data).
 #'
 #' @format A data frame 'YFT_4area_observations_1_100.RData' with variables:
 #' \describe{
@@ -225,7 +225,7 @@ NULL
 #' @usage data('YFT_4area_observations_1-100')
 #' 
 #' @examples 
-#' data('YFT_4area_observations_1-100')
-#' head(dat_1A_1catch)
+#' data('YFT_4area_observations_1_100')
+#' head(dat_4A_1catch)
 NULL
 
