@@ -23,13 +23,8 @@ navbar:
         href: articles/Acknowledgements.html
         
     reference:
-      title: Main Datasets
-      subtitle: All datasets
-      contents: 
-      - contains("Main Datasets")
-      title: Supplementary Datasets
-      contents:
-      - contains("Supplementary datasets")
+      title: Datasets
+      text: Datasets
       icon: fa fa-fish fa-lg
       href: reference/index.html
 
