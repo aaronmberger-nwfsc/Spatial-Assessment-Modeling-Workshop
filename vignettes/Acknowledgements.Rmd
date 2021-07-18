@@ -18,8 +18,8 @@ knitr::opts_chunk$set(
 library(SpatialAssessmentModelingWorkshop)
 ```
 
-### Elizabeth Holmes (NWFSC)
-For help troubleshooting pkgdown, github and a wonderful, highly useful NOAA RWorkflow 2021 workshop.
+### Elizabeth Holmes (NOAA-NWFSC)
+For help troubleshooting pkgdown, github and a highly worthwhile 2021 NOAA RWorkflow workshop.
 
-### Bai Li, Christine Stawitz, Matthew Supernaw (NOAA OST Modeling Team)
+### Bai Li, Christine Stawitz, Matthew Supernaw (NOAA-OST Modeling Team)
 For developing NOAA branding & color palettes

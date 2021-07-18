@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>START HERE: 1 area single representative dataset — YFT_SRD_1A_4 • SpatialAssessmentModelingWorkshop</title>
+<title>START HERE: 1 area single representative dataset (SRD) — YFT_SRD_1A_4 • SpatialAssessmentModelingWorkshop</title>
 
 
 <!-- jquery -->
@@ -41,8 +41,8 @@
   <link href="../extra.css" rel="stylesheet">
   
 
-<meta property="og:title" content="START HERE: 1 area single representative dataset — YFT_SRD_1A_4" />
-<meta property="og:description" content="A single representative dataset aggregated at the 1 area scale. The chosen dataset is simulation #4.
+<meta property="og:title" content="START HERE: 1 area single representative dataset (SRD) — YFT_SRD_1A_4" />
+<meta property="og:description" content="A single representative dataset (SRD) aggregated at the 1 area scale. The chosen dataset is simulation #4.
 List objects include aggregated catch, cpue, length frequencies, and tagging data (along with biological data)." />
 
 
@@ -108,6 +108,7 @@ List objects include aggregated catch, cpue, length frequencies, and tagging dat
   <a href="../reference/index.html">
     <span class="fa fa-fish fa-lg"></span>
      
+    Datasets
   </a>
 </li>
 <li class="dropdown">
@@ -153,13 +154,13 @@ List objects include aggregated catch, cpue, length frequencies, and tagging dat
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>START HERE: 1 area single representative dataset</h1>
+    <h1>START HERE: 1 area single representative dataset (SRD)</h1>
     <small class="dont-index">Source: <a href='https://github.com/caren.barcelo-NOAA/Spatial-Assessment-Modeling-Workshop/blob/master/R/data.R'><code>R/data.R</code></a></small>
     <div class="hidden name"><code>YFT_SRD_1A_4.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>A single representative dataset aggregated at the 1 area scale. The chosen dataset is simulation #4.
+    <p>A single representative dataset (SRD) aggregated at the 1 area scale. The chosen dataset is simulation #4.
 List objects include aggregated catch, cpue, length frequencies, and tagging data (along with biological data).</p>
     </div>
 
@@ -177,10 +178,10 @@ List objects include aggregated catch, cpue, length frequencies, and tagging dat
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
     <p>The key lists in <strong>YFT_SRD_1A_4$</strong> (e.g., dat_1A_4$lencomp) include:</p>
-<p><em><strong>lencomp</strong></em>: (list) 1 area dataframe of aggregated length frequencies by length bin with columns corresponding to pseudo-year (Yr), season(Seas), fleet/survey index (FltSvy), gender (Gender),  partition – length data come from all fish encountered (Part=0), number of lengths sampled (Nsamp), and the set of length bins (purse seine only)</p>
+<p><em><strong>lencomp</strong></em>: (list) 1 area dataframe of aggregated length frequencies by length bin with columns corresponding to pseudo-year (Yr), season(Seas), fleet/survey index (FltSvy), sex (Gender),  partition – length data come from all fish encountered (Part=0), number of lengths sampled (Nsamp), and the set of length bins (purse seine only)</p>
 <p><em><strong>catch</strong></em>: (list) 1 area dataframe of catch by fishery, including pseudo-year (year), and    season (seas)</p>
 <p><em><strong>CPUE/cpu</strong></em>: (list) 1 area cpue with columns for pseudo-year (year), season (seas), cpue (cpu), standard deviation associated with lognormal error in cpue (cv), and survey index (index); note that CPUE is for longline only</p>
-<p><em><strong>tag_releases</strong></em>: 1 area tag release data with columns corresponding to generic tag release event number (tg), area of release (reg), pseudo-year (yr), season (season), gender (gender), age (age), and number of releases (nrel) adjusted for initial tag mortality</p>
+<p><em><strong>tag_releases</strong></em>: 1 area tag release data with columns corresponding to generic tag release event number (tg), area of release (reg), pseudo-year (yr), season (season), sex (Gender), age (age), and number of releases (nrel) adjusted for initial tag mortality</p>
 <p><em><strong>tag_recaps</strong></em>: 1 area tag recapture data with columns corresponding to generic tag release event number (tg), pseudo-year (yr), season (season), fleet index (fleet), and the number of recaptures (recaps)</p>
     <h2 class="hasAnchor" id="explanations-of-list-object-items-in-the-provided-data-files-that-analysts-may-find-additionally-useful-much-of-these-follow-or-closely-follow-stock-synthesis-version-ss-z-naming-conventions-the-name-is-the-list-identifier-in-each-rdata-object-e-g-the-name-styr-is-found-using-dat-a-styr-"><a class="anchor" href="#explanations-of-list-object-items-in-the-provided-data-files-that-analysts-may-find-additionally-useful-much-of-these-follow-or-closely-follow-stock-synthesis-version-ss-z-naming-conventions-the-name-is-the-list-identifier-in-each-rdata-object-e-g-the-name-styr-is-found-using-dat-a-styr-"></a>Explanations of list object items in the provided data files that analysts may find additionally useful. Much of these follow, or closely follow, Stock Synthesis (version SS3.24Z) naming conventions.  The name is the list identifier in each Rdata object (e.g., the name styr is found using dat_1A_4$styr).</h2>
 
