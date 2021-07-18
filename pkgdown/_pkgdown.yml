@@ -25,6 +25,14 @@ navbar:
     reference:
       title: Datasets
       text: Datasets
+      contents: 
+      - YFT_SRD_1A_4
+      - YFT_SRD_4A_4
+      - YFT_1area_observations_1_100
+      - YFT_4area_observations_1_100
+      - YFT_221cell_observations_1_33
+      - YFT_221cell_observations_34_66
+      - YFT_221cell_observations_67_100
       icon: fa fa-fish fa-lg
       href: reference/index.html
 
