@@ -391,7 +391,8 @@ NULL
 #' head(biol_dat)
 NULL
 
-#' SUPPLEMENTAL DATASET: Fully spatial simulated datasets (Simulation #: 1-33)
+#' SUPPLEMENTAL DATASET: Fully spatial simulated datasets 
+#' (Simulation #: 1-33)
 #'
 #'This R data file contains 1-33 simulated data sets at the 221 5x5 gird cell level, which 
 #'matches the spatial resolution used in the OM.  These data are provided for your 
@@ -455,7 +456,8 @@ NULL
 #' head(sim_1$obs$simulated_cpue_ll_jpn_86$data$obs)
 NULL
 
-#' SUPPLEMENTAL DATASET: Fully spatial simulated datasets (Simulation #: 34_66)
+#' SUPPLEMENTAL DATASET: Fully spatial simulated datasets 
+#' (Simulation #: 34_66)
 #'
 #'This R data file contains 34-66 simulated data sets at the 221 5x5 gird cell level, which 
 #'matches the spatial resolution used in the OM.  These data are provided for your 
@@ -519,7 +521,8 @@ NULL
 #' head(sim_34$obs$simulated_cpue_ll_jpn_86$data$obs)
 NULL
 
-#' SUPPLEMENTAL DATASET: Fully spatial simulated datasets (Simulation #: 67-100)
+#' SUPPLEMENTAL DATASET: Fully spatial simulated datasets 
+#' (Simulation #: 67-100)
 #'
 #'This R data file contains 67-100 simulated data sets at the 221 5x5 gird cell level, which 
 #'matches the spatial resolution used in the OM.  These data are provided for your 
