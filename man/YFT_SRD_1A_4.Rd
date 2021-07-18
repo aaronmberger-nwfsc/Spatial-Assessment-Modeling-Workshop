@@ -3,7 +3,7 @@
 \docType{data}
 \name{YFT_SRD_1A_4}
 \alias{YFT_SRD_1A_4}
-\title{START HERE: 1 area single representative dataset (SRD)}
+\title{START HERE: 1 area single representative dataset}
 \format{
 A data frame 'YFT_SRD_1A_4.RData' with variables:
 \describe{
@@ -18,9 +18,7 @@ data('YFT_SRD_1A_4')
 A single representative dataset (SRD) aggregated at the 1 area scale. The chosen dataset is simulation #4.
 List objects include aggregated catch, cpue, length frequencies, and tagging data (along with biological data).
 }
-\details{
-The key lists in \strong{YFT_SRD_1A_4$} (e.g., dat_1A_4$lencomp) include:
-
+\section{The key lists in \strong{YFT_SRD_1A_4$} (e.g., dat_1A_4$lencomp) include:}{
 \emph{\strong{lencomp}}: (list) 1 area dataframe of aggregated length frequencies by length bin with columns corresponding to pseudo-year (Yr), season(Seas), fleet/survey index (FltSvy), sex (Gender),  partition – length data come from all fish encountered (Part=0), number of lengths sampled (Nsamp), and the set of length bins (purse seine only)
 
 \emph{\strong{catch}}: (list) 1 area dataframe of catch by fishery, including pseudo-year (year), and    season (seas)
@@ -31,6 +29,7 @@ The key lists in \strong{YFT_SRD_1A_4$} (e.g., dat_1A_4$lencomp) include:
 
 \emph{\strong{tag_recaps}}: 1 area tag recapture data with columns corresponding to generic tag release event number (tg), pseudo-year (yr), season (season), fleet index (fleet), and the number of recaptures (recaps)
 }
+
 \section{Explanations of list object items in the provided data files that analysts may find additionally useful. Much of these follow, or closely follow, Stock Synthesis (version SS3.24Z) naming conventions.  The name is the list identifier in each Rdata object (e.g., the name styr is found using dat_1A_4$styr).}{
 \emph{\strong{styr}}	Start year (pseudo-year)
 

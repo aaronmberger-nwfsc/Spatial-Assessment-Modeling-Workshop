@@ -18,7 +18,7 @@ data('YFT_1area_observations_1_100')
 This R data file contains 100 data sets for a one area YFT model.
 100 simulations of the YFT 1 area aggregated catch, cpue, length frequencies, and tagging data (along with biological data).
 }
-\details{
+\section{The key lists in \strong{YFT_1area_observations_1_100$} (e.g., dat_1A_1$lencomp) include:}{
 \emph{\strong{lencomp}}: (list) 1 area dataframe of aggregated length frequencies by length bin with columns corresponding to pseudo-year (Yr), season(Seas), fleet/survey index (FltSvy), sex (Gender),  partition – length data come from all fish encountered (Part=0), number of lengths sampled (Nsamp), and the set of length bins (purse seine only)
 
 \emph{\strong{catch}}: (list) 1 area dataframe of catch by fishery, including pseudo-year (year), and    season (seas)
@@ -29,6 +29,7 @@ This R data file contains 100 data sets for a one area YFT model.
 
 \emph{\strong{tag_recaps}}: 1 area tag recapture data with columns corresponding to generic tag release event number (tg), pseudo-year (yr), season (season), fleet index (fleet), and the number of recaptures (recaps)
 }
+
 \section{Explanations of list object items in the provided data files that analysts may find additionally useful. Much of these follow, or closely follow, Stock Synthesis (version SS3.24Z) naming conventions.  The name is the list identifier in each Rdata object (e.g., the name styr is found using dat_1A_4$styr).}{
 \emph{\strong{styr}}	Start year (pseudo-year)
 

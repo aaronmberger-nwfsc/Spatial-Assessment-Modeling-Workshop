@@ -20,9 +20,7 @@ matches the spatial resolution used in the OM.  These data are provided for your
 information and in a usable format if participants wish to develop spatially
 structured models beyond the one and four area aggregations already provided.
 }
-\details{
-The key lists in \strong{sim_X$} (e.g., sim_1$) include:
-
+\section{The key lists in \strong{sim_X$} (e.g., sim_1$) include:}{
 \emph{\strong{Sim_X}} (X: sim # 1-100)
 \emph{\strong{obs}}: Simulated observations
 \emph{\strong{simulated_ll_jpn_cpue_YYY}}:
@@ -41,9 +39,9 @@ The key lists in \strong{sim_X$} (e.g., sim_1$) include:
 \emph{\strong{sst}}: Sea Surface Temperature (see Dunn et al. 2020)
 \emph{\strong{clo}}: Chlorophyll (see Dunn et al. 2020)
 \emph{\strong{fishing_ff_YY}}: ff: fishery = ps, trol, bb, gill, ll, other, hand, YY = pseudo-year
+}
 
-The lists in \strong{biol_dat} include:
-
+\section{The lists in \strong{biol_dat} include:}{
 \emph{M:} age varying natural mortality
 
 \emph{age}: first age to last age (pseudo-years)
@@ -62,6 +60,7 @@ The lists in \strong{biol_dat} include:
 
 \emph{b}: length-weight shape parameter
 }
+
 \examples{
 data('YFT_221cell_observations_34_66')
 head(sim_34$obs$simulated_cpue_ll_jpn_86$data$obs)
