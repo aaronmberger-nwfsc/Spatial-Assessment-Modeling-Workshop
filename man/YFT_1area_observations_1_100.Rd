@@ -30,7 +30,9 @@ This R data file contains 100 data sets for a one area YFT model.
 \emph{\strong{tag_recaps}}: 1 area tag recapture data with columns corresponding to generic tag release event number (tg), pseudo-year (yr), season (season), fleet index (fleet), and the number of recaptures (recaps)
 }
 
-\section{Explanations of list object items in the provided data files that analysts may find additionally useful. Much of these follow, or closely follow, Stock Synthesis (version SS3.24Z) naming conventions.  The name is the list identifier in each Rdata object (e.g., the name styr is found using dat_1A_4$styr).}{
+\section{Explanations of list object items in the provided data files that analysts may find additionally useful.}{
+Much of these follow, or closely follow, Stock Synthesis (version SS3.24Z) naming conventions.  The name is the list identifier in each Rdata object (e.g., the name styr is found using dat_1A_4$styr).
+
 \emph{\strong{styr}}	Start year (pseudo-year)
 
 \emph{\strong{endyr}}	End year (pseudo-year)
