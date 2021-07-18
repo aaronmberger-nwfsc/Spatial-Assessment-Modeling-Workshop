@@ -1,4 +1,4 @@
-#' START HERE: 1 area single representative dataset (SRD)
+#' START HERE: 1 area single representative dataset
 #'
 #' A single representative dataset (SRD) aggregated at the 1 area scale. The chosen dataset is simulation #4.
 #' List objects include aggregated catch, cpue, length frequencies, and tagging data (along with biological data).
@@ -12,7 +12,8 @@
 #' @name YFT_SRD_1A_4
 #' @docType data
 #' @details 
-#' The key lists in __YFT_SRD_1A_4$__ (e.g., dat_1A_4$lencomp) include: 
+#' 
+#' # The key lists in __YFT_SRD_1A_4$__ (e.g., dat_1A_4$lencomp) include: 
 #' 
 #' ***lencomp***: (list) 1 area dataframe of aggregated length frequencies by length bin with columns corresponding to pseudo-year (Yr), season(Seas), fleet/survey index (FltSvy), sex (Gender),  partition – length data come from all fish encountered (Part=0), number of lengths sampled (Nsamp), and the set of length bins (purse seine only)
 #' 
@@ -68,8 +69,6 @@
 #' ***mixing_latency_period***	Length of time units (psudo-years) necessary to allow for tag
 #' mixing
 #' 
-#' 
-#' 
 #' # The lists in __biol_dat__ include:
 #' 
 #' ***M:*** age varying natural mortality
@@ -113,7 +112,7 @@ NULL
 #' @docType data
 #' @details 
 #' 
-#' The key lists in __YFT_SRD_4A_4$__ (e.g., dat_4A_4$lencomp) include: 
+#' # The key lists in __YFT_SRD_4A_4$__ (e.g., dat_4A_4$lencomp) include: 
 #' 
 #' ***lencomp***: (list) 1 area dataframe of aggregated length frequencies by length bin with columns corresponding to pseudo-year (Yr), season(Seas), fleet/survey index (FltSvy), sex (Gender),  partition – length data come from all fish encountered (Part=0), number of lengths sampled (Nsamp), and the set of length bins (purse seine only)
 #' 
@@ -167,8 +166,6 @@ NULL
 #' ***mixing_latency_period***	Length of time units (psudo-years) necessary to allow for tag
 #' mixing
 #' 
-#' 
-#' 
 #' # The lists in __biol_dat__ include:
 #' 
 #' ***M:*** age varying natural mortality
@@ -210,7 +207,10 @@ NULL
 #' 
 #' @name YFT_1area_observations_1_100
 #' @docType data
-#' @details 
+#' @details
+#' 
+#'  # The key lists in __YFT_1area_observations_1_100$__ (e.g., dat_1A_1$lencomp) include: 
+#'  
 #' ***lencomp***: (list) 1 area dataframe of aggregated length frequencies by length bin with columns corresponding to pseudo-year (Yr), season(Seas), fleet/survey index (FltSvy), sex (Gender),  partition – length data come from all fish encountered (Part=0), number of lengths sampled (Nsamp), and the set of length bins (purse seine only)
 #' 
 #' ***catch***: (list) 1 area dataframe of catch by fishery, including pseudo-year (year), and    season (seas)
@@ -265,8 +265,6 @@ NULL
 #' ***mixing_latency_period***	Length of time units (psudo-years) necessary to allow for tag
 #' mixing
 #' 
-#' 
-#' 
 #' # The lists in __biol_dat__ include:
 #' 
 #' ***M:*** age varying natural mortality
@@ -309,7 +307,8 @@ NULL
 #' @name YFT_4area_observations_1_100
 #' @docType data
 #' @details 
-#' The key lists in __YFT_4area_observations_1_100$__ (e.g., dat_4A_4$lencomp) include: 
+#' 
+#' # The key lists in __YFT_4area_observations_1_100$__ (e.g., dat_4A_4$lencomp) include: 
 #' 
 #' *lencomp*: (list) 1 area dataframe of aggregated length frequencies by length bin with columns corresponding to pseudo-year (Yr), season(Seas), fleet/survey index (FltSvy), sex (Gender),  partition – length data come from all fish encountered (Part=0), number of lengths sampled (Nsamp), and the set of length bins (purse seine only)
 #' 
@@ -322,7 +321,7 @@ NULL
 #' *tag_recaps*: 1 area tag recapture data with columns corresponding to generic tag release event number (tg), pseudo-year (yr), season (season), fleet index (fleet), and the number of recaptures (recaps)
 #' 
 #' 
-#' Explanations of list object items in the provided data files that analysts may find additionally useful. Much of these follow, or closely follow, Stock Synthesis (version SS3.24Z) naming conventions.  The name is the list identifier in each Rdata object (e.g., the name styr is found using dat_1A_4$styr).
+#' # Explanations of list object items in the provided data files that analysts may find additionally useful. Much of these follow, or closely follow, Stock Synthesis (version SS3.24Z) naming conventions.  The name is the list identifier in each Rdata object (e.g., the name styr is found using dat_1A_4$styr).
 #' 
 #' *styr*	Start year (pseudo-year)
 #' 
@@ -364,8 +363,8 @@ NULL
 #' 
 #' *mixing_latency_period*	Length of time units (psudo-years) necessary to allow for tag
 #' mixing
-
-#' The lists in __biol_dat__ include:
+#' 
+#' # The lists in __biol_dat__ include:
 #' 
 #' *M:* age varying natural mortality
 #' 
@@ -409,7 +408,7 @@ NULL
 #' @docType data
 #' @details 
 #' 
-#' The key lists in __sim_X$__ (e.g., sim_1$) include: 
+#' # The key lists in __sim_X$__ (e.g., sim_1$) include: 
 #' 
 #' ***Sim_X*** (X: sim # 1-100)
 #'          ***obs***: Simulated observations
@@ -430,7 +429,7 @@ NULL
 #'                ***clo***: Chlorophyll (see Dunn et al. 2020)
 #'                ***fishing_ff_YY***: ff: fishery = ps, trol, bb, gill, ll, other, hand, YY = pseudo-year
 #' 
-#' The lists in __biol_dat__ include:
+#' # The lists in __biol_dat__ include:
 #' 
 #' *M:* age varying natural mortality
 #' 
@@ -473,7 +472,7 @@ NULL
 #' @docType data
 #' @details 
 #' 
-#' The key lists in __sim_X$__ (e.g., sim_1$) include: 
+#' # The key lists in __sim_X$__ (e.g., sim_1$) include: 
 #' 
 #' ***Sim_X*** (X: sim # 1-100)
 #'          ***obs***: Simulated observations
@@ -494,7 +493,7 @@ NULL
 #'                ***clo***: Chlorophyll (see Dunn et al. 2020)
 #'                ***fishing_ff_YY***: ff: fishery = ps, trol, bb, gill, ll, other, hand, YY = pseudo-year
 #' 
-#' The lists in __biol_dat__ include:
+#' # The lists in __biol_dat__ include:
 #' 
 #' *M:* age varying natural mortality
 #' 
@@ -537,7 +536,7 @@ NULL
 #' @docType data
 #' @details 
 #' 
-#' The key lists in __sim_X$__ (e.g., sim_1$) include: 
+#' # The key lists in __sim_X$__ (e.g., sim_1$) include: 
 #'  
 #' ***Sim_X*** (X: sim # 1-100)
 #'          ***obs***: Simulated observations
@@ -558,7 +557,7 @@ NULL
 #'                ***clo***: Chlorophyll (see Dunn et al. 2020)
 #'                ***fishing_ff_YY***: ff: fishery = ps, trol, bb, gill, ll, other, hand, YY = pseudo-year
 #' 
-#' The lists in __biol_dat__ include:
+#' # The lists in __biol_dat__ include:
 #' 
 #' *M:* age varying natural mortality
 #' 
