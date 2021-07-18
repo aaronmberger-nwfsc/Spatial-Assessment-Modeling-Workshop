@@ -16,7 +16,7 @@ A data frame 'YFT_221cell_observations_67_100' with variables:
 data('YFT_221cell_observations_67_100')
 }
 \description{
-This R data file contains 67-100 simulated data sets at the 221 5x5 gird cell level, which
+This R data file contains 67-100 simulated data sets at the 221 5x5 grid cell level, which
 matches the spatial resolution used in the OM.  These data are provided for your
 information and in a usable format if participants wish to develop spatially
 structured models beyond the one and four area aggregations already provided.
