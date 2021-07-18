@@ -19,7 +19,7 @@ library(SpatialAssessmentModelingWorkshop)
 ```
 
 ### Elizabeth Holmes (NWFSC)
-For help implementation issues in pkgdown and a wonderful, highly informative R workflow workshop.
+For help troubleshooting pkgdown, github and a wonderful, highly useful NOAA RWorkflow 2021 workshop.
 
 ### Bai Li, Christine Stawitz, Matthew Supernaw (NOAA OST Modeling Team)
-For developing pkgdown NOAA branding
+For developing NOAA branding & color palettes

@@ -23,9 +23,12 @@ navbar:
         href: articles/Acknowledgements.html
         
     reference:
-      title: Datasets
-      desc: Yellowfin Tuna simulated datasets
-      text: Datasets
+      title: Main Datasets
+      contents: 
+      - contains("Main Datasets")
+      title: Supplementary Datasets
+      contents:
+      - contains("Supplementary datasets")
       icon: fa fa-fish fa-lg
       href: reference/index.html
 
