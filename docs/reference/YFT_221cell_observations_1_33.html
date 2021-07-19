@@ -184,52 +184,35 @@ structured models beyond the one and four area aggregations already provided.</p
 
     <h2 class="hasAnchor" id="the-key-lists-in-sim-x-e-g-sim-include-"><a class="anchor" href="#the-key-lists-in-sim-x-e-g-sim-include-"></a>The key lists in <strong>sim_X$</strong> (e.g., sim_1$) include:</h2>
 
-    <p><em><strong>Sim_X</strong></em> (X: sim # 1-100)</p><pre>     ***obs***: Simulated observations
-     
-           ***simulated_ll_jpn_cpue_YYY***:
-           
-           ***simulated_XXX_lf_YYY***:
-           
-     ***tagrel***: Tag releases
-     
-           ***process[tag_XXX]***: tag release in a given pseudo-year
-           
-     ***tagrecs***: Simulated tag recapture data
-     
-           ***observation[tag_recapture_XXX_in_YYY]***: tag recapture in a given pseudo-year from release cohort XXX
-           
-     ***layer***
-     
-           ***base***: 1 = on the water, 0 = on land
-           
-           ***cell***: unique cell row and column numbers
-           
-           ***constant***: 1
-           
-           ***latitude***: latitude for each cell center
-           
-           ***longitude***: longitude for each cell center
-           
-           ***region***: IOTC YFT regions (R1a, R1b, R2, R3, R4, R5)
-           
-           ***sst***: Sea Surface Temperature (see Dunn et al. 2020)
-           
-           ***clo***: Chlorophyll (see Dunn et al. 2020)
-           
-           ***fishing_ff_YY***: ff: fishery = ps, trol, bb, gill, ll, other, hand, YY = pseudo-year
-</pre>
-
+    <p><em><strong>Sim_X</strong></em> : Simulated spatial datasets, X: sim # 1-100</p>
+<p><em><strong>obs</strong></em>: Simulated observations</p>
+<p><em><strong>simulated_ll_jpn_cpue_YYY</strong></em>: CPUE data for pseudo-year YYY</p>
+<p><em><strong>simulated_XXX_lf_YYY</strong></em>: Length frequencies for pseudo-year YYY</p>
+<p><em><strong>tagrel</strong></em>: Tag releases</p>
+<p>***processtag_XXX***: Tag release in a given pseudo-year</p>
+<p><em><strong>tagrecs</strong></em>: Simulated tag recapture data</p>
+<p>***observationtag_recapture_XXX_in_YYY***: tag recapture in a given pseudo-year from release cohort XXX</p>
+<p><em><strong>layer</strong></em> : Spatial grids defined within 'layer'</p>
+<p><em><strong>base</strong></em>: 1 = on the water, 0 = on land</p>
+<p><em><strong>cell</strong></em>: unique cell row and column numbers</p>
+<p><em><strong>constant</strong></em>: 1</p>
+<p><em><strong>latitude</strong></em>: latitude for each cell center</p>
+<p><em><strong>longitude</strong></em>: longitude for each cell center</p>
+<p><em><strong>region</strong></em>: IOTC YFT regions (R1a, R1b, R2, R3, R4, R5)</p>
+<p><em><strong>sst</strong></em>: Sea Surface Temperature (see Dunn et al. 2020)</p>
+<p><em><strong>clo</strong></em>: Chlorophyll (see Dunn et al. 2020)</p>
+<p><em><strong>fishing_ff_YY</strong></em>: ff: fishery = ps, trol, bb, gill, ll, other, hand, YY = pseudo-year</p>
     <h2 class="hasAnchor" id="the-lists-in-biol-dat-include-"><a class="anchor" href="#the-lists-in-biol-dat-include-"></a>The lists in <strong>biol_dat</strong> include:</h2>
 
-    <p><em>M:</em> age varying natural mortality</p>
-<p><em>age</em>: first age to last age (pseudo-years)</p>
-<p><em>maturity</em>: maturity at age ogive (pseudo-years)</p>
-<p><em>k</em>: age varying growth coefficients</p>
-<p><em>L</em>: length (cm)</p>
-<p><em>Linf</em>: length infinity (cm)</p>
-<p><em>Lmin</em>: length minimum (cm)</p>
-<p><em>a</em>: length-weight scaling coefficient</p>
-<p><em>b</em>: length-weight shape parameter</p>
+    <p><em><strong>M:</strong></em> age varying natural mortality</p>
+<p><em><strong>age</strong></em>: first age to last age (pseudo-years)</p>
+<p><em><strong>maturity</strong></em>: maturity at age ogive (pseudo-years)</p>
+<p><em><strong>k</strong></em>: age varying growth coefficients</p>
+<p><em><strong>L</strong></em>: length (cm)</p>
+<p><em><strong>Linf</strong></em>: length infinity (cm)</p>
+<p><em><strong>Lmin</strong></em>: length minimum (cm)</p>
+<p><em><strong>a</strong></em>: length-weight scaling coefficient</p>
+<p><em><strong>b</strong></em>: length-weight shape parameter</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span><span class='op'>(</span><span class='st'>'YFT_221cell_observations_1_33'</span><span class='op'>)</span>

@@ -25,7 +25,7 @@ This R data file contains 100 data sets for a one area YFT model.
 
 \emph{\strong{CPUE/cpu}}: (list) 1 area cpue with columns for pseudo-year (year), season (seas), cpue (cpu), standard deviation associated with lognormal error in cpue (cv), and survey index (index); note that CPUE is for longline only
 
-\emph{\strong{tag_releases}}: 1 area tag release data with columns corresponding to generic tag release event number (tg), area of release (reg), pseudo-year (yr), season (season), sex (gender), age (age), and number of releases (nrel) adjusted for initial tag mortality
+\emph{\strong{tag_releases}}: 1 area tag release data with columns corresponding to generic tag release event number (tg), area of release (reg), pseudo-year (yr), season (season), sex (Gender), age (age), and number of releases (nrel) adjusted for initial tag mortality
 
 \emph{\strong{tag_recaps}}: 1 area tag recapture data with columns corresponding to generic tag release event number (tg), pseudo-year (yr), season (season), fleet index (fleet), and the number of recaptures (recaps)
 }
@@ -38,8 +38,6 @@ Much of these follow, or closely follow, Stock Synthesis (version SS3.24Z) namin
 \emph{\strong{endyr}}	End year (pseudo-year)
 
 \emph{\strong{nseas}}	Number of seasons
-
-\emph{\strong{months_per_seas}}	Months per season
 
 \emph{\strong{spawn_seas}}	Season when spawning occurs
 

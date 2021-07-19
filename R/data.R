@@ -212,14 +212,14 @@ NULL
 #' @details
 #' 
 #'  # The key lists in __YFT_1area_observations_1_100$__ (e.g., dat_1A_1$lencomp) include: 
-#'  
+#' 
 #' ***lencomp***: (list) 1 area dataframe of aggregated length frequencies by length bin with columns corresponding to pseudo-year (Yr), season(Seas), fleet/survey index (FltSvy), sex (Gender),  partition – length data come from all fish encountered (Part=0), number of lengths sampled (Nsamp), and the set of length bins (purse seine only)
 #' 
 #' ***catch***: (list) 1 area dataframe of catch by fishery, including pseudo-year (year), and    season (seas)
 #' 
 #' ***CPUE/cpu***: (list) 1 area cpue with columns for pseudo-year (year), season (seas), cpue (cpu), standard deviation associated with lognormal error in cpue (cv), and survey index (index); note that CPUE is for longline only
 #' 
-#' ***tag_releases***: 1 area tag release data with columns corresponding to generic tag release event number (tg), area of release (reg), pseudo-year (yr), season (season), sex (gender), age (age), and number of releases (nrel) adjusted for initial tag mortality 
+#' ***tag_releases***: 1 area tag release data with columns corresponding to generic tag release event number (tg), area of release (reg), pseudo-year (yr), season (season), sex (Gender), age (age), and number of releases (nrel) adjusted for initial tag mortality 
 #' 
 #' ***tag_recaps***: 1 area tag recapture data with columns corresponding to generic tag release event number (tg), pseudo-year (yr), season (season), fleet index (fleet), and the number of recaptures (recaps)
 #' 
@@ -232,8 +232,6 @@ NULL
 #' ***endyr***	End year (pseudo-year)
 #' 
 #' ***nseas***	Number of seasons
-#' 
-#' ***months_per_seas***	Months per season
 #' 
 #' ***spawn_seas***	Season when spawning occurs
 #' 
@@ -313,80 +311,81 @@ NULL
 #' 
 #' # The key lists in __YFT_4area_observations_1_100$__ (e.g., dat_4A_4$lencomp) include: 
 #' 
-#' *lencomp*: (list) 1 area dataframe of aggregated length frequencies by length bin with columns corresponding to pseudo-year (Yr), season(Seas), fleet/survey index (FltSvy), sex (Gender),  partition – length data come from all fish encountered (Part=0), number of lengths sampled (Nsamp), and the set of length bins (purse seine only)
+#' # The key lists in __YFT_SRD_4A_4$__ (e.g., dat_4A_4$lencomp) include: 
 #' 
-#' *catch*: (list) 1 area dataframe of catch by fishery, including pseudo-year (year), and    season (seas)
+#' ***lencomp***: (list) 1 area dataframe of aggregated length frequencies by length bin with columns corresponding to pseudo-year (Yr), season(Seas), fleet/survey index (FltSvy), sex (Gender),  partition – length data come from all fish encountered (Part=0), number of lengths sampled (Nsamp), and the set of length bins (purse seine only)
 #' 
-#' *CPUE/cpu*: (list) 1 area cpue with columns for pseudo-year (year), season (seas), cpue (cpu), standard deviation associated with lognormal error in cpue (cv), and survey index (index); note that CPUE is for longline only
+#' ***catch***: (list) 1 area dataframe of catch by fishery, including pseudo-year (year), and    season (seas)
 #' 
-#' *tag_releases*: 1 area tag release data with columns corresponding to generic tag release event number (tg), area of release (reg), pseudo-year (yr), season (season), sex (Gender), age (age), and number of releases (nrel) adjusted for initial tag mortality 
+#' ***CPUE/cpu***: (list) 1 area cpue with columns for pseudo-year (year), season (seas), cpue (cpu), standard deviation associated with lognormal error in cpue (cv), and survey index (index); note that CPUE is for longline only
 #' 
-#' *tag_recaps*: 1 area tag recapture data with columns corresponding to generic tag release event number (tg), pseudo-year (yr), season (season), fleet index (fleet), and the number of recaptures (recaps)
+#' ***tag_releases***: 1 area tag release data with columns corresponding to generic tag release event number (tg), area of release (reg), pseudo-year (yr), season (season), sex (Gender), age (age), and number of releases (nrel) adjusted for initial tag mortality 
+#' 
+#' ***tag_recaps***: 1 area tag recapture data with columns corresponding to generic tag release event number (tg), pseudo-year (yr), season (season), fleet index (fleet), and the number of recaptures (recaps)
 #' 
 #' 
 #' # Explanations of list object items in the provided data files that analysts may find additionally useful. 
 #' Much of these follow, or closely follow, Stock Synthesis (version SS3.24Z) naming conventions.  The name is the list identifier in each Rdata object (e.g., the name styr is found using dat_1A_4$styr).
 #' 
-#' *styr*	Start year (pseudo-year)
+#' ***styr***	Start year (pseudo-year)
 #' 
-#' *endyr*	End year (pseudo-year)
+#' ***endyr***	End year (pseudo-year)
 #' 
-#' *nseas*	Number of seasons
+#' ***nseas***	Number of seasons
 #' 
-#' *months_per_seas*	Months per season
+#' ***spawn_seas***	Season when spawning occurs
 #' 
-#' *spawn_seas*	Season when spawning occurs
+#' ***Nfleet***	Number of fishing fleets
 #' 
-#' *Nfleet*	Number of fishing fleets
+#' ***Nsurveys***	Number of surveys (fishery-dependent CPUE)
 #' 
-#' *Nsurveys*	Number of surveys (fishery-dependent CPUE)
+#' ***N_areas***	Number of spatial areas
 #' 
-#' *N_areas*	Number of spatial areas
+#' ***fleetnames***	Specific fleet and survey index names
 #' 
-#' *fleetnames*	Specific fleet and survey index names
+#' ***surveytiming***	Timing of fleet and surveys
 #' 
-#' *surveytiming*	Timing of fleet and surveys
+#' ***areas***	Areas where each fleet or survey operate 
 #' 
-#' *areas*	Areas where each fleet or survey operate 
+#' ***units_of_catch***	Specifies units for catch (2=numbers of fish)
 #' 
-#' *units_of_catch*	Specifies units for catch (2=numbers of fish)
+#' ***se_log_catch***	Standard error associated with catch
 #' 
-#' *se_log_catch*	Standard error associated with catch
+#' ***Ngenders***	Number of sexes
 #' 
-#' *Ngenders*	Number of sexes
+#' ***Nages***	Number of ages
 #' 
-#' *Nages*	Number of ages
+#' ***lbin_vector_pop***	Vector of length bins in the population (cm)
 #' 
-#' *lbin_vector_pop*	Vector of length bins in the population (cm)
+#' ***lbin_vector***	Vector of length bins in the data (cm)
 #' 
-#' *lbin_vector*	Vector of length bins in the data (cm)
+#' ***N_tag_groups***	Number of tag release events
 #' 
-#' *N_tag_groups*	Number of tag release events
+#' ***N_recap_events***	Number of recapture events
 #' 
-#' *N_recap_events*	Number of recapture events
-#' 
-#' *mixing_latency_period*	Length of time units (psudo-years) necessary to allow for tag
+#' ***mixing_latency_period***	Length of time units (psudo-years) necessary to allow for tag
 #' mixing
 #' 
 #' # The lists in __biol_dat__ include:
 #' 
-#' *M:* age varying natural mortality
+#' ***M:*** age varying natural mortality
 #' 
-#' *age*: first age to last age (pseudo-years)
+#' ***age***: first age to last age (pseudo-years)
 #' 
-#' *maturity*: maturity at age ogive (pseudo-years)
+#' ***maturity***: maturity at age ogive (pseudo-years)
 #' 
-#' *k*: age varying growth coefficients
+#' ***k***: age varying growth coefficients
 #' 
-#' *L*: length (cm) 
+#' ***L***: length (cm) 
 #' 
-#' *Linf*: length infinity (cm)
+#' ***Linf***: length infinity (cm)
 #' 
-#' *Lmin*: length minimum (cm)
+#' ***Lmin***: length minimum (cm)
 #' 
-#' *a*: length-weight scaling coefficient
+#' ***a***: length-weight scaling coefficient
 #' 
-#' *b*: length-weight shape parameter
+#' ***b***: length-weight shape parameter
+#' 
 #' @usage data('YFT_4area_observations_1_100')
 #' 
 #' @examples 
@@ -415,23 +414,23 @@ NULL
 #' 
 #' # The key lists in __sim_X$__ (e.g., sim_1$) include: 
 #' 
-#' ***Sim_X*** (X: sim # 1-100)
+#' ***Sim_X*** : Simulated spatial datasets, X: sim # 1-100
 #' 
-#' \n# ***obs***: Simulated observations
+#' ***obs***: Simulated observations
 #'          
-#' \n# ***simulated_ll_jpn_cpue_YYY***:
+#' ***simulated_ll_jpn_cpue_YYY***: CPUE data for pseudo-year YYY
 #'                
-#' \n# ***simulated_XXX_lf_YYY***:
+#' ***simulated_XXX_lf_YYY***: Length frequencies for pseudo-year YYY
 #'                
 #' ***tagrel***: Tag releases
-#'          
-#' ***process[tag_XXX]***: tag release in a given pseudo-year
+#' 
+#' ***process[tag_XXX]***: Tag release in a given pseudo-year
 #'                
 #' ***tagrecs***: Simulated tag recapture data
-#'          
+#' 
 #' ***observation[tag_recapture_XXX_in_YYY]***: tag recapture in a given pseudo-year from release cohort XXX
 #'                
-#' ***layer***
+#' ***layer*** : Spatial grids defined within 'layer'
 #'          
 #' ***base***: 1 = on the water, 0 = on land
 #'                
@@ -453,23 +452,23 @@ NULL
 #' 
 #' # The lists in __biol_dat__ include:
 #' 
-#' *M:* age varying natural mortality
+#' ***M:*** age varying natural mortality
 #' 
-#' *age*: first age to last age (pseudo-years)
+#' ***age***: first age to last age (pseudo-years)
 #' 
-#' *maturity*: maturity at age ogive (pseudo-years)
+#' ***maturity***: maturity at age ogive (pseudo-years)
 #' 
-#' *k*: age varying growth coefficients
+#' ***k***: age varying growth coefficients
 #' 
-#' *L*: length (cm) 
+#' ***L***: length (cm) 
 #' 
-#' *Linf*: length infinity (cm)
+#' ***Linf***: length infinity (cm)
 #' 
-#' *Lmin*: length minimum (cm)
+#' ***Lmin***: length minimum (cm)
 #' 
-#' *a*: length-weight scaling coefficient
+#' ***a***: length-weight scaling coefficient
 #' 
-#' *b*: length-weight shape parameter
+#' ***b***: length-weight shape parameter
 #' 
 #' @usage data('YFT_221cell_observations_1_33')
 #' @examples 
@@ -497,62 +496,61 @@ NULL
 #' 
 #' # The key lists in __sim_X$__ (e.g., sim_1$) include: 
 #' 
-#' ***Sim_X*** (X: sim # 1-100)
+#' ***Sim_X*** : Simulated spatial datasets, X: sim # 1-100
 #' 
-#'          ***obs***: Simulated observations
+#' ***obs***: Simulated observations
 #'          
-#'                ***simulated_ll_jpn_cpue_YYY***:
+#' ***simulated_ll_jpn_cpue_YYY***: CPUE data for pseudo-year YYY
 #'                
-#'                ***simulated_XXX_lf_YYY***:
+#' ***simulated_XXX_lf_YYY***: Length frequencies for pseudo-year YYY
 #'                
-#'          ***tagrel***: Tag releases
+#' ***tagrel***: Tag releases
+#' 
+#' ***process[tag_XXX]***: Tag release in a given pseudo-year
+#'                
+#' ***tagrecs***: Simulated tag recapture data
+#' 
+#' ***observation[tag_recapture_XXX_in_YYY]***: tag recapture in a given pseudo-year from release cohort XXX
+#'                
+#' ***layer*** : Spatial grids defined within 'layer'
 #'          
-#'                ***process[tag_XXX]***: tag release in a given pseudo-year
+#' ***base***: 1 = on the water, 0 = on land
 #'                
-#'          ***tagrecs***: Simulated tag recapture data
-#'          
-#'                ***observation[tag_recapture_XXX_in_YYY]***: tag recapture in a given pseudo-year from release cohort XXX
+#' ***cell***: unique cell row and column numbers
 #'                
-#'          ***layer***
-#'          
-#'                ***base***: 1 = on the water, 0 = on land
+#' ***constant***: 1
 #'                
-#'                ***cell***: unique cell row and column numbers
+#' ***latitude***: latitude for each cell center
 #'                
-#'                ***constant***: 1
+#' ***longitude***: longitude for each cell center
 #'                
-#'                ***latitude***: latitude for each cell center
+#' ***region***: IOTC YFT regions (R1a, R1b, R2, R3, R4, R5)
 #'                
-#'                ***longitude***: longitude for each cell center
+#' ***sst***: Sea Surface Temperature (see Dunn et al. 2020)
 #'                
-#'                ***region***: IOTC YFT regions (R1a, R1b, R2, R3, R4, R5)
+#' ***clo***: Chlorophyll (see Dunn et al. 2020)
 #'                
-#'                ***sst***: Sea Surface Temperature (see Dunn et al. 2020)
-#'                
-#'                ***clo***: Chlorophyll (see Dunn et al. 2020)
-#'                
-#'                ***fishing_ff_YY***: ff: fishery = ps, trol, bb, gill, ll, other, hand, YY = pseudo-year
-#'                
+#' ***fishing_ff_YY***: ff: fishery = ps, trol, bb, gill, ll, other, hand, YY = pseudo-year
 #' 
 #' # The lists in __biol_dat__ include:
 #' 
-#' *M:* age varying natural mortality
+#' ***M:*** age varying natural mortality
 #' 
-#' *age*: first age to last age (pseudo-years)
+#' ***age***: first age to last age (pseudo-years)
 #' 
-#' *maturity*: maturity at age ogive (pseudo-years)
+#' ***maturity***: maturity at age ogive (pseudo-years)
 #' 
-#' *k*: age varying growth coefficients
+#' ***k***: age varying growth coefficients
 #' 
-#' *L*: length (cm) 
+#' ***L***: length (cm) 
 #' 
-#' *Linf*: length infinity (cm)
+#' ***Linf***: length infinity (cm)
 #' 
-#' *Lmin*: length minimum (cm)
+#' ***Lmin***: length minimum (cm)
 #' 
-#' *a*: length-weight scaling coefficient
+#' ***a***: length-weight scaling coefficient
 #' 
-#' *b*: length-weight shape parameter
+#' ***b***: length-weight shape parameter
 #' 
 #' @usage data('YFT_221cell_observations_34_66')
 #' @examples 
@@ -579,63 +577,61 @@ NULL
 #' @details 
 #' 
 #' # The key lists in __sim_X$__ (e.g., sim_1$) include: 
-#'  
-#' ***Sim_X*** (X: sim # 1-100)
+#' ***Sim_X*** : Simulated spatial datasets, X: sim # 1-100
 #' 
-#'          ***obs***: Simulated observations
+#' ***obs***: Simulated observations
 #'          
-#'                ***simulated_ll_jpn_cpue_YYY***:
+#' ***simulated_ll_jpn_cpue_YYY***: CPUE data for pseudo-year YYY
 #'                
-#'                ***simulated_XXX_lf_YYY***:
+#' ***simulated_XXX_lf_YYY***: Length frequencies for pseudo-year YYY
 #'                
-#'          ***tagrel***: Tag releases
+#' ***tagrel***: Tag releases
+#' 
+#' ***process[tag_XXX]***: Tag release in a given pseudo-year
+#'                
+#' ***tagrecs***: Simulated tag recapture data
+#' 
+#' ***observation[tag_recapture_XXX_in_YYY]***: tag recapture in a given pseudo-year from release cohort XXX
+#'                
+#' ***layer*** : Spatial grids defined within 'layer'
 #'          
-#'                ***process[tag_XXX]***: tag release in a given pseudo-year
+#' ***base***: 1 = on the water, 0 = on land
 #'                
-#'          ***tagrecs***: Simulated tag recapture data
-#'          
-#'                ***observation[tag_recapture_XXX_in_YYY]***: tag recapture in a given pseudo-year from release cohort XXX
+#' ***cell***: unique cell row and column numbers
 #'                
-#'          ***layer***
-#'          
-#'                ***base***: 1 = on the water, 0 = on land
+#' ***constant***: 1
 #'                
-#'                ***cell***: unique cell row and column numbers
+#' ***latitude***: latitude for each cell center
 #'                
-#'                ***constant***: 1
+#' ***longitude***: longitude for each cell center
 #'                
-#'                ***latitude***: latitude for each cell center
+#' ***region***: IOTC YFT regions (R1a, R1b, R2, R3, R4, R5)
 #'                
-#'                ***longitude***: longitude for each cell center
+#' ***sst***: Sea Surface Temperature (see Dunn et al. 2020)
 #'                
-#'                ***region***: IOTC YFT regions (R1a, R1b, R2, R3, R4, R5)
+#' ***clo***: Chlorophyll (see Dunn et al. 2020)
 #'                
-#'                ***sst***: Sea Surface Temperature (see Dunn et al. 2020)
-#'                
-#'                ***clo***: Chlorophyll (see Dunn et al. 2020)
-#'                
-#'                ***fishing_ff_YY***: ff: fishery = ps, trol, bb, gill, ll, other, hand, YY = pseudo-year
-#'                
+#' ***fishing_ff_YY***: ff: fishery = ps, trol, bb, gill, ll, other, hand, YY = pseudo-year
 #' 
 #' # The lists in __biol_dat__ include:
 #' 
-#' *M:* age varying natural mortality
+#' ***M:*** age varying natural mortality
 #' 
-#' *age*: first age to last age (pseudo-years)
+#' ***age***: first age to last age (pseudo-years)
 #' 
-#' *maturity*: maturity at age ogive (pseudo-years)
+#' ***maturity***: maturity at age ogive (pseudo-years)
 #' 
-#' *k*: age varying growth coefficients
+#' ***k***: age varying growth coefficients
 #' 
-#' *L*: length (cm) 
+#' ***L***: length (cm) 
 #' 
-#' *Linf*: length infinity (cm)
+#' ***Linf***: length infinity (cm)
 #' 
-#' *Lmin*: length minimum (cm)
+#' ***Lmin***: length minimum (cm)
 #' 
-#' *a*: length-weight scaling coefficient
+#' ***a***: length-weight scaling coefficient
 #' 
-#' *b*: length-weight shape parameter
+#' ***b***: length-weight shape parameter
 #' 
 #' @usage data('YFT_221cell_observations_67_100')
 #' @examples 
