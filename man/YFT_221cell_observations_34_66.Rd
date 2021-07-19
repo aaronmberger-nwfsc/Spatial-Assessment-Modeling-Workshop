@@ -22,24 +22,40 @@ information and in a usable format if participants wish to develop spatially
 structured models beyond the one and four area aggregations already provided.
 }
 \section{The key lists in \strong{sim_X$} (e.g., sim_1$) include:}{
-\emph{\strong{Sim_X}} (X: sim # 1-100)
-\emph{\strong{obs}}: Simulated observations
-\emph{\strong{simulated_ll_jpn_cpue_YYY}}:
-\emph{\strong{simulated_XXX_lf_YYY}}:
-\emph{\strong{tagrel}}: Tag releases
-***process\link{tag_XXX}***: tag release in a given pseudo-year
-\emph{\strong{tagrecs}}: Simulated tag recapture data
-***observation\link{tag_recapture_XXX_in_YYY}***: tag recapture in a given pseudo-year from release cohort XXX
-\emph{\strong{layer}}
-\emph{\strong{base}}: 1 = on the water, 0 = on land
-\emph{\strong{cell}}: unique cell row and column numbers
-\emph{\strong{constant}}: 1
-\emph{\strong{latitude}}: latitude for each cell center
-\emph{\strong{longitude}}: longitude for each cell center
-\emph{\strong{region}}: IOTC YFT regions (R1a, R1b, R2, R3, R4, R5)
-\emph{\strong{sst}}: Sea Surface Temperature (see Dunn et al. 2020)
-\emph{\strong{clo}}: Chlorophyll (see Dunn et al. 2020)
-\emph{\strong{fishing_ff_YY}}: ff: fishery = ps, trol, bb, gill, ll, other, hand, YY = pseudo-year
+\emph{\strong{Sim_X}} (X: sim # 1-100)\preformatted{     ***obs***: Simulated observations
+     
+           ***simulated_ll_jpn_cpue_YYY***:
+           
+           ***simulated_XXX_lf_YYY***:
+           
+     ***tagrel***: Tag releases
+     
+           ***process[tag_XXX]***: tag release in a given pseudo-year
+           
+     ***tagrecs***: Simulated tag recapture data
+     
+           ***observation[tag_recapture_XXX_in_YYY]***: tag recapture in a given pseudo-year from release cohort XXX
+           
+     ***layer***
+     
+           ***base***: 1 = on the water, 0 = on land
+           
+           ***cell***: unique cell row and column numbers
+           
+           ***constant***: 1
+           
+           ***latitude***: latitude for each cell center
+           
+           ***longitude***: longitude for each cell center
+           
+           ***region***: IOTC YFT regions (R1a, R1b, R2, R3, R4, R5)
+           
+           ***sst***: Sea Surface Temperature (see Dunn et al. 2020)
+           
+           ***clo***: Chlorophyll (see Dunn et al. 2020)
+           
+           ***fishing_ff_YY***: ff: fishery = ps, trol, bb, gill, ll, other, hand, YY = pseudo-year
+}
 }
 
 \section{The lists in \strong{biol_dat} include:}{

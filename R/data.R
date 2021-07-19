@@ -416,23 +416,40 @@ NULL
 #' # The key lists in __sim_X$__ (e.g., sim_1$) include: 
 #' 
 #' ***Sim_X*** (X: sim # 1-100)
-#'          ***obs***: Simulated observations
-#'                ***simulated_ll_jpn_cpue_YYY***:
-#'                ***simulated_XXX_lf_YYY***:
-#'          ***tagrel***: Tag releases
-#'                ***process[tag_XXX]***: tag release in a given pseudo-year
-#'          ***tagrecs***: Simulated tag recapture data
-#'                ***observation[tag_recapture_XXX_in_YYY]***: tag recapture in a given pseudo-year from release cohort XXX
-#'          ***layer***
-#'                ***base***: 1 = on the water, 0 = on land
-#'                ***cell***: unique cell row and column numbers
-#'                ***constant***: 1
-#'                ***latitude***: latitude for each cell center
-#'                ***longitude***: longitude for each cell center
-#'                ***region***: IOTC YFT regions (R1a, R1b, R2, R3, R4, R5)
-#'                ***sst***: Sea Surface Temperature (see Dunn et al. 2020)
-#'                ***clo***: Chlorophyll (see Dunn et al. 2020)
-#'                ***fishing_ff_YY***: ff: fishery = ps, trol, bb, gill, ll, other, hand, YY = pseudo-year
+#' 
+#' \n# ***obs***: Simulated observations
+#'          
+#' \n# ***simulated_ll_jpn_cpue_YYY***:
+#'                
+#' \n# ***simulated_XXX_lf_YYY***:
+#'                
+#' ***tagrel***: Tag releases
+#'          
+#' ***process[tag_XXX]***: tag release in a given pseudo-year
+#'                
+#' ***tagrecs***: Simulated tag recapture data
+#'          
+#' ***observation[tag_recapture_XXX_in_YYY]***: tag recapture in a given pseudo-year from release cohort XXX
+#'                
+#' ***layer***
+#'          
+#' ***base***: 1 = on the water, 0 = on land
+#'                
+#' ***cell***: unique cell row and column numbers
+#'                
+#' ***constant***: 1
+#'                
+#' ***latitude***: latitude for each cell center
+#'                
+#' ***longitude***: longitude for each cell center
+#'                
+#' ***region***: IOTC YFT regions (R1a, R1b, R2, R3, R4, R5)
+#'                
+#' ***sst***: Sea Surface Temperature (see Dunn et al. 2020)
+#'                
+#' ***clo***: Chlorophyll (see Dunn et al. 2020)
+#'                
+#' ***fishing_ff_YY***: ff: fishery = ps, trol, bb, gill, ll, other, hand, YY = pseudo-year
 #' 
 #' # The lists in __biol_dat__ include:
 #' 
@@ -481,23 +498,41 @@ NULL
 #' # The key lists in __sim_X$__ (e.g., sim_1$) include: 
 #' 
 #' ***Sim_X*** (X: sim # 1-100)
+#' 
 #'          ***obs***: Simulated observations
+#'          
 #'                ***simulated_ll_jpn_cpue_YYY***:
+#'                
 #'                ***simulated_XXX_lf_YYY***:
+#'                
 #'          ***tagrel***: Tag releases
+#'          
 #'                ***process[tag_XXX]***: tag release in a given pseudo-year
+#'                
 #'          ***tagrecs***: Simulated tag recapture data
+#'          
 #'                ***observation[tag_recapture_XXX_in_YYY]***: tag recapture in a given pseudo-year from release cohort XXX
+#'                
 #'          ***layer***
+#'          
 #'                ***base***: 1 = on the water, 0 = on land
+#'                
 #'                ***cell***: unique cell row and column numbers
+#'                
 #'                ***constant***: 1
+#'                
 #'                ***latitude***: latitude for each cell center
+#'                
 #'                ***longitude***: longitude for each cell center
+#'                
 #'                ***region***: IOTC YFT regions (R1a, R1b, R2, R3, R4, R5)
+#'                
 #'                ***sst***: Sea Surface Temperature (see Dunn et al. 2020)
+#'                
 #'                ***clo***: Chlorophyll (see Dunn et al. 2020)
+#'                
 #'                ***fishing_ff_YY***: ff: fishery = ps, trol, bb, gill, ll, other, hand, YY = pseudo-year
+#'                
 #' 
 #' # The lists in __biol_dat__ include:
 #' 
@@ -546,23 +581,41 @@ NULL
 #' # The key lists in __sim_X$__ (e.g., sim_1$) include: 
 #'  
 #' ***Sim_X*** (X: sim # 1-100)
+#' 
 #'          ***obs***: Simulated observations
+#'          
 #'                ***simulated_ll_jpn_cpue_YYY***:
+#'                
 #'                ***simulated_XXX_lf_YYY***:
+#'                
 #'          ***tagrel***: Tag releases
+#'          
 #'                ***process[tag_XXX]***: tag release in a given pseudo-year
+#'                
 #'          ***tagrecs***: Simulated tag recapture data
+#'          
 #'                ***observation[tag_recapture_XXX_in_YYY]***: tag recapture in a given pseudo-year from release cohort XXX
+#'                
 #'          ***layer***
+#'          
 #'                ***base***: 1 = on the water, 0 = on land
+#'                
 #'                ***cell***: unique cell row and column numbers
+#'                
 #'                ***constant***: 1
+#'                
 #'                ***latitude***: latitude for each cell center
+#'                
 #'                ***longitude***: longitude for each cell center
+#'                
 #'                ***region***: IOTC YFT regions (R1a, R1b, R2, R3, R4, R5)
+#'                
 #'                ***sst***: Sea Surface Temperature (see Dunn et al. 2020)
+#'                
 #'                ***clo***: Chlorophyll (see Dunn et al. 2020)
+#'                
 #'                ***fishing_ff_YY***: ff: fishery = ps, trol, bb, gill, ll, other, hand, YY = pseudo-year
+#'                
 #' 
 #' # The lists in __biol_dat__ include:
 #' 

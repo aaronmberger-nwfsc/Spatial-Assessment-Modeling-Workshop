@@ -184,24 +184,41 @@ structured models beyond the one and four area aggregations already provided.</p
 
     <h2 class="hasAnchor" id="the-key-lists-in-sim-x-e-g-sim-include-"><a class="anchor" href="#the-key-lists-in-sim-x-e-g-sim-include-"></a>The key lists in <strong>sim_X$</strong> (e.g., sim_1$) include:</h2>
 
-    <p><em><strong>Sim_X</strong></em> (X: sim # 1-100)
-<em><strong>obs</strong></em>: Simulated observations
-<em><strong>simulated_ll_jpn_cpue_YYY</strong></em>:
-<em><strong>simulated_XXX_lf_YYY</strong></em>:
-<em><strong>tagrel</strong></em>: Tag releases
-***processtag_XXX***: tag release in a given pseudo-year
-<em><strong>tagrecs</strong></em>: Simulated tag recapture data
-***observationtag_recapture_XXX_in_YYY***: tag recapture in a given pseudo-year from release cohort XXX
-<em><strong>layer</strong></em>
-<em><strong>base</strong></em>: 1 = on the water, 0 = on land
-<em><strong>cell</strong></em>: unique cell row and column numbers
-<em><strong>constant</strong></em>: 1
-<em><strong>latitude</strong></em>: latitude for each cell center
-<em><strong>longitude</strong></em>: longitude for each cell center
-<em><strong>region</strong></em>: IOTC YFT regions (R1a, R1b, R2, R3, R4, R5)
-<em><strong>sst</strong></em>: Sea Surface Temperature (see Dunn et al. 2020)
-<em><strong>clo</strong></em>: Chlorophyll (see Dunn et al. 2020)
-<em><strong>fishing_ff_YY</strong></em>: ff: fishery = ps, trol, bb, gill, ll, other, hand, YY = pseudo-year</p>
+    <p><em><strong>Sim_X</strong></em> (X: sim # 1-100)</p><pre>     ***obs***: Simulated observations
+     
+           ***simulated_ll_jpn_cpue_YYY***:
+           
+           ***simulated_XXX_lf_YYY***:
+           
+     ***tagrel***: Tag releases
+     
+           ***process[tag_XXX]***: tag release in a given pseudo-year
+           
+     ***tagrecs***: Simulated tag recapture data
+     
+           ***observation[tag_recapture_XXX_in_YYY]***: tag recapture in a given pseudo-year from release cohort XXX
+           
+     ***layer***
+     
+           ***base***: 1 = on the water, 0 = on land
+           
+           ***cell***: unique cell row and column numbers
+           
+           ***constant***: 1
+           
+           ***latitude***: latitude for each cell center
+           
+           ***longitude***: longitude for each cell center
+           
+           ***region***: IOTC YFT regions (R1a, R1b, R2, R3, R4, R5)
+           
+           ***sst***: Sea Surface Temperature (see Dunn et al. 2020)
+           
+           ***clo***: Chlorophyll (see Dunn et al. 2020)
+           
+           ***fishing_ff_YY***: ff: fishery = ps, trol, bb, gill, ll, other, hand, YY = pseudo-year
+</pre>
+
     <h2 class="hasAnchor" id="the-lists-in-biol-dat-include-"><a class="anchor" href="#the-lists-in-biol-dat-include-"></a>The lists in <strong>biol_dat</strong> include:</h2>
 
     <p><em>M:</em> age varying natural mortality</p>
