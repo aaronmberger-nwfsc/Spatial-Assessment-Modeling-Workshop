@@ -23,3 +23,6 @@ For help troubleshooting pkgdown, github and a highly worthwhile 2021 NOAA RWork
 
 ### Bai Li, Christine Stawitz, Matthew Supernaw (NOAA-OST Modeling Team)
 For developing NOAA branding & color palettes
+
+### Ian Taylor, Kathryn Doering (NOAA-NWFSC r4ss team)
+For assistance/troubleshooting with r4ss
