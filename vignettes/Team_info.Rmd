@@ -26,6 +26,6 @@ library(SpatialAssessmentModelingWorkshop)
 | Team Recap-conditioned | Recapture-conditioned Model | Richard McGarvey (Richard.McGarvey@sa.gov.au) | Richard McGarvey (SARDI), John Feenestra (SARDI) | Y | ? |
 | Team CASAL2 | CASAL2 | Craig Marsh (craig.marsh10@gmail.com) | Craig Marsh (University of Aukland/NIWA), Teresa A'Mar (NIWA), Arnaud Gruss (NIWA) | Y | August 2021 - ...|
 | Team StPM | StPM (Cao et al)| Jie Cao / Maxime Olmos (jcao22@ncsu.edu / maxime.olmos@noaa.gov) | Jie Cao (NCSU), Maxime Olmos (UW/NOAA) | Y | ? |
-| Team SPASAM | SPASAM | Jon Deroba (jonathan.deroba@noaa.gov) | John Deroba (NOAA-NEFSC), Brian Langseth (NOAA-NWFSC), et al | Y | ? | 
+| Team SPASAM | SPASAM | Jon Deroba (jonathan.deroba@noaa.gov) | Jon Deroba (NOAA-NEFSC), Brian Langseth (NOAA-NWFSC), et al | Y | ? | 
 | Team MAS | MAS | Matthew Supernaw (matthew.supernaw@noaa.gov) | Matthew Supernaw (NOAA-OST), Jon Brodziak (NOAA-PIFSC) | Y | ? |
 | Team MFCL | MFCL | Nicholas Ducharme-Barthe (nicholasd@spc.int) | Nicholas Ducharme-Barthe (SPC), John Hampton (SPC), Matt Vincent (NOAA-SEFSC), et al. | Y | October 2021-March 2022 |
