@@ -3,7 +3,7 @@
 \docType{data}
 \name{YFT_221cell_observations_67_100}
 \alias{YFT_221cell_observations_67_100}
-\title{SUPPLEMENTAL DATASET: Fully spatial simulated datasets
+\title{YFT SUPPLEMENTAL DATASET: Fully spatial simulated datasets
 (Simulation #: 67-100)}
 \format{
 A data frame 'YFT_221cell_observations_67_100' with variables:
@@ -38,7 +38,7 @@ structured models beyond the one and four area aggregations already provided.
 
 ***observation\link{tag_recapture_XXX_in_YYY}***: tag recapture in a given pseudo-year from release cohort XXX
 
-\emph{\strong{layer}} : Spatial grids defined within 'layer'
+\emph{\strong{layer}} : Spatial grids defined within 'layer' (including cells, latitude, longitude for each grid cell, and catch data for each fishery)
 
 \emph{\strong{base}}: 1 = on the water, 0 = on land
 
@@ -56,7 +56,7 @@ structured models beyond the one and four area aggregations already provided.
 
 \emph{\strong{clo}}: Chlorophyll (see Dunn et al. 2020)
 
-\emph{\strong{fishing_ff_YY}}: ff: fishery = ps, trol, bb, gill, ll, other, hand, YY = pseudo-year
+\emph{\strong{fishing_ff_YY}}: ff: THIS IS THE CATCH DATA: fishery = ps, trol, bb, gill, ll, other, hand, YY = pseudo-year
 }
 
 \section{The lists in \strong{biol_dat} include:}{

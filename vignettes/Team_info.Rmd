@@ -1,0 +1,31 @@
+---
+title: "Team info"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Team_info}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(SpatialAssessmentModelingWorkshop)
+```
+
+| Group name | Model/Software | Point of Contact (& email) | Group participants | Confirmed participation (Y/N) | Group timeline |
+|:----------:|:------------:|:-----------:|:----------:|:------------:|:-----------:|
+| Team SS - IOTC | SS3 | Massimiliano Cardinale (massimiliano.cardinale@slu.se) | Massimiliano Cardinale (SLU), Rick Methot (NOAA), Dan Fu (IOTC), et al. | Y | ? |
+| Team SS - ICES | SS3 | Maria Grazia Pennino (grazia.pennino@ieo.es)| Maria Grazia Pennino (IEO), Francisco Izquierdo (IEO), Santiago Cerviño (IEO), Marta Cousido (IEO), Giancarlo Correa (OSU) | Y | October 2021 - ... |
+| Team SS - IATTC | SS3*VAST | Mark Maunder (mmaunder@iattc.org) | Mark Maunder (IATTC), Haikun Xu (IATTC), Carolina Minte-Vera (IATTC) | Y | August 2021 - ... |
+| Team Recap-conditioned | Recapture-conditioned Model | Richard McGarvey (Richard.McGarvey@sa.gov.au) | Richard McGarvey (SARDI), John Feenestra (SARDI) | Y | ? |
+| Team CASAL2 | CASAL2 | Craig Marsh (craig.marsh10@gmail.com) | Craig Marsh (University of Aukland/NIWA), Teresa A'Mar (NIWA), Arnaud Gruss (NIWA) | Y | August 2021 - ...|
+| Team StPM | StPM (Cao et al)| Jie Cao / Maxime Olmos (jcao22@ncsu.edu / maxime.olmos@noaa.gov) | Jie Cao (NCSU), Maxime Olmos (UW/NOAA) | Y | ? |
+| Team SPASAM | SPASAM | John Deroba (johnathan.deroba@noaa.gov) | John Deroba (NOAA-NEFSC), Brian Langseth (NOAA-NWFSC), et al | Y | ? | 
+| Team MAS | MAS | Matthew Supernaw (matthew.supernaw@noaa.gov) | Matthew Supernaw (NOAA-OST), Jon Brodziak (NOAA-PIFSC) | Y | ? |
+| Team MFCL | MFCL | Nicholas Ducharme-Barthe (nicholasd@spc.int) | Nicholas Ducharme-Barthe (SPC), John Hampton (SPC), Matt Vincent (NOAA-SEFSC), et al. | Y | October 2021-March 2022 |

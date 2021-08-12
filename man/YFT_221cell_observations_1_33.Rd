@@ -3,7 +3,7 @@
 \docType{data}
 \name{YFT_221cell_observations_1_33}
 \alias{YFT_221cell_observations_1_33}
-\title{SUPPLEMENTAL DATASET: Fully spatial simulated datasets
+\title{YFT SUPPLEMENTAL DATASET: Fully spatial simulated datasets
 (Simulation #: 1-33)}
 \format{
 A data frame 'YFT_221cell_observations_1_33' with variables:

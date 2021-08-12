@@ -3,7 +3,7 @@
 \docType{data}
 \name{YFT_SRD_4A_4}
 \alias{YFT_SRD_4A_4}
-\title{START HERE: 4 area single representative dataset}
+\title{START HERE (YFT): 4 area single representative dataset}
 \format{
 A data frame 'YFT_SRD_4A_4.RData' with variables:
 \describe{

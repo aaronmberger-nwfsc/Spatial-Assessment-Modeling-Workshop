@@ -17,22 +17,29 @@ navbar:
         href: articles/Analyst_guidance.html
       - text: YFT OM Description
         href: articles/OM_description_YFT.html
+      #- text: TOA OM Description
+       # href: articles/TOA_OM_description.html
       - text: Relevant Literature Files
         href: https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/tree/main/docs/articles/Relevant_literature_files
+      - text: Participating Team Info
+        href: articles/Team_info.html
       - text: Acknowledgements
         href: articles/Acknowledgements.html
         
     reference:
       title: Datasets
       text: Datasets
-      contents: 
-      - YFT_SRD_1A_4
-      - YFT_SRD_4A_4
-      - YFT_1area_observations_1_100
-      - YFT_4area_observations_1_100
-      - YFT_221cell_observations_1_33
-      - YFT_221cell_observations_34_66
-      - YFT_221cell_observations_67_100
+      contents:
+        - YFT_SRD_1A_4
+        - YFT_SRD_4A_4
+        - YFT_1area_observations_1_100
+        - YFT_4area_observations_1_100
+        - YFT_221cell_observations_1_33
+        - YFT_221cell_observations_34_66
+        - YFT_221cell_observations_67_100
+        #- TOA_simulations_cells
+        #- TOA_simulations_1region
+        #- TOA_simulations_4regions
       icon: fa fa-fish fa-lg
       href: reference/index.html
 
@@ -51,3 +58,14 @@ navbar:
       text: Github
       icon: fa fa-github fa-lg
       href: https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/
+
+  reference:
+      - title: YFT
+        contents:
+        - contains("YFT")
+      - title: TOA
+        contents:
+        - contains("TOA")
+        
+        
+        

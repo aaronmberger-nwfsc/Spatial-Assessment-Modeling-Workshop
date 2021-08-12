@@ -1,4 +1,4 @@
-#' START HERE: 1 area single representative dataset
+#' START HERE (YFT): 1 area single representative dataset
 #'
 #' A single representative dataset (SRD) aggregated at the 1 area scale. The chosen dataset is simulation #4.
 #' List objects include aggregated catch, cpue, length frequencies, and tagging data (along with biological data).
@@ -98,7 +98,7 @@
 #' 
 NULL
 
-#' START HERE: 4 area single representative dataset
+#' START HERE (YFT): 4 area single representative dataset
 #'
 #' A single representative dataset aggregated at the 4 area scale. The chosen dataset is simulation #4.
 #' List objects include aggregated catch, cpue, length frequencies, and tagging data (along with biological data).
@@ -196,7 +196,7 @@ NULL
 #' 
 NULL
 
-#' MAIN DATASET: 100 simulated YFT datasets at the 1 area scale
+#' YFT MAIN DATASET: 100 simulated YFT datasets at the 1 area scale
 #'
 #' This R data file contains 100 data sets for a one area YFT model.  
 #' 100 simulations of the YFT 1 area aggregated catch, cpue, length frequencies, and tagging data (along with biological data).
@@ -294,7 +294,7 @@ NULL
 #' 
 NULL
 
-#' MAIN DATASET: 100 simulated YFT datasets at the 4 area scale
+#' YFT MAIN DATASET: 100 simulated YFT datasets at the 4 area scale
 #'
 #' This R data file contains 100 data sets for a four area YFT model.  
 #' 100 simulations of the YFT 4 area aggregated catch, cpue, length frequencies, and tagging data (along with biological data).
@@ -394,7 +394,7 @@ NULL
 #' head(biol_dat)
 NULL
 
-#' SUPPLEMENTAL DATASET: Fully spatial simulated datasets 
+#' YFT SUPPLEMENTAL DATASET: Fully spatial simulated datasets 
 #' (Simulation #: 1-33)
 #'
 #'This R data file contains 1-33 simulated data sets at the 221 5x5 gird cell level, which 
@@ -476,7 +476,7 @@ NULL
 #' head(sim_1$obs$simulated_cpue_ll_jpn_86$data$obs)
 NULL
 
-#' SUPPLEMENTAL DATASET: Fully spatial simulated datasets 
+#' YFT SUPPLEMENTAL DATASET: Fully spatial simulated datasets 
 #' (Simulation #: 34_66)
 #'
 #'This R data file contains 34-66 simulated data sets at the 221 5x5 grid cell level, which 
@@ -558,7 +558,7 @@ NULL
 #' head(sim_34$obs$simulated_cpue_ll_jpn_86$data$obs)
 NULL
 
-#' SUPPLEMENTAL DATASET: Fully spatial simulated datasets 
+#' YFT SUPPLEMENTAL DATASET: Fully spatial simulated datasets 
 #' (Simulation #: 67-100)
 #'
 #'This R data file contains 67-100 simulated data sets at the 221 5x5 grid cell level, which 
@@ -593,7 +593,7 @@ NULL
 #' 
 #' ***observation[tag_recapture_XXX_in_YYY]***: tag recapture in a given pseudo-year from release cohort XXX
 #'                
-#' ***layer*** : Spatial grids defined within 'layer'
+#' ***layer*** : Spatial grids defined within 'layer' (including cells, latitude, longitude for each grid cell, and catch data for each fishery)
 #'          
 #' ***base***: 1 = on the water, 0 = on land
 #'                
@@ -611,7 +611,7 @@ NULL
 #'                
 #' ***clo***: Chlorophyll (see Dunn et al. 2020)
 #'                
-#' ***fishing_ff_YY***: ff: fishery = ps, trol, bb, gill, ll, other, hand, YY = pseudo-year
+#' ***fishing_ff_YY***: ff: THIS IS THE CATCH DATA: fishery = ps, trol, bb, gill, ll, other, hand, YY = pseudo-year
 #' 
 #' # The lists in __biol_dat__ include:
 #' 
@@ -638,3 +638,4 @@ NULL
 #' data('YFT_221cell_observations_67_100')
 #' head(sim_67$obs$simulated_cpue_ll_jpn_86$data$obs)
 NULL
+

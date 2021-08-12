@@ -10,7 +10,8 @@ Authors@R: c(
     person(given="Patrick", family="Lynch", email="patrick.lynch@noaa.gov"),
     person(given="Jeremy", family="Mckenzie", email="jeremy.mckenzie@niwa.co.nz"),
     person(given="Sophie", family="Mormede", email="sophishconsulting@gmail.com"),
-    person(given="Jennifer", family="Devine", email="jennifer.devine@niwa.co.nz")
+    person(given="Jennifer", family="Devine", email="jennifer.devine@niwa.co.nz"),
+    person(given="Craig", family="Marsh", email="craig.marsh10@gmail.com")
   )
 Maintainer: Caren Barcelo <caren.barcelo@noaa.gov>
 Description: The main feature of the workshop will be a spatial simulation experiment, which brings together 	assessment analysts and spatial stock assessment software from across the globe. The simulation 	experiment is designed to elicit feedback on the existing suite of spatial stock assessment packages, while comparing approaches across platforms. By exploring capabilities across spatial assessment models, the study will help summarize existing spatial capabilities, identify limitations and research needs, and determine components to incorporate in the next generation of spatial stock assessment models. Additionally, discussions of each analyst's model building process will help to create guidance on best practices for developing spatial models, including how to identify when spatial models are warranted (e.g., through residual analysis)
