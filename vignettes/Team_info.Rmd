@@ -29,3 +29,4 @@ library(SpatialAssessmentModelingWorkshop)
 | Team SPASAM | SPASAM | Jon Deroba (jonathan.deroba@noaa.gov) | Jon Deroba (NOAA-NEFSC), Brian Langseth (NOAA-NWFSC), et al | Y | ? | 
 | Team MAS | MAS | Matthew Supernaw (matthew.supernaw@noaa.gov) | Matthew Supernaw (NOAA-OST), Jon Brodziak (NOAA-PIFSC) | Y | ? |
 | Team MFCL | MFCL | Nicholas Ducharme-Barthe (nicholasd@spc.int) | Nicholas Ducharme-Barthe (SPC), John Hampton (SPC), Matt Vincent (NOAA-SEFSC), et al. | Y | October 2021-March 2022 |
+| Team GADGET | GADGET | Bjarki Elvarsson (bjarki.elvarsson@hafogvatn.is) | Bjarki Elvarson (HI), Will Butler (IMR), Alfonso Perez Rodriguez (IMR), Valerio Bartolino (SLU) | Y | October 2021 - ... |
