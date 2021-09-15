@@ -1,6 +1,6 @@
 Package: SpatialAssessmentModelingWorkshop
 Title: Spatial Stock Assessment Simulation Experiment Project
-Version: 0.2
+Version: 0.3
 Authors@R: c(
     person(given="Caren", family="Barcelo", email="caren.barcelo@noaa.gov", role = c("aut", "cre")),
     person(given="Aaron", family="Berger", email="aaron.berger@noaa.gov"),
