@@ -18,15 +18,15 @@ knitr::opts_chunk$set(
 library(SpatialAssessmentModelingWorkshop)
 ```
 
-| Group name | Model/Software | Point of Contact (& email) | Group participants | Confirmed participation (Y/N) | Group timeline |
+|  Point of Contact (& email) | Model/Software | Group participants | Confirmed participation (Y/N) | Group timeline | Approach |
 |:----------:|:------------:|:-----------:|:----------:|:------------:|:-----------:|
-| Team SS - IOTC | SS3 | Massimiliano Cardinale (massimiliano.cardinale@slu.se) | Massimiliano Cardinale (SLU), Rick Methot (NOAA), Dan Fu (IOTC), et al. | Y | ? |
-| Team SS - ICES | SS3 | Maria Grazia Pennino (grazia.pennino@ieo.es)| Maria Grazia Pennino (IEO), Francisco Izquierdo (IEO), Santiago Cerviño (IEO), Marta Cousido (IEO), Giancarlo Correa (OSU) | Y | October 2021 - ... |
-| Team SS - IATTC | SS3*VAST | Mark Maunder (mmaunder@iattc.org) | Mark Maunder (IATTC), Haikun Xu (IATTC), Carolina Minte-Vera (IATTC) | Y | August 2021 - ... |
-| Team Recap-conditioned | Recapture-conditioned Model | Richard McGarvey (Richard.McGarvey@sa.gov.au) | Richard McGarvey (SARDI), John Feenestra (SARDI) | Y | ? |
-| Team CASAL2 | CASAL2 | Craig Marsh (craig.marsh10@gmail.com) | Craig Marsh (University of Aukland/NIWA), Teresa A'Mar (NIWA), Arnaud Gruss (NIWA) | Y | August 2021 - ...|
-| Team StPM | StPM (Cao et al)| Jie Cao / Maxime Olmos (jcao22@ncsu.edu / maxime.olmos@noaa.gov) | Jie Cao (NCSU), Maxime Olmos (UW/NOAA) | Y | ? |
-| Team SPASAM | SPASAM | Jon Deroba (jonathan.deroba@noaa.gov) | Jon Deroba (NOAA-NEFSC), Brian Langseth (NOAA-NWFSC), et al | Y | ? | 
-| Team MAS | MAS | Matthew Supernaw (matthew.supernaw@noaa.gov) | Matthew Supernaw (NOAA-OST), Jon Brodziak (NOAA-PIFSC) | Y | ? |
-| Team MFCL | MFCL | Nicholas Ducharme-Barthe (nicholasd@spc.int) | Nicholas Ducharme-Barthe (SPC), John Hampton (SPC), Matt Vincent (NOAA-SEFSC), et al. | Y | October 2021-March 2022 |
-| Team GADGET | GADGET | Bjarki Elvarsson (bjarki.elvarsson@hafogvatn.is) | Bjarki Elvarson (HI), Will Butler (HI), Alfonso Perez Rodriguez (IMR), Valerio Bartolino (SLU) | Y | October 2021 - ... |
+| Massimiliano Cardinale (massimiliano.cardinale@slu.se) | SS3 | Massimiliano Cardinale (SLU), Rick Methot (NOAA), Dan Fu (IOTC), et al. | Y | ? | |
+| Maria Grazia Pennino (grazia.pennino@ieo.es) | SS3 | Maria Grazia Pennino (IEO), Francisco Izquierdo (IEO), Santiago Cerviño (IEO), Marta Cousido (IEO), Giancarlo Correa (OSU) | Y | October 2021 - ... | |
+| Mark Maunder (mmaunder@iattc.org) | SS3*VAST | Mark Maunder (IATTC), Haikun Xu (IATTC), Carolina Minte-Vera (IATTC) | Y | August 2021 - ... | Using VAST, construct spatial areas-as-fleets from spatial LF data to then use in SS3 |
+| Richard McGarvey (Richard.McGarvey@sa.gov.au) | Recapture-conditioned Model | Richard McGarvey (SARDI), John Feenestra (SARDI) | Y | ? |
+|  Craig Marsh (craig.marsh10@gmail.com) | CASAL2 | Craig Marsh (University of Aukland/NIWA), Teresa A'Mar (NIWA), Arnaud Gruss (NIWA) | Y | August 2021 - March 2022 | |
+| Jie Cao / Maxime Olmos (jcao22@ncsu.edu / maxime.olmos@noaa.gov) | StPM (Cao et al) | Jie Cao (NCSU), Maxime Olmos (UW/NOAA) | Y | ? | |
+| Jon Deroba (jonathan.deroba@noaa.gov) | SPASAM | Jon Deroba (NOAA-NEFSC), Brian Langseth (NOAA-NWFSC), et al | Y | ? | |
+| Matthew Supernaw (matthew.supernaw@noaa.gov) | MAS | Matthew Supernaw (NOAA-OST), Jon Brodziak (NOAA-PIFSC) | Y | ? | |
+| Nicholas Ducharme-Barthe (nicholasd@spc.int) | MFCL | Nicholas Ducharme-Barthe (SPC), John Hampton (SPC), Matt Vincent (NOAA-SEFSC), et al. | Y | October 2021-March 2022 | |
+| Bjarki Elvarsson (bjarki.elvarsson@hafogvatn.is) | GADGET | Bjarki Elvarson (HI), Will Butler (HI), Alfonso Perez Rodriguez (IMR), Valerio Bartolino (SLU) | Y | October 2021 - ... | |
