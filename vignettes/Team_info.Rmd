@@ -20,7 +20,7 @@ library(SpatialAssessmentModelingWorkshop)
 
 |  Point of Contact (& email) | Model/Software | Group participants | Confirmed participation (Y/N) | Group timeline | Approach |
 |:----------:|:------------:|:-----------:|:----------:|:------------:|:-----------:|
-| Massimiliano Cardinale (massimiliano.cardinale@slu.se) | SS3 | Massimiliano Cardinale (SLU), Rick Methot (NOAA), Dan Fu (IOTC), Katheryn Doering (Caelum/NOAA-NWFSC), Agurtzane Urtizberea (AZTI), et al. | Y | ? | |
+| Massimiliano Cardinale (massimiliano.cardinale@slu.se) | SS3 | Massimiliano Cardinale (SLU), Rick Methot (NOAA), Dan Fu (IOTC), Kathryn Doering (Caelum/NOAA-NWFSC), Agurtzane Urtizberea (AZTI), et al. | Y | ? | |
 | Maria Grazia Pennino (grazia.pennino@ieo.es) | SS3 | Maria Grazia Pennino (IEO), Francisco Izquierdo (IEO), Santiago Cerviño (IEO), Marta Cousido (IEO), Giancarlo Correa (OSU) | Y | October 2021 - ... | |
 | Mark Maunder (mmaunder@iattc.org) | SS3*VAST | Mark Maunder (IATTC), Haikun Xu (IATTC), Carolina Minte-Vera (IATTC) | Y | August 2021 - ... | |
 | Richard McGarvey (Richard.McGarvey@sa.gov.au) | Recapture-conditioned Model | Richard McGarvey (SARDI), John Feenestra (SARDI) | Y | ? |
