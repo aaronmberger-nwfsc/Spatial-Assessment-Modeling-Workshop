@@ -20,11 +20,11 @@ library(SpatialAssessmentModelingWorkshop)
 
 |  Point of Contact (& email) | Model/Software | Group participants | Confirmed participation (Y/N) | Group timeline | Approach |
 |:----------:|:------------:|:-----------:|:----------:|:------------:|:-----------:|
-| Massimiliano Cardinale (massimiliano.cardinale@slu.se) | SS3 | Massimiliano Cardinale (SLU), Rick Methot (NOAA), Dan Fu (IOTC), et al. | Y | ? | |
+| Massimiliano Cardinale (massimiliano.cardinale@slu.se) | SS3 | Massimiliano Cardinale (SLU), Rick Methot (NOAA), Dan Fu (IOTC), Katheryn Doering (Caelum/NOAA-NWFSC), Agurtzane Urtizberea (AZTI), et al. | Y | ? | |
 | Maria Grazia Pennino (grazia.pennino@ieo.es) | SS3 | Maria Grazia Pennino (IEO), Francisco Izquierdo (IEO), Santiago Cerviño (IEO), Marta Cousido (IEO), Giancarlo Correa (OSU) | Y | October 2021 - ... | |
-| Mark Maunder (mmaunder@iattc.org) | SS3*VAST | Mark Maunder (IATTC), Haikun Xu (IATTC), Carolina Minte-Vera (IATTC) | Y | August 2021 - ... | Using VAST, construct spatial areas-as-fleets from spatial LF data to then use in SS3 |
+| Mark Maunder (mmaunder@iattc.org) | SS3*VAST | Mark Maunder (IATTC), Haikun Xu (IATTC), Carolina Minte-Vera (IATTC) | Y | August 2021 - ... | |
 | Richard McGarvey (Richard.McGarvey@sa.gov.au) | Recapture-conditioned Model | Richard McGarvey (SARDI), John Feenestra (SARDI) | Y | ? |
-|  Craig Marsh (craig.marsh10@gmail.com) | CASAL2 | Craig Marsh (University of Aukland/NIWA), Teresa A'Mar (NIWA), Arnaud Gruss (NIWA) | Y | August 2021 - March 2022 | |
+|  Craig Marsh (craig.marsh@niwa.co.nz) | CASAL2 | Craig Marsh (University of Aukland/NIWA), Teresa A'Mar (NIWA), Arnaud Gruss (NIWA) | Y | August 2021 - March 2022 | |
 | Jie Cao / Maxime Olmos (jcao22@ncsu.edu / maxime.olmos@noaa.gov) | StPM (Cao et al) | Jie Cao (NCSU), Maxime Olmos (UW/NOAA) | Y | ? | |
 | Jon Deroba (jonathan.deroba@noaa.gov) | SPASAM | Jon Deroba (NOAA-NEFSC), Brian Langseth (NOAA-NWFSC), et al | Y | ? | |
 | Matthew Supernaw (matthew.supernaw@noaa.gov) | MAS | Matthew Supernaw (NOAA-OST), Jon Brodziak (NOAA-PIFSC) | Y | ? | |
