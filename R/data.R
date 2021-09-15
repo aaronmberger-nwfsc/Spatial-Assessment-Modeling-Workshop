@@ -3,17 +3,17 @@
 #' A single representative dataset (SRD) aggregated at the 1 area scale. The chosen dataset is simulation #4.
 #' List objects include aggregated catch, cpue, length frequencies, and tagging data (along with biological data).
 #'
-#' @format A data frame 'YFT_SRD_1A_4.RData' with variables:
+#' @format A data frame 'YFT_SRD_1A_4_v2.RData' with variables:
 #' \describe{
 #'   \item{dat_1A_X}{Simulated aggregated 1 area datasets for YFT; X=1:100}
 #'   \item{biol_dat}{Biological data for YFT}
 #' }
 #' 
-#' @name YFT_SRD_1A_4
+#' @name YFT_SRD_1A_4_v2
 #' @docType data
 #' @details 
 #' 
-#' # The key lists in __YFT_SRD_1A_4$__ (e.g., dat_1A_4$lencomp) include: 
+#' # The key lists in __YFT_SRD_1A_4_v2$__ (e.g., dat_1A_4$lencomp) include: 
 #' 
 #' ***lencomp***: (list) 1 area dataframe of aggregated length frequencies by length bin with columns corresponding to pseudo-year (Yr), season(Seas), fleet/survey index (FltSvy), sex (Gender),  partition – length data come from all fish encountered (Part=0), number of lengths sampled (Nsamp), and the set of length bins (purse seine only)
 #' 
@@ -90,9 +90,11 @@
 #' 
 #' ***b***: length-weight shape parameter
 #' 
-#' @usage data('YFT_SRD_1A_4')
+#' ***LenAge_cv***: length-age coefficient of variability
+#' 
+#' @usage data('YFT_SRD_1A_4_v2')
 #' @examples 
-#' data('YFT_SRD_1A_4')
+#' data('YFT_SRD_1A_4_v2')
 #' head(dat_1A_4$catch)
 #' head(biol_dat)
 #' 
@@ -103,27 +105,27 @@ NULL
 #' A single representative dataset aggregated at the 4 area scale. The chosen dataset is simulation #4.
 #' List objects include aggregated catch, cpue, length frequencies, and tagging data (along with biological data).
 #'
-#' @format A data frame 'YFT_SRD_4A_4.RData' with variables:
+#' @format A data frame 'YFT_SRD_4A_4_v2.RData' with variables:
 #' \describe{
 #'   \item{dat_4A_X}{Simulated aggregated 4 area datasets for YFT}
 #'   \item{biol_dat}{Biological data for YFT}
 #' }
 #' 
-#' @name YFT_SRD_4A_4
+#' @name YFT_SRD_4A_4_v2
 #' @docType data
 #' @details 
 #' 
-#' # The key lists in __YFT_SRD_4A_4$__ (e.g., dat_4A_4$lencomp) include: 
+#' # The key lists in __YFT_SRD_4A_4_v2$__ (e.g., dat_4A_4$lencomp) include: 
 #' 
-#' ***lencomp***: (list) 1 area dataframe of aggregated length frequencies by length bin with columns corresponding to pseudo-year (Yr), season(Seas), fleet/survey index (FltSvy), sex (Gender),  partition – length data come from all fish encountered (Part=0), number of lengths sampled (Nsamp), and the set of length bins (purse seine only)
+#' ***lencomp***: (list) 4 area dataframe of aggregated length frequencies by length bin with columns corresponding to pseudo-year (Yr), season(Seas), fleet/survey index (FltSvy), sex (Gender),  partition – length data come from all fish encountered (Part=0), number of lengths sampled (Nsamp), and the set of length bins (purse seine only)
 #' 
-#' ***catch***: (list) 1 area dataframe of catch by fishery, including pseudo-year (year), and    season (seas)
+#' ***catch***: (list) 4 area dataframe of catch by fishery, including pseudo-year (year), and    season (seas)
 #' 
-#' ***CPUE/cpu***: (list) 1 area cpue with columns for pseudo-year (year), season (seas), cpue (cpu), standard deviation associated with lognormal error in cpue (cv), and survey index (index); note that CPUE is for longline only
+#' ***CPUE/cpu***: (list) 4 area cpue with columns for pseudo-year (year), season (seas), cpue (cpu), standard deviation associated with lognormal error in cpue (cv), and survey index (index); note that CPUE is for longline only
 #' 
-#' ***tag_releases***: 1 area tag release data with columns corresponding to generic tag release event number (tg), area of release (reg), pseudo-year (yr), season (season), sex (Gender), age (age), and number of releases (nrel) adjusted for initial tag mortality 
+#' ***tag_releases***: 4 area tag release data with columns corresponding to generic tag release event number (tg), area of release (reg), pseudo-year (yr), season (season), sex (Gender), age (age), and number of releases (nrel) adjusted for initial tag mortality 
 #' 
-#' ***tag_recaps***: 1 area tag recapture data with columns corresponding to generic tag release event number (tg), pseudo-year (yr), season (season), fleet index (fleet), and the number of recaptures (recaps)
+#' ***tag_recaps***: 4 area tag recapture data with columns corresponding to generic tag release event number (tg), pseudo-year (yr), season (season), fleet index (fleet), and the number of recaptures (recaps)
 #' 
 #' 
 #' # Explanations of list object items in the provided data files that analysts may find additionally useful. 
@@ -188,9 +190,11 @@ NULL
 #' 
 #' ***b***: length-weight shape parameter
 #' 
-#' @usage data('YFT_SRD_4A_4')
+#' ***LenAge_cv***: length-age coefficient of variability
+#' 
+#' @usage data('YFT_SRD_4A_4_v2')
 #' @examples 
-#' data('YFT_SRD_4A_4')
+#' data('YFT_SRD_4A_4_v2')
 #' head(dat_4A_4$catch)
 #' head(biol_dat)
 #' 
@@ -201,17 +205,17 @@ NULL
 #' This R data file contains 100 data sets for a one area YFT model.  
 #' 100 simulations of the YFT 1 area aggregated catch, cpue, length frequencies, and tagging data (along with biological data).
 #'
-#' @format A data frame 'YFT_1area_observations_1_100.RData' with variables:
+#' @format A data frame 'YFT_1area_observations_1_100_v2.Rdata' with variables:
 #' \describe{
 #'   \item{dat_1A_X}{Simulated aggregated 1 area datasets for YFT; X=1:100}
 #'   \item{biol_dat}{Biological data for YFT}
 #' }
 #' 
-#' @name YFT_1area_observations_1_100
+#' @name YFT_1area_observations_1_100_v2
 #' @docType data
 #' @details
 #' 
-#'  # The key lists in __YFT_1area_observations_1_100$__ (e.g., dat_1A_1$lencomp) include: 
+#'  # The key lists in __YFT_1area_observations_1_100_v2$__ (e.g., dat_1A_1$lencomp) include: 
 #' 
 #' ***lencomp***: (list) 1 area dataframe of aggregated length frequencies by length bin with columns corresponding to pseudo-year (Yr), season(Seas), fleet/survey index (FltSvy), sex (Gender),  partition – length data come from all fish encountered (Part=0), number of lengths sampled (Nsamp), and the set of length bins (purse seine only)
 #' 
@@ -286,9 +290,11 @@ NULL
 #' 
 #' ***b***: length-weight shape parameter
 #' 
-#' @usage data('YFT_1area_observations_1_100')
+#' ***LenAge_cv***: length-age coefficient of variability
+#' 
+#' @usage data('YFT_1area_observations_1_100_v2')
 #' @examples 
-#' data('YFT_1area_observations_1_100')
+#' data('YFT_1area_observations_1_100_v2')
 #' head(dat_1A_1$catch)
 #' head(biol_dat)
 #' 
@@ -299,19 +305,19 @@ NULL
 #' This R data file contains 100 data sets for a four area YFT model.  
 #' 100 simulations of the YFT 4 area aggregated catch, cpue, length frequencies, and tagging data (along with biological data).
 #'
-#' @format A data frame 'YFT_4area_observations_1_100.RData' with variables:
+#' @format A data frame 'YFT_4area_observations_1_100_v2.RData' with variables:
 #' \describe{
 #'   \item{dat_4A_X}{Simulated aggregated 4 area datasets for YFT; X=1:100}
 #'   \item{biol_dat}{Biological data for YFT}
 #' }
 #' 
-#' @name YFT_4area_observations_1_100
+#' @name YFT_4area_observations_1_100_v2
 #' @docType data
 #' @details 
 #' 
-#' # The key lists in __YFT_4area_observations_1_100$__ (e.g., dat_4A_4$lencomp) include: 
+#' # The key lists in __YFT_4area_observations_1_100_v2$__ (e.g., dat_4A_4$lencomp) include: 
 #' 
-#' # The key lists in __YFT_SRD_4A_4$__ (e.g., dat_4A_4$lencomp) include: 
+#' # The key lists in __YFT_SRD_1A_4_v2$__ (e.g., dat_4A_4$lencomp) include: 
 #' 
 #' ***lencomp***: (list) 1 area dataframe of aggregated length frequencies by length bin with columns corresponding to pseudo-year (Yr), season(Seas), fleet/survey index (FltSvy), sex (Gender),  partition – length data come from all fish encountered (Part=0), number of lengths sampled (Nsamp), and the set of length bins (purse seine only)
 #' 
@@ -386,10 +392,12 @@ NULL
 #' 
 #' ***b***: length-weight shape parameter
 #' 
-#' @usage data('YFT_4area_observations_1_100')
+#' ***LenAge_cv***: length-age coefficient of variability
+#' 
+#' @usage data('YFT_4area_observations_1_100_v2')
 #' 
 #' @examples 
-#' data('YFT_4area_observations_1_100')
+#' data('YFT_4area_observations_1_100_v2')
 #' head(dat_4A_1$catch)
 #' head(biol_dat)
 NULL
@@ -402,13 +410,13 @@ NULL
 #'information and in a usable format if participants wish to develop spatially 
 #'structured models beyond the one and four area aggregations already provided.
 #'
-#' @format A data frame 'YFT_221cell_observations_1_33' with variables:
+#' @format A data frame 'YFT_221cell_observations_1_33_v2' with variables:
 #' \describe{
 #'   \item{sim_1}{Simulated aggregated 1 area datasets for YFT; Simulation #1-33}
 #'   \item{biol_dat}{Biological data for YFT}
 #' }
 #' 
-#' @name YFT_221cell_observations_1_33
+#' @name YFT_221cell_observations_1_33_v2
 #' @docType data
 #' @details 
 #' 
@@ -470,9 +478,11 @@ NULL
 #' 
 #' ***b***: length-weight shape parameter
 #' 
-#' @usage data('YFT_221cell_observations_1_33')
+#' ***LenAge_cv***: length-age coefficient of variability
+#' 
+#' @usage data('YFT_221cell_observations_1_33_v2')
 #' @examples 
-#' data('YFT_221cell_observations_1_33')
+#' data('YFT_221cell_observations_1_33_v2')
 #' head(sim_1$obs$simulated_cpue_ll_jpn_86$data$obs)
 NULL
 
@@ -484,13 +494,13 @@ NULL
 #'information and in a usable format if participants wish to develop spatially 
 #'structured models beyond the one and four area aggregations already provided.
 #'
-#' @format A data frame 'YFT_221cell_observations_34_66' with variables:
+#' @format A data frame 'YFT_221cell_observations_34_66_v2' with variables:
 #' \describe{
 #'   \item{sim_1}{Simulated aggregated 1 area datasets for YFT; Simulation #34-66}
 #'   \item{biol_dat}{Biological data for YFT}
 #' }
 #' 
-#' @name YFT_221cell_observations_34_66
+#' @name YFT_221cell_observations_34_66_v2
 #' @docType data
 #' @details 
 #' 
@@ -552,9 +562,9 @@ NULL
 #' 
 #' ***b***: length-weight shape parameter
 #' 
-#' @usage data('YFT_221cell_observations_34_66')
+#' @usage data('YFT_221cell_observations_34_66_v2')
 #' @examples 
-#' data('YFT_221cell_observations_34_66')
+#' data('YFT_221cell_observations_34_66_v2')
 #' head(sim_34$obs$simulated_cpue_ll_jpn_86$data$obs)
 NULL
 
@@ -566,13 +576,13 @@ NULL
 #'information and in a usable format if participants wish to develop spatially 
 #'structured models beyond the one and four area aggregations already provided.
 #'
-#' @format A data frame 'YFT_221cell_observations_67_100' with variables:
+#' @format A data frame 'YFT_221cell_observations_67_100_v2' with variables:
 #' \describe{
 #'   \item{sim_1}{Simulated aggregated 1 area datasets for YFT; Simulation #67-100}
 #'   \item{biol_dat}{Biological data for YFT}
 #' }
 #' 
-#' @name YFT_221cell_observations_67_100
+#' @name YFT_221cell_observations_67_100_v2
 #' @docType data
 #' @details 
 #' 
@@ -633,9 +643,11 @@ NULL
 #' 
 #' ***b***: length-weight shape parameter
 #' 
-#' @usage data('YFT_221cell_observations_67_100')
+#' ***LenAge_cv***: length-age coefficient of variability
+#' 
+#' @usage data('YFT_221cell_observations_67_100_v2')
 #' @examples 
-#' data('YFT_221cell_observations_67_100')
+#' data('YFT_221cell_observations_67_100_v2')
 #' head(sim_67$obs$simulated_cpue_ll_jpn_86$data$obs)
 NULL
 

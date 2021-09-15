@@ -4,6 +4,7 @@ navbar:
     - articles
     - reference
     - questions
+    - news
     - github
 
   components:
@@ -31,15 +32,29 @@ navbar:
       text: Datasets
       contents:
         - YFT_SRD_1A_4
+        - YFT_SRD_1A_4_v2
         - YFT_SRD_4A_4
+        - YFT_SRD_4A_4_v2
         - YFT_1area_observations_1_100
+        - YFT_1area_observations_1_100_v2
         - YFT_4area_observations_1_100
+        - YFT_4area_observations_1_100_v2
         - YFT_221cell_observations_1_33
+        - YFT_221cell_observations_1_33_v2
         - YFT_221cell_observations_34_66
+        - YFT_221cell_observations_34_66_v2
         - YFT_221cell_observations_67_100
-        #- TOA_simulations_cells
-        #- TOA_simulations_1region
-        #- TOA_simulations_4regions
+        - YFT_221cell_observations_67_100_v2
+        # - YFT_SRD_1A_4_lfpe5
+        # - YFT_SRD_4A_4_lfpe5
+        # - YFT_1area_observations_1_100_lfpe5
+        # - YFT_4area_observations_1_100_lfpe5
+        # - YFT_221cell_observations_1_33_lfpe5
+        # - YFT_221cell_observations_34_66_lfpe5
+        # - YFT_221cell_observations_67_100_lfpe5
+        # - TOA_simulations_cells
+        # - TOA_simulations_1region
+        # - TOA_simulations_4regions
       icon: fa fa-fish fa-lg
       href: reference/index.html
 
@@ -54,6 +69,11 @@ navbar:
       - text: TOA Questions
         href: https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/discussions/7
 
+    news:
+      text: News
+      icon: fa fa-spinner fa-pulse fa-lg fa-fw
+      href: news/index.html
+      
     github:
       text: Github
       icon: fa fa-github fa-lg
