@@ -28,5 +28,5 @@ library(SpatialAssessmentModelingWorkshop)
 | Jie Cao / Maxime Olmos (jcao22@ncsu.edu / maxime.olmos@noaa.gov) | StPM (Cao et al) | Jie Cao (NCSU), Maxime Olmos (UW/NOAA) | Y | ? | |
 | Jon Deroba (jonathan.deroba@noaa.gov) | SPASAM | Jon Deroba (NOAA-NEFSC), Brian Langseth (NOAA-NWFSC), Amy Schueller (NOAA-SEFSC), Dana Hanselman (NOAA-AFSC) | Y | September 2021 - Jan/Feb 2022 | |
 | Matthew Supernaw (matthew.supernaw@noaa.gov) | MAS | Matthew Supernaw (NOAA-OST), Jon Brodziak (NOAA-PIFSC) | Y | ? | |
-| Nicholas Ducharme-Barthe (nicholas.ducharme-barth@noaa.gov) | MFCL | Nicholas Ducharme-Barthe (SPC), John Hampton (SPC), Matt Vincent (NOAA-SEFSC), Paul Hamer (SPC) | Y | October 2021-March 2022 | |
+| Nicholas Ducharme-Barthe (nicholas.ducharme-barth@noaa.gov) | MFCL | Nicholas Ducharme-Barthe (NOAA-PIFSC), John Hampton (SPC), Matt Vincent (NOAA-SEFSC), Paul Hamer (SPC) | Y | October 2021-March 2022 | |
 | Bjarki Elvarsson (bjarki.elvarsson@hafogvatn.is) | GADGET | Bjarki Elvarson (HI), Will Butler (HI), Alfonso Perez Rodriguez (IMR), Valerio Bartolino (SLU) | Y | October 2021 - ... | |

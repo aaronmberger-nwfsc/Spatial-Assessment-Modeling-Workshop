@@ -23,7 +23,7 @@ This R data file contains 100 data sets for a four area YFT model.
 }
 
 \section{The key lists in \strong{YFT_SRD_1A_4_v2$} (e.g., dat_4A_4$lencomp) include:}{
-\emph{\strong{lencomp}}: (list) 1 area dataframe of aggregated length frequencies by length bin with columns corresponding to pseudo-year (Yr), season(Seas), fleet/survey index (FltSvy), sex (Gender),  partition – length data come from all fish encountered (Part=0), number of lengths sampled (Nsamp), and the set of length bins (purse seine only)
+\emph{\strong{lencomp}}: (list) 1 area dataframe of aggregated length frequencies by length bin with columns corresponding to pseudo-year (Yr), season(Seas), fleet/survey index (FltSvy), sex (Gender),  partition – length data come from all fish encountered (Part=0), number of lengths sampled (Nsamp), and the set of length bins.
 
 \emph{\strong{catch}}: (list) 1 area dataframe of catch by fishery, including pseudo-year (year), and    season (seas)
 

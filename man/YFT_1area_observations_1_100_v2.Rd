@@ -19,7 +19,7 @@ This R data file contains 100 data sets for a one area YFT model.
 100 simulations of the YFT 1 area aggregated catch, cpue, length frequencies, and tagging data (along with biological data).
 }
 \section{The key lists in \strong{YFT_1area_observations_1_100_v2$} (e.g., dat_1A_1$lencomp) include:}{
-\emph{\strong{lencomp}}: (list) 1 area dataframe of aggregated length frequencies by length bin with columns corresponding to pseudo-year (Yr), season(Seas), fleet/survey index (FltSvy), sex (Gender),  partition – length data come from all fish encountered (Part=0), number of lengths sampled (Nsamp), and the set of length bins (purse seine only)
+\emph{\strong{lencomp}}: (list) 1 area dataframe of aggregated length frequencies by length bin with columns corresponding to pseudo-year (Yr), season(Seas), fleet/survey index (FltSvy), sex (Gender),  partition – length data come from all fish encountered (Part=0), number of lengths sampled (Nsamp), and the set of length bins.
 
 \emph{\strong{catch}}: (list) 1 area dataframe of catch by fishery, including pseudo-year (year), and    season (seas)
 
