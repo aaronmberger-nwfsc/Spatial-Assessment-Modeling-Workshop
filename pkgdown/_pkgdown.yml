@@ -18,8 +18,8 @@ navbar:
         href: articles/Analyst_guidance.html
       - text: YFT OM Description
         href: articles/OM_description_YFT.html
-      #- text: TOA OM Description
-       # href: articles/TOA_OM_description.html
+      - text: TOA OM Description
+        href: articles/TOA_OM_description.html
       - text: Relevant Literature Files
         href: https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/tree/main/docs/articles/Relevant_literature_files
       - text: Participating Team Info
@@ -45,16 +45,9 @@ navbar:
         - YFT_221cell_observations_34_66_v2
         - YFT_221cell_observations_67_100
         - YFT_221cell_observations_67_100_v2
-        # - YFT_SRD_1A_4_lfpe5
-        # - YFT_SRD_4A_4_lfpe5
-        # - YFT_1area_observations_1_100_lfpe5
-        # - YFT_4area_observations_1_100_lfpe5
-        # - YFT_221cell_observations_1_33_lfpe5
-        # - YFT_221cell_observations_34_66_lfpe5
-        # - YFT_221cell_observations_67_100_lfpe5
-        # - TOA_simulations_cells
-        # - TOA_simulations_1region
-        # - TOA_simulations_4regions
+        - TOA_simulations_cells
+        - TOA_simulations_1region
+        - TOA_simulations_4region
       icon: fa fa-fish fa-lg
       href: reference/index.html
 
