@@ -651,3 +651,61 @@ NULL
 #' head(sim_67$obs$simulated_cpue_ll_jpn_86$data$obs)
 NULL
 
+#' TOA SUPPLEMENTAL DATASET: Antarctic Toothfish Spatial Simulations
+#'
+#' Spatial simulations of TOA from SPM OM.
+#'
+#' @docType data
+#' 
+#' @name TOA_simulations_cells
+#'
+#' @usage data(TOA_simulations_cells)
+#'
+#' @format A list object.
+#'
+#' @keywords dataset
+#'
+#' @examples
+#' data(TOA_simulations_cells)
+#' head(sim)
+NULL
+
+#' TOA MAIN DATASET: Antarctic Toothfish 1 Region Simulations
+#'
+#' 1 region simulations of TOA from SPM OM.
+#'
+#' @docType data
+#' 
+#' @name TOA_simulations_1region
+#'
+#' @usage data(TOA_simulations_1region)
+#'
+#' @format A list object.
+#'
+#' @keywords dataset
+#'
+#' @examples
+#' data(TOA_simulations_1region)
+#' head(realised.catches)
+#' head(realised.tags)
+NULL
+
+#' TOA MAIN DATASET: Antarctic Toothfish 4 Region Simulations
+#'
+#' 4 region simulations of TOA from SPM OM.
+#'
+#' @docType data
+#' 
+#' @name TOA_simulations_4region
+#'
+#' @usage data(TOA_simulations_4region)
+#'
+#' @format A list object.
+#'
+#' @keywords dataset
+#'
+#' @examples
+#' data(TOA_simulations_4region)
+#' head(realised.catches)
+#' head(realised.tags)
+NULL
