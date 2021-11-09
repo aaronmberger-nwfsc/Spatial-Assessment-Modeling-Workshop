@@ -8,15 +8,14 @@
 A list object.
 }
 \usage{
-data(realised.catches)
+data(TOA_simulations_4region)
 }
 \description{
 4 region simulations of TOA from SPM OM.
 }
 \examples{
-data(realised.catches)
+data(TOA_simulations_4region)
 head(realised.catches)
-data(realised.tags)
-head(realised.catches)
+head(realised.tags)
 }
 \keyword{dataset}
