@@ -19,7 +19,7 @@ navbar:
       - text: YFT OM Description
         href: articles/OM_description_YFT.html
       - text: TOA OM Description
-        href: articles/TOA_OM_description.html
+        href: articles/OM_description_TOA.html
       - text: Relevant Literature Files
         href: https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/tree/main/docs/articles/Relevant_literature_files
       - text: Participating Team Info

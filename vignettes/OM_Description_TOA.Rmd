@@ -1,0 +1,188 @@
+---
+title: ANTARCTIC TOOTHFISH OPERATING MODEL DESCRIPTION
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output: rmarkdown::html_vignette
+urlcolor: blue
+vignette: >
+  %\VignetteIndexEntry{TOA_OM_description}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  options(rmarkdown.html_vignette.check_title = FALSE)
+)
+```
+```{r setup}
+library(SpatialAssessmentModelingWorkshop)
+```
+# 1. Overview
+
+In this document, we provide a general description of the Antarctic toothfish (*Dissostichus mawsoni*, TOA, further referred to as toothfish) case study and associated operating spatially explicit model, to help workshop participants develop and apply stock assessments using their chosen assessment package. Recent assessment of toothfish stock in the Ross Sea Region performed for the Convention for the Conservation of Antarctic Marine Living Resources (CCAMLR, Dunn 2019), as well as supplementary papers that describe the operating model (i.e., the original simulation model; (Mormede et al. 2014), updated to include data to 2021) are also provided as background in the workshop participant materials included on the Spatial Stock Assessment Workshop [GitHub repository](https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/blob/main/docs/articles/Relevant_literature_files/Dunn%2C%20Hoyle%2C%20Datta%202020%20v1%20SPM%20YFT%20OM.pdf). While an operational TOA stock assessment document is provided as general background, the simulation experiment is strictly a research endeavor, with the TOA stock chosen as an example to address broad study objectives. 
+
+The following description provides an overview of the primary assumptions and main components of the toothfish operating model, including spatial configuration, population dynamics, simulated data, and model stochasticity. This information should allow analysts to develop both spatially stratified and spatially aggregated assessments using their modeling platform. 
+
+# 2. Conditioning of operating model with CCAMLR data
+
+Using the software SPM (Spatial Population Model, Dunn et al. 2020) a spatially explicit population dynamics operating model (OM) was developed for toothfish the Ross Sea Region. This model was conditioned using data and observations from the region’s fisheries (specifically catch, longline CPUE, tag recapture data, and age frequencies) to inform and fit population parameters (maturity curve and fishery selectivities) and movement parameters. Initial recruitment (R0) was assumed and fixed at the value estimated in the single area model (see Mormede et al. 2014 for details). A single individual spatial recruitment layer was used in the SPM conditioning (with the cells expected to contain the recruits). Parameters were estimated based on maximum likelihood. The estimated selectivity, maturity and movement parameters were then used to simulate observations that are within plausible ranges for the fisheries and population in this region. Three scales of simulated observations were created:
+
+-	Fine scale: at the grid cell at which the model operates – 14 rows and 21 columns (189 cells where the population is allowed)
+-	4 area scale: 4 areas based on the current stock assessment (Dunn 2019)
+-	1 area scale (panmictic assessment): 1 area aggregated data
+
+# 3.	Simulated Fine Spatial Scale OM Description
+## 3.1	Simulated Fine Scale Model Spatial Structure
+The dynamics of the fully spatially explicit Antarctic toothfish OM were simulated within a 14x21 grid (294 cells) 155x155 km cells using SPM (Spatial Population Model, Dunn et al. 2020). Of the total spatial grid, a total of 189 cells were within fishable depths and therefore allowed for the population to move in and out of. The spatial extent of the grid was 150$^\circ$E - 150$^\circ$W and 60$^\circ$S - 80$^\circ$S. These cells were grouped into four regions, based on the regions defined in the CASAL stock assessment model (Figure 1).
+
+```{r echo=FALSE, out.width='75%',fig.align="center"}
+knitr::opts_chunk$set(file.path="Fig1_TOA.png")
+```
+***Fig. 1) Spatial population model range and fisheries. (a) Areas in yellow are where there model operates, blue lines and names are the CCAMLR SSRUs (small scale research units) and black lines the Ross Sea Region. (b) Fisheries areas from dark blue to light blue: N70 (north of 70 ̊S), GPZ (Ross Sea Region Marine Protected Area (MPA) general protection zone), SRZ (Ross Sea Region MPA special research zone) and S70 (south of 70 ̊S); zones in red and CCAMLR SSRUs in black.***
+
+## 3.2	Simulated Temooral Model Structure
+The model period ranged between 1995 to the end of 2021, where years refer to the season from the 1st of November to 30th of September, labeled using the later calendar year of the range. The fishery operates over the austral summer, between November and March in each year. The temporal resolution in this model is annual. The model assumed a single sex. The initial state was assumed to be the mean unexploited biomass with equilibrium age structure. A summary of the data for the model is given in Dunn (2019) [the Stock Annex]
+
+## 3.3 Simulated Biological Parameters
+Ages ranged from 2-30, with age 30 the age plus group. Growth followed a von Bertalanffy growth curve. The spawner-recruitment relationship was Beverton-Holt, with steepness set to 0.75. R0 was set at 1,021,124 individuals. Maturity was estimated using a logistic-producing curve. Natural mortality (M) was a constant instantaneous rate of 0.13 per year, applied over the first two different time-steps, and assumed to be constant through time and among regions. 
+
+Input parameters are summarized in Table 1.
+
+***Table 1. Biological parameters used by the SPM OM for TOA.***
+
+| Parameter   |      Value      |
+|:----------:|:-------------:|
+| R~0~ |  1021124 |
+|  L~inf~ |    174 cm   |
+| k | 0.091 |
+| to | -0.117 |
+| cv* |  0 |
+| Length weight: a | 1.051 e-5 |
+| Length weight: b | 3.036 |
+| M | 0.13/yr |
+
+
+## 3.4 Simulated Fishery Characteristics
+The OM had a single bottom longline fishery. CPUE, catch at age and spawning at age from this fishery were simulated. Catchability of the longline CPUE was assumed constant across space and through time, with no seasonal variation. Selectivity was also constant through time and across space, assumed logistic and estimated within the model, hence the different availability of ages and vulnerable biomass in each location were assumed to be a function of location and not gear.
+Age frequencies (AFs), proportions spawning at age, and CPUE observations were simulated for cells and years using the cells, data weightings, and sample sizes based on the observations used to condition the OM. 
+
+## 3.5	Simulated Fine Scale Characteristics
+In this OM, data were simulated at the finest scale of the OM grid. 
+
+### 3.5.1 ***Recruitment***
+Recruits entered the model at age 2 were distributed equally among cells where recruitment was allowed (cells with a depth that was shallower than 800 m). These proportions by location were assumed to be constant through time. 
+
+### 3.5.2 ***Population categories and movement***:
+The population was categorised into five categories: immature, mature, pre-spawning, spawning, and post-spawning fish. Category transitions that moved fish between these categories were applied to allow the different movement behaviours of ontogenetic movements and of immature and mature fish, and fish migrating to and from spawning areas. The five category transitions were:
+
+***Immature → mature***: transition of immature to mature fish, defined as a proportion by age (using an age-based logistic ogive), with parameters estimated by the model. 
+
+***Mature → pre-spawning***: transition of mature fish to pre-spawning fish. Defined as a constant proportion pspawn, estimated in the model (i.e., we assume that pspawn of the fish categorised as mature become pre-spawners). This parameter allowed us to mimic the potential for skip-spawning of mature fish, by not forcing 100% of mature fish to spawn in each year (Parker & Grimes 2010).
+
+***Pre-spawning → spawning***: transition of all pre-spawning fish to spawning fish. Defined as the proportion of 1 (fixed), so that all fish that are denoted as pre-spawning are assumed to spawn. Pre-spawning fish may migrate, but spawning fish need not migrate once in a spawning area, therefore pre-spawning was separated from spawning stages to allow the different behaviours.
+
+***Spawning → post-spawning***: transition of spawning fish to post-spawning fish. Defined as the proportion pmature, estimated in the model (i.e., we assume pmature spawning fish return to a post-spawning (non-spawning) state). This allows for the migration of spawners back to mature (feeding) areas and allows the potential for fish to spawn more than one year in a row (i.e., those fish who don’t undergo the transition in a particular year) when pmature <1.
+
+***Post-spawning → mature***: transition of all post-spawning fish to mature fish. Defined as a proportion of 1 (fixed), so that all fish that are denoted as post-spawning revert to mature fish which can then transition to pre-spawning again in a future time step.
+
+***Un-tagged → tagged***: transition of a specified annual number of fish to a tagged state. Defined as a transition of an annually specified number of fish and set equal to the number of fish tagged each year per individual cell based on tag release data. Age and reproductive category structure were applied by assuming that fish tagged in each cell were distributed across ages and categories proportional to the number in each age and category of untagged fish in each cell, after applying double-normal fishery selectivity (estimated). Fish were assumed to be tagged in proportion to the full-size distribution of the catch (as required by the CCAMLR tagging protocol). Note that initial tag mortality, annual tag-shedding, and tag related growth retardation assumed to occur in the stockassessment model were ignored. 
+
+-	***Movement***:
+The movement processes were assumed to occur simultaneously over all cells (synchronous updating) and were implemented as habitat-based preference functions. These were based on environmental attributes for each spatial cell. A number of potential environmental habitat layers were tested to check their suitability in explaining fish distribution, such as distance from the Antarctic Circumpolar Current, or current flow, but were later superseded with better fitting environmental variables. The environmental habitat layers which resulted in the best-fitting models were as follows: 
+
+- Median depth, based on the median depth of each cell as calculated from GEBCO one minute grid (BODC 2010) (shallow regions) and Smith & Sandwell (1997) (deeper regions) bathymetric data sets, while ignoring any areas above sea level.
+
+- Temperature at 500 m depth from the World Ocean Atlas 2009 (Locarini et al. 2010). 
+
+- Proportion of potential habitat in each cell defined as the proportion of cell area between 450 and 2870 m based on GEBCO depth. The upper limit (2870 m) was the 95th percentile of GEBCO depth in the locations where fishing has occurred.
+
+- A binary variable defining whether a cell included seamounts/hills or not, derived from GEBCO depth. A cell was defined as having hill habitat if more than 75% of seabed area was deeper than 2000 m and at least 5% of the area in the cell was shallower than 2800 m. 
+
+- The distance between cells, calculated as the Euclidean distance (in kilometres) between the centres of each cell.
+
+-	Model steps:
+The sequence and timing of the population processes and associated modelling parameters are given in Table 2.
+
+***Table 2. Timing of the population processes and associated modelling parameters (processes in italics are transition processes, and parameters with * were estimated when conditioning the OM). The number of parameters estimated includes the α parameter where applicable.***
+
+|Time step | Processes (order of occurrence) | Details of modeling process | Number of parameters estimated |
+|:----------:|:-------------:|:----------:|:-------------:|
+| | | |
+| ***Summer*** | Recruitment | To age 2+ | - |
+| | Immature → Mature | Age-based logistic ogive* | 2 |
+| | Mature → pre-spawning | Constant proportion* | 1 |
+| | Natural mortality | Half applied in this time step | - |
+| | Fishing mortality | Catches, fishing selectivity* (logistic), catchability (constant) | 2+1|
+| | Un-tagged → tagged | Numbers, tagging selectivity* (double normal) | 3 |
+| | | |
+| ***Winter*** | Natural mortality | Half applied in this time step | - |
+| | Movement of immature | Function of distance* (exponential), depth* (double-normal) | 1+4 | 
+| | Movement of mature | Function of distance* (exponential), depth* (double-normal), habitat* (linear), and hills* (categorical) | 1 + 4 + 2 + 2 |
+| | Movement of pre-spawners | Function of distance* (double-normal), temperature* (double-normal),hills* (categorial) | 4 + 4 + 2 |
+| | Pre-Spawning → spawning | Fixed proportion of 1 | - |
+| | Spawning | - | -| 
+| | | |
+| ***Spring*** | Spawning → post-spawning | Constant proportion* | 1 |
+| | Movement of post-spawners | Distance (pre-spawners function), depth and habitat (mature functions) | - |
+| |  Post-spawning → mature | Fixed proportion of 1 | - |
+| | Ageing of all categories | All age by one year (30+ remain 30+) | - |
+| | | |
+| **Total** | 16 processes | | 34 |
+
+# 4.	Simulated Fine Scale Stochasticity in Biological Processes
+## 4.1	Process error: temporal recruitment stochasticity
+
+In order to incorporate temporal process error in recruitment, we generated 100 lognormally distributed distinct vectors of pseudo-Year Class Strength (YCS) time series with mean 1 and cv 0.6, each 27 years in length. Spatial variability of recruitment was not considered for toothfish.
+
+$$
+R_{y} = R_{0} * YCS_{y-2} * \frac{SSB_{y}}{B_{0}}/(1-\frac{5h-1}{4h}(1-\frac{SSB_{y}}{B_{0}})) \tag{Eq. 1}
+$$
+
+# 5.	Simulated Fine Scale Observation Error
+## 5.1	Observation error in CPUE:
+
+In the OM, the catch per unit effort by cell was simulated for the longline fleet. The unstandardized CPUE was calculated as the catch of fish in kg by the longline fishery divided by the number of 1000 hooks in each cell (as such units for each CPUE index are in kg/1000 hooks). CPUE was simulated with observation error assuming a cell-specific CV calculated based on CPUE data and a lognormal distribution. For the fishery-based and panmictic simulations, the process error in each area was assumed as follows:
+
+$$
+cv_{a} = \sqrt{\sum_{c_a}cv_{c}^2} \tag{Eq. 2}
+$$
+Where *c* corresponds to cells and *a* corresponds to area. Additional process error of 0.3 was added.
+
+## 5.2	Observation error in Catch:
+No observation error was added to catch in the operating model as in the simulation these values are precisely known. (We acknowledge that in reality there is a low level of uncertainty surrounding data from individual catch recording).
+
+## 5.3	Observation error in Age Frequencies:
+Age frequencies were sampled from a multinomial likelihood parameterized by the effective sample size, N, which was estimated from the underlying variability in the observed data. For the fishery-based and panmictic simulations, the effective sample size was assumed in each area as follows:
+
+$$
+N_{a}=\frac{1}{\sum_{c_a}{1/N_{c}}} \tag{Eq. 3}
+$$
+No additional process error was added.
+
+
+## 5.4	Observation error in Tagging: 
+
+In the simulations, the release locations and number of fish tagged were set to be the same as those in the original data used for OM conditioning, with no added observation error. Recaptures were simulated with a binomial likelihood and effective sample size equal to the number of tagged fish recaptured and additional process error of 30.
+
+
+## 5.5	Observation error in Spawning at Age: 
+
+In the simulations, the proportions spawning at age were simulated with a binomial likelihood and effective sample size equal to the number of fish with spawning information in the input observed data and additional process error of 30.
+
+# References
+
+BODC (2010). The Gebco_08 Grid, version 20091120.
+
+Dunn, A. (2019). Assessment models for Antarctic toothfish (Dissostichus mawsoni) in the Ross Sea region to 2018/19. WG-FSA-2019/08. CCAMLR, Hobart, Australia, 30 p.
+
+Dunn, A.; Rasmussen, S.; Mormede, S. (2020). Spatial Population Model User Manual, SPM v2.0.3-2020-05-31. Ocean Environmental Technical Report. Ocean Environmental Ltd, Wellington, New Zealand, 237 p.
+
+Locarini, R.A.; Mishonov, A.V.; Antonov, J.I.; Boyer, T.P.; Garcia, H.E.; Baranova, O.K.; Zweng, M.M.; HJohnson, D.R. (2010). Temperature. In: Levitus, S. (Ed.). Wolrd Ocean Atlas 2009. U.S. Government printing Office, Washington, D.C., NOAA Atlas NESDIS 68, p. 184.
+
+Mormede, S.; Dunn, A.; Hanchet, S.M.; Parker, S. (2014). Spatially explicit population dynamics operating models for Antarctic toothfish in the Ross Sea region. CCAMLR Science 21, 19–37.
+
+Parker, S.; Grimes, P.J. (2010). Length and age at spawning of Antarctic toothfish (Dissostichus mawsoni) in the Ross Sea, Antarctica. CCAMLR Science 2010, 53–73.
+
+Smith, W.H.F.; Sandwell, D.T. (1997). Global seafloor topography from satellite altimetry and ship depth soundings. Science 277, 1957–1962.
