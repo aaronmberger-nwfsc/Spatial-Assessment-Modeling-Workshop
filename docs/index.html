@@ -20,6 +20,8 @@
 <![endif]-->
 </head>
 <body data-spy="scroll" data-target="#toc">
+    
+
     <div class="container template-home">
       <header><div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -32,7 +34,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">SpatialAssessmentModelingWorkshop</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.4</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.4</span>
       </span>
     </div>
 
@@ -57,7 +59,7 @@
       <a href="articles/TOA_OM_description.html">TOA OM Description</a>
     </li>
     <li>
-      <a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/tree/main/docs/articles/Relevant_literature_files">Relevant Literature Files</a>
+      <a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/tree/main/docs/articles/Relevant_literature_files" class="external-link">Relevant Literature Files</a>
     </li>
     <li>
       <a href="articles/Team_info.html">Participating Team Info</a>
@@ -84,13 +86,13 @@
   </a>
   <ul class="dropdown-menu" role="menu">
 <li>
-      <a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/discussions/2">General Questions</a>
+      <a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/discussions/2" class="external-link">General Questions</a>
     </li>
     <li>
-      <a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/discussions/6">YFT Questions</a>
+      <a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/discussions/6" class="external-link">YFT Questions</a>
     </li>
     <li>
-      <a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/discussions/7">TOA Questions</a>
+      <a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/discussions/7" class="external-link">TOA Questions</a>
     </li>
   </ul>
 </li>
@@ -102,14 +104,22 @@
   </a>
 </li>
 <li>
-  <a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/">
+  <a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/" class="external-link">
     <span class="fa fa-github fa-lg"></span>
      
     Github
   </a>
 </li>
       </ul>
-<ul class="nav navbar-nav navbar-right"></ul>
+<ul class="nav navbar-nav navbar-right">
+<li>
+  <a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/" class="external-link">
+    <span class="fa fa-github fa-lg"></span>
+     
+    Github
+  </a>
+</li>
+      </ul>
 </div>
 <!--/.nav-collapse -->
   </div>
@@ -122,18 +132,18 @@
       </header><div class="row">
   <div class="contents col-md-9">
 
-<div id="welcome-to-the-spatial-stock-assessment-simulation-experiment" class="section level1">
-<div class="page-header"><h1 class="hasAnchor">
-<a href="#welcome-to-the-spatial-stock-assessment-simulation-experiment" class="anchor"></a>Welcome to the Spatial Stock Assessment Simulation Experiment!</h1></div>
+<div class="section level1">
+<div class="page-header"><h1 id="welcome-to-the-spatial-stock-assessment-simulation-experiment">Welcome to the Spatial Stock Assessment Simulation Experiment!<a class="anchor" aria-label="anchor" href="#welcome-to-the-spatial-stock-assessment-simulation-experiment"></a>
+</h1></div>
 </div>
-<div id="workshop-summary" class="section level1">
-<h1 class="hasAnchor">
-<a href="#workshop-summary" class="anchor"></a>Workshop summary</h1>
+<div class="section level1">
+<h1 id="workshop-summary">Workshop summary<a class="anchor" aria-label="anchor" href="#workshop-summary"></a>
+</h1>
 <p>Many generic assessment platforms use the same mathematical formulations for single area population models. In contrast, assessment frameworks use a range of methods and assumptions to model spatial dynamics. The spatial capabilities of assessment software influence the decision-making process for assessment analysts and may affect how analysts interpret population status. Moreover, there is little guidance on how to identify model misspecification resulting from spatial structure within spatially aggregated or spatially explicit models. Given this diversity of approaches and limited documentation, the Spatial Stock Assessment Methods Workshop will explore and compare how analysts familiar with spatial assessment platforms develop spatial models, and formulate guidance on best practices for spatial stock assessment modeling. Discussions among researchers across regions and fisheries agencies will help to identify critical spatial modeling capabilities that should be incorporated into the next generation of generic spatial stock assessment software. This document provides an overview of the Spatial Stock Assessment Methods Workshop and associated simulation experiment, highlighting the overarching aims, scope, and approach.</p>
 </div>
-<div id="experiment-overview" class="section level1">
-<h1 class="hasAnchor">
-<a href="#experiment-overview" class="anchor"></a>Experiment Overview</h1>
+<div class="section level1">
+<h1 id="experiment-overview">Experiment Overview<a class="anchor" aria-label="anchor" href="#experiment-overview"></a>
+</h1>
 <p>The main feature of the workshop will be a spatial simulation experiment, which brings together assessment analysts and spatial stock assessment software from across the globe. The simulation experiment is designed to elicit feedback on the existing suite of spatial stock assessment packages, while comparing approaches across platforms (Table 1). By exploring capabilities across spatial assessment models, the study will help summarize existing spatial capabilities, identify limitations and research needs, and determine components to incorporate in the next generation of spatial stock assessment models. Additionally, discussions of each analyst’s model building process will help to create guidance on best practices for developing spatial models, including how to identify when spatial models are warranted (e.g., through residual analysis). The main objectives of the simulation experiment are to:</p>
 <p><strong>1. OBJECTIVE #1: Discuss best practices in spatial model development by exploring the decision-points of each analyst. This will highlight how differences among platforms influence decisions at each stage of development of a spatial stock assessment model, provide insight into why analysts choose certain spatial functionality, and how goodness of fit is determined in a spatial context;</strong></p>
 <p><strong>2. OBJECTIVE #2: Evaluate within-platform performance and the impacts of ignoring spatial structure by comparing spatial and spatially aggregated model configurations; and</strong></p>
@@ -201,28 +211,39 @@
 <p>Finally, each analyst group will provide an approximately one hour virtual seminar highlighting their model framework, walking workshop participants through their decision-point model building approach, illustrating model fits (to both the representative and full 100 data sets), and comparing outputs and residual analysis from their panmictic and spatially explicit models. Specific model results (e.g., time series of area-specific SSB, depletion, recruitment, fishing mortality, and residuals) will be provided to the workshop in a format specified at the outset, which will allow comparisons (by the workshop hosts) to the true population trajectories across categories of spatial models (Objective #3). Upon completion of the series of virtual seminars in late 2021 (Figure 2), an in-person workshop (2022, location and dates TBA) will be held to discuss best practices and salient features of the next generation of spatial models.</p>
 <p><img src="https://user-images.githubusercontent.com/62513493/114226168-18dfe500-9928-11eb-88ed-1af8eac4f6ec.png" alt="analyst process"><strong>Fig. 1) Stages of model development for the YFT simulation experiment conceptual flowchart as applied to each stock assessment platform.</strong></p>
 </div>
-<div id="timeframe" class="section level1">
-<h1 class="hasAnchor">
-<a href="#timeframe" class="anchor"></a>Timeframe</h1>
+<div class="section level1">
+<h1 id="timeframe">Timeframe<a class="anchor" aria-label="anchor" href="#timeframe"></a>
+</h1>
 <p>The simulation experiment will occur over a ~12-month period, culminating in a seminar series to share individual and collective results. A follow-up in-person workshop is tentatively planned for 2022 to provide a forum for discussion of spatial modeling best practices and key features of future spatial assessment platforms. An outline of the experimental timeline for the YFT study, including key milestones, is described here and summarized in Figures 1 and 2. Dates in 2021 for the AT simulation experiment are expected to be 2 months later, but we aim to maintain 2022 in-person workshop plans to discuss results for both case species.</p>
-<div id="key-milestones-for-simulation-experiment" class="section level2">
-<h2 class="hasAnchor">
-<a href="#key-milestones-for-simulation-experiment" class="anchor"></a>Key milestones for simulation experiment</h2>
-<ol>
+<div class="section level2">
+<h2 id="key-milestones-for-simulation-experiment">Key milestones for simulation experiment<a class="anchor" aria-label="anchor" href="#key-milestones-for-simulation-experiment"></a>
+</h2>
+<ol style="list-style-type: decimal">
 <li>Background documents distributed to each analyst and an introductory webinar held to describe the process and answer questions (May 2021)</li>
 <li>The single representative simulated YFT pseudo-data set will be provided to analysts at two spatial aggregations (single area and four area; ~ May 2021); soon thereafter the remaining 100 datasets, which include recruitment stochasticity, will be provided (~June 2021)</li>
 <li>Analysts develop and apply their chosen assessment platform to the simulated data (June 2021 - September 2021)</li>
 </ol>
 <ul>
-<li>a. Using the single representative dataset (for each configuration: aggregated and spatially stratified), analysts document their model building decision process at each stage of model development, focusing on key spatial assumptions, diagnostics, and residual analysis (<strong>decision-point analysis, Objective #1</strong>)<br>
+<li><ol style="list-style-type: lower-alpha">
+<li>Using the single representative dataset (for each configuration: aggregated and spatially stratified), analysts document their model building decision process at each stage of model development, focusing on key spatial assumptions, diagnostics, and residual analysis (<strong>decision-point analysis, Objective #1</strong>)<br>
 </li>
-<li>b. Analysts iteratively apply their model to the 100 datasets that include recruitment stochasticity (for each configuration: aggregated and spatially stratified) without making any structural model changes.<br>
+</ol></li>
+<li><ol start="2" style="list-style-type: lower-alpha">
+<li>Analysts iteratively apply their model to the 100 datasets that include recruitment stochasticity (for each configuration: aggregated and spatially stratified) without making any structural model changes.<br>
 </li>
-<li>c. <em>(Optional)</em> Analysts develop alternate spatial model parametrizations (e.g., 2 spatial areas, or with different parameterizations of movement or recruitment or selectivity) and apply it to each of the 100 simulated datasets.</li>
-<li>d. Analysts summarize the results across all 100 model runs for each model parametrization and develop comparison graphics/metrics to compare performance across their panmictic and spatially explicit models (<strong>within platform comparison, Objective #2</strong>)</li>
-<li>e. Analysts provide model results (for the representative data set and all 100 simulation runs for each model configuration) to the workshop organizers in a format to be announced, which will allow workshop hosts to compare results to true simulated dynamics (<strong>cross spatial model category performance evaluation, Objective #3</strong>)</li>
+</ol></li>
+<li><ol start="3" style="list-style-type: lower-alpha">
+<li>
+<em>(Optional)</em> Analysts develop alternate spatial model parametrizations (e.g., 2 spatial areas, or with different parameterizations of movement or recruitment or selectivity) and apply it to each of the 100 simulated datasets.</li>
+</ol></li>
+<li><ol start="4" style="list-style-type: lower-alpha">
+<li>Analysts summarize the results across all 100 model runs for each model parametrization and develop comparison graphics/metrics to compare performance across their panmictic and spatially explicit models (<strong>within platform comparison, Objective #2</strong>)</li>
+</ol></li>
+<li><ol start="5" style="list-style-type: lower-alpha">
+<li>Analysts provide model results (for the representative data set and all 100 simulation runs for each model configuration) to the workshop organizers in a format to be announced, which will allow workshop hosts to compare results to true simulated dynamics (<strong>cross spatial model category performance evaluation, Objective #3</strong>)</li>
+</ol></li>
 </ul>
-<ol>
+<ol style="list-style-type: decimal">
 <li>Analysts develop a 30 minute presentation for a 1 hour discussion-based seminar where workshop participants can interact to discuss each analyst’s modeling process and decision points (October 2021 – March 2022)</li>
 <li>Analysts present and participate in the virtual discussion-based seminar series which will highlight the various platforms utilized (October 2021-March 2022)</li>
 <li>Analysts attend an in-person workshop to continue discussions focused on best practices and key components of the next generation of spatial stock assessment model features (2022)</li>
@@ -231,16 +252,16 @@
 <p><img src="https://user-images.githubusercontent.com/62513493/114226269-3c0a9480-9928-11eb-87c7-71442d11b837.png" alt="gantt_v6"><strong>Fig. 2) Overview of key milestones associated with the YFT simulation experiment study design.</strong></p>
 </div>
 </div>
-<div id="next-steps" class="section level1">
-<h1 class="hasAnchor">
-<a href="#next-steps" class="anchor"></a>Next steps</h1>
+<div class="section level1">
+<h1 id="next-steps">Next steps<a class="anchor" aria-label="anchor" href="#next-steps"></a>
+</h1>
 <p>Analysts should expect to receive a “Guidance Document” in the coming weeks just prior to the introductory webinar that describes important background information, details about the YFT operating model, and further guidance for conducting analyses. Shortly thereafter, data sets will be disseminated and a webinar will be held (please add your availability for the webinar to the doodle poll) to provide a verbal overview of the experiment and to hold a Q&amp;A session. A second guidance document will be sent out for the TOA operating model (once available). Background information and associated documents will be added to this GitHub repository, as will datasets once available. Results relative to study objectives will be collated and submitted for peer-reviewed publication, and participation in the simulation experiment will merit an offer to be an author on relevant manuscripts.</p>
 <p>We understand that the time commitment to develop and run models is not trivial. While the scientific rigor and robustness of results will be highest with full participation, the organizers understand that everyone is busy. The experimental timeline was developed with extended milestones to offer enough time-constraint flexibility to accommodate individual needs. Nonetheless, please contact us regarding your individual situation as needed.</p>
 <p>We look forward to working with you. Thank you for your participation!</p>
 </div>
-<div id="contacts" class="section level1">
-<h1 class="hasAnchor">
-<a href="#contacts" class="anchor"></a>Contacts</h1>
+<div class="section level1">
+<h1 id="contacts">Contacts<a class="anchor" aria-label="anchor" href="#contacts"></a>
+</h1>
 <p>Please contact Caren Barcelo (<a href="mailto:caren.barcelo@noaa.gov" class="email">caren.barcelo@noaa.gov</a>), Aaron Berger (<a href="mailto:aaron.berger@noaa.gov" class="email">aaron.berger@noaa.gov</a>), Dan Goethel (<a href="mailto:daniel.goethel@noaa.gov" class="email">daniel.goethel@noaa.gov</a>), Patrick Lynch (<a href="mailto:patrick.lynch@noaa.gov" class="email">patrick.lynch@noaa.gov</a>), or Simon Hoyle (<a href="mailto:simon.hoyle@niwa.co.nz" class="email">simon.hoyle@niwa.co.nz</a>) on behalf of the workshop Working Group and Steering Committee with any questions or inquiries at this time.</p>
 <table class="table">
 <thead><tr class="header">
@@ -306,12 +327,12 @@
 </tr>
 </tbody>
 </table>
-<div id="disclaimer" class="section level2">
-<h2 class="hasAnchor">
-<a href="#disclaimer" class="anchor"></a>Disclaimer</h2>
+<div class="section level2">
+<h2 id="disclaimer">Disclaimer<a class="anchor" aria-label="anchor" href="#disclaimer"></a>
+</h2>
 <p>“The United States Department of Commerce (DOC) GitHub project code is provided on an ‘as is’ basis and the user assumes responsibility for its use. DOC has relinquished control of the information and no longer has responsibility to protect the integrity, confidentiality, or availability of the information. Any claims against the Department of Commerce stemming from the use of its GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.”</p>
-<p><img src="https://raw.githubusercontent.com/nmfs-general-modeling-tools/nmfspalette/main/man/figures/noaa-fisheries-rgb-2line-horizontal-small.png" height="75" alt="NOAA Fisheries"></p>
-<p><a href="https://www.commerce.gov/">U.S. Department of Commerce</a> | <a href="https://www.noaa.gov">National Oceanographic and Atmospheric Administration</a> | <a href="https://www.fisheries.noaa.gov/">NOAA Fisheries</a></p>
+<p><img src="https://raw.githubusercontent.com/nmfs-general-modeling-tools/nmfspalette/main/reference/figures/noaa-fisheries-rgb-2line-horizontal-small.png" height="75" alt="NOAA Fisheries"></p>
+<p><a href="https://www.commerce.gov/" class="external-link">U.S. Department of Commerce</a> | <a href="https://www.noaa.gov" class="external-link">National Oceanographic and Atmospheric Administration</a> | <a href="https://www.fisheries.noaa.gov/" class="external-link">NOAA Fisheries</a></p>
 </div>
 </div>
 
@@ -319,44 +340,49 @@
 
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <div class="links">
-<h2>Links</h2>
+<h2 data-toc-skip>Links</h2>
 <ul class="list-unstyled">
-<li>Browse source code at <br><a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/">https://​github.com/​carenbarcelo-NOAA/​Spatial-Assessment-Modeling-Workshop/​</a>
-</li>
-<li>Report a bug at <br><a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/issues">https://​github.com/​carenbarcelo-NOAA/​Spatial-Assessment-Modeling-Workshop/​issues</a>
-</li>
+<li><a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/" class="external-link">Browse source code</a></li>
+<li><a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/issues" class="external-link">Report a bug</a></li>
 </ul>
 </div>
+
 <div class="license">
-<h2>License</h2>
+<h2 data-toc-skip>License</h2>
 <ul class="list-unstyled">
-<li><a href="https://www.r-project.org/Licenses/GPL-3">GPL-3</a></li>
+<li><a href="https://www.r-project.org/Licenses/GPL-3" class="external-link">GPL-3</a></li>
 </ul>
 </div>
+
 <div class="community">
-<h2>Community</h2>
+<h2 data-toc-skip>Community</h2>
 <ul class="list-unstyled">
 <li><a href="CODE_OF_CONDUCT.html">Code of conduct</a></li>
 </ul>
 </div>
+
 <div class="developers">
-<h2>Developers</h2>
+<h2 data-toc-skip>Developers</h2>
 <ul class="list-unstyled">
 <li>Caren Barcelo <br><small class="roles"> Author, maintainer </small>  </li>
-<li><a href="authors.html">All authors...</a></li>
+<li><a href="authors.html">More about authors...</a></li>
 </ul>
 </div>
+
+
 
   </div>
 </div>
 
 
       <footer><div class="copyright">
-  <p>Developed by Caren Barcelo.</p>
+  <p></p>
+<p>Developed by Caren Barcelo.</p>
 </div>
 
 <div class="pkgdown">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.6.1.</p>
+  <p></p>
+<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 1.9000.9000.9000.</p>
 </div>
 
       </footer>
@@ -364,6 +390,8 @@
 
   
 
+
+  
 
   </body>
 </html>
