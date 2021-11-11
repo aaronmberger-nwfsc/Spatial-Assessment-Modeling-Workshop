@@ -67,10 +67,10 @@ navbar:
       icon: fa fa-spinner fa-pulse fa-lg fa-fw
       href: news/index.html
       
-    github:
-      text: Github
-      icon: fa fa-github fa-lg
-      href: https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/
+    # github:
+    #   text: Github
+    #   icon: fa fa-github fa-lg
+    #   href: https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/
 
   reference:
       - title: YFT

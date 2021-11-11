@@ -676,16 +676,16 @@ NULL
 #'
 #' @docType data
 #' 
-#' @name TOA_simulations_1region
+#' @name TOA_simulations_inputs_1region
 #'
-#' @usage data(TOA_simulations_1region)
+#' @usage data(TOA_simulations_inputs_1region)
 #'
 #' @format A list object.
 #'
 #' @keywords dataset
 #'
 #' @examples
-#' data(TOA_simulations_1region)
+#' data(TOA_simulations_inputs_1region)
 #' head(realised.catches)
 #' head(realised.tags)
 NULL
@@ -696,16 +696,16 @@ NULL
 #'
 #' @docType data
 #' 
-#' @name TOA_simulations_4region
+#' @name TOA_simulations_inputs_4regions
 #'
-#' @usage data(TOA_simulations_4region)
+#' @usage data(TOA_simulations_inputs_4regions)
 #'
 #' @format A list object.
 #'
 #' @keywords dataset
 #'
 #' @examples
-#' data(TOA_simulations_4region)
+#' data(TOA_simulations_inputs_4regions)
 #' head(realised.catches)
 #' head(realised.tags)
 NULL
