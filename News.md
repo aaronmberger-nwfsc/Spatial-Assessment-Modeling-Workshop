@@ -7,15 +7,15 @@ documentclass: scrartcl
 ---
 # Release 0.4
 ## Upload of TOA datasets & OM description
-#### Initial point of contact for simulated Antartic toothfish datasets and OM details: 
+## Initial point of contact for simulated Antartic toothfish datasets and OM details:
 * *Arnaud Gruss* (arnaud.gruss@niwa.co.nz)
 
-#### Secondary points of contact for TOA: 
-* *Jeremy McKenzie* (jeremy.mckenzie@niwa.co.nz) 
+## Secondary points of contact for TOA:
+* *Jeremy McKenzie* (jeremy.mckenzie@niwa.co.nz)
 * *Jennifer Devine* (jennifer.devine@niwa.co.nz)
 * *Sophie Mormede* (sofishconsulting@gmail.com)
 
-#### New upload: TOA Simulated Datasets
+## New upload: TOA Simulated Datasets
 * ADD: Antarctic Toothfish (TOA) Area aggregated simulated datasets (1 area & 4 areas)
 * ADD: Antarctic Toothfish (TOA) Fully spatial simulated datasets (cell)
 * ADD: Antarctic Toothfish (TOA) OM description
