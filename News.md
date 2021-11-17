@@ -37,7 +37,8 @@ documentclass: scrartcl
 * Updated participant info
 * New [flexible] project timeline for YFT spatial simulation experiment
 
-![Updated YFT Spatial Simulation Experiment Timelines](C:/Users/caren.barcelo/Documents/GitHub/Spatial-Assessment-Modeling-Workshop/docs/articles/images/gantt_chart_91421.png)
+#Updated YFT Spatial Simulation Experiment Timelines
+<img src="images/gantt_chart_91421.png" width="800" height="400">
 
 # Release 0.2
 ## Minor changes

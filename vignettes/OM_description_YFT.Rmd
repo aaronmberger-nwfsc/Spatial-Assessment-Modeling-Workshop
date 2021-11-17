@@ -245,7 +245,7 @@ Tagged fish were all released in region 1 between pseudo-years 214 and 223. Reca
 
 ***Fig. 10) Information on data time series included in the 1 area aggregated YFT simulated datasets. Note: Only tag recaptures are provided for the purse seine (ps) fishery as reporting rate for other fisheries was assumed to be 0%.***
 
-# References:
+# References
 Dunn, A.; Hoyle, S.D.; Datta, S., (2020). Development of spatially explicit operating models for yellowfin tuna populations in the Indian Ocean. Working Party on Tropical Tunas 22. Victoria, Seychelles: Indian Ocean Tuna Commission
 
 Dunn, A.; Rasmussen, S.; Mormede, S., (2015). Spatial Population Model. NIWA Technical report 138
