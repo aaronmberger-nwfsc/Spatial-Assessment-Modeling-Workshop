@@ -10,7 +10,7 @@ Authors@R: c(
     person(given="Patrick", family="Lynch", email="patrick.lynch@noaa.gov"),
     person(given="Jeremy", family="Mckenzie", email="jeremy.mckenzie@niwa.co.nz"),
     person(given="Sophie", family="Mormede", email="sophishconsulting@gmail.com"),
-    person(given="Jennifer", family="Devine", email="jennifer.devine@niwa.co.nz")
+    person(given="Jennifer", family="Devine", email="jennifer.devine@niwa.co.nz"),
     person(given="Arnaud", family="Gruss", email="arnaud.gruss@niwa.co.nz")
   )
 Maintainer: Caren Barcelo <caren.barcelo@noaa.gov> & Aaron Berger <aaron.berger@noaa.gov>
