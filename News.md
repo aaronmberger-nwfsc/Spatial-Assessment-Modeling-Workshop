@@ -6,6 +6,9 @@ urlcolor: blue
 documentclass: scrartcl
 ---
 # Release 0.4
+## Transfer of repository and project point of contact to:
+* *Aaron Berger* (aaron.berger@noaa.gov)
+
 ## Upload of TOA datasets & OM description
 ## Initial point of contact for simulated Antartic toothfish datasets and OM details:
 * *Arnaud Gruss* (arnaud.gruss@niwa.co.nz)
