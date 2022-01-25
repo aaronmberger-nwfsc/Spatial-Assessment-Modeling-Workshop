@@ -1,4 +1,4 @@
-#' START HERE (YFT): 1 area single representative dataset
+#' START HERE (YFT): 1 area single representative dataset.
 #'
 #' A single representative dataset (SRD) aggregated at the 1 area scale. The chosen dataset is simulation #4.
 #' List objects include aggregated catch, cpue, length frequencies, and tagging data (along with biological data).
