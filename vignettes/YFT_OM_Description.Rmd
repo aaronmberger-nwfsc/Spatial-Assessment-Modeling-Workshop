@@ -17,12 +17,12 @@ knitr::opts_chunk$set(echo = FALSE)
 # 1. Overview
 In this document, we provide a general description of the yellowfin tuna (*Thunnus albacares*) case study and associated operating model (OM) used for the simulation experiment. This document will help simulation experiment participants develop and apply both spatially stratified and spatially aggregated stock assessments using their chosen modeling platform. The following description provides an overview of the primary assumptions and main components of the YFT operating model, including spatial configuration, population dynamics, simulated data, and model stochasticity. 
 
-Recent YFT stock assessments performed for the Indian Ocean Tuna Commission (IOTC), as well as supplementary papers that describe the operating model (i.e., the simulation model) in more detail are also provided on the Spatial Stock Assessment Workshop [GitHub repository](https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/tree/main/Background%20files%20for%20participants). While the recent operational YFT stock assessment is provided as general background (Fu et al., (2018), Cardinale et al. (2020)), this simulation experiment is strictly a research endeavor, with the Indian Ocean YFT stock chosen as an example to address broad study objectives. Analysts should be aware that the reality simulated by the YFT OM differs substantially in some respects from the real IO-YFT population. 
+Recent YFT stock assessments performed for the Indian Ocean Tuna Commission (IOTC), as well as supplementary papers that describe the operating model (i.e., the simulation model) in more detail are also provided on the Spatial Stock Assessment Workshop [GitHub repository](https://github.com/aaronmberger-nwfsc/Spatial-Assessment-Modeling-Workshop/blob/main/docs/articles/Relevant_literature_files/Dunn%2C%20Hoyle%2C%20Datta%202020%20v1%20SPM%20YFT%20OM.pdf). While the recent operational YFT stock assessment is provided as general background (Fu et al., (2018), Cardinale et al. (2020)), this simulation experiment is strictly a research endeavor, with the Indian Ocean YFT stock chosen as an example to address broad study objectives. Analysts should be aware that the reality simulated by the YFT OM differs substantially in some respects from the real IO-YFT population. 
 
-The Indian Ocean YFT operating model developed for this simulation experiment is described below.  It is based on a previous version described in detail in [Dunn et al. (2020)](https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/blob/main/Background%20files%20for%20participants/IOTC%20YFT%20OM%20application/Dunn%2C%20Hoyle%2C%20Datta%20(2020)%20IOTC-2020-YFT.pdf), but with key differences. Specifically, it incorporates time-varying spatial recruitment apportionment layers, a longer time series of stochastic recruitment deviations, and fixes an issue with the previously used growth curve. 
+The Indian Ocean YFT operating model developed for this simulation experiment is described below.  It is based on a previous version described in detail in [Dunn et al. (2020)](https://github.com/aaronmberger-nwfsc/Spatial-Assessment-Modeling-Workshop/blob/main/docs/articles/Relevant_literature_files/Dunn%2C%20Hoyle%2C%20Datta%202020%20v1%20SPM%20YFT%20OM.pdf), but with key differences. Specifically, it incorporates time-varying spatial recruitment apportionment layers, a longer time series of stochastic recruitment deviations, and fixes an issue with the previously used growth curve. 
 
 # 2.	Architecture of the YFT OM and prior model conditioning
-Using the Spatial Population Model software (SPM, developed by A. Dunn, S. Rasmussen, and S. Mormede, available [here](https://github.com/alistairdunn1/SPM)), a spatially explicit population dynamics OM was developed for YFT, a highly migratory pelagic species, in the Indian Ocean. This model was conditioned using empirical data from region-specific fisheries and spatially explicit (disaggregated) catch, longline CPUE, tag recapture data, and length frequencies at a 5x5$^\circ$ grid cell resolution (221 total cells). The OM was conditioned by fitting the disaggregated IOTC data within SPM itself using maximum likelihood to estimate fishery and population parameter values (e.g., fishery selectivity, fishing mortality, recruitment, and movement; see [Dunn et al. (2020)](https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/blob/main/Background%20files%20for%20participants/IOTC%20YFT%20OM%20application/Dunn%2C%20Hoyle%2C%20Datta%20(2020)%20IOTC-2020-YFT.pdf) for further details). R~0~, recruitment deviations and recruitment apportionment were fixed based on values described in a recent stock assessment conducted by Fu et al. (2018). The conditioned YFT SPM model was then used as an operating model to simulate pseudo-data with observation error, such that these *simulated observations* provide plausible values for Indian Ocean YFT. Each 5x5$^\circ$ grid cell within the spatial domain of the SPM OM is treated as a unique population sub-unit with local recruitment, mortality, and movement dynamics.  
+Using the Spatial Population Model software (SPM, developed by A. Dunn, S. Rasmussen, and S. Mormede, available [here](https://github.com/alistairdunn1/SPM)), a spatially explicit population dynamics OM was developed for YFT, a highly migratory pelagic species, in the Indian Ocean. This model was conditioned using empirical data from region-specific fisheries and spatially explicit (disaggregated) catch, longline CPUE, tag recapture data, and length frequencies at a 5x5$^\circ$ grid cell resolution (221 total cells). The OM was conditioned by fitting the disaggregated IOTC data within SPM itself using maximum likelihood to estimate fishery and population parameter values (e.g., fishery selectivity, fishing mortality, recruitment, and movement; see [Dunn et al. (2020)](https://github.com/aaronmberger-nwfsc/Spatial-Assessment-Modeling-Workshop/blob/main/docs/articles/Relevant_literature_files/Dunn%2C%20Hoyle%2C%20Datta%202020%20v1%20SPM%20YFT%20OM.pdf) for further details). R~0~, recruitment deviations and recruitment apportionment were fixed based on values described in a recent stock assessment conducted by Fu et al. (2018). The conditioned YFT SPM model was then used as an operating model to simulate pseudo-data with observation error, such that these *simulated observations* provide plausible values for Indian Ocean YFT. Each 5x5$^\circ$ grid cell within the spatial domain of the SPM OM is treated as a unique population sub-unit with local recruitment, mortality, and movement dynamics.  
 
 As a check on the simulated dynamics and associated data from the YFT SPM OM, an integrated assessment model (Stock Synthesis 3, SS3) was fit to the 4 area aggregated data from a subset of the simulated datasets. The SS3 model, though not optimized, was able to fit the pseudo-data without any major diagnostic or convergence issues. The estimated population trajectories adequately reflected the true values from the SPM OM. Thus, the organizers have verified that the OM is producing reliable outputs that should be interpretable by any flexible integrated assessment platform.
 
@@ -37,7 +37,7 @@ v. To validate the simulation process, SS3 was successfully applied to a simulat
 One hundred realizations of the OM (i.e., each with different observation error and recruitment process error/stochasticity per run) were generated (100 are provided initially, more can be requested by participants).
 
 # 3.	YFT OM build for the spatial simulation experiment 
-The previous version of the YFT OM ([Dunn et al. (2020)](https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/blob/main/Background%20files%20for%20participants/IOTC%20YFT%20OM%20application/Dunn%2C%20Hoyle%2C%20Datta%20(2020)%20IOTC-2020-YFT.pdf)) did not include stochasticity in recruitment. We introduced stochasticity into the YFT OM used in this simulation experiment by introducing process error in recruitment across space (spatial apportionment) and time (year class strength; YCS). Thus, simulated observations were generated for 100 different realizations of the OM, integrating both process and observation sources of error. 
+The previous version of the YFT OM ([Dunn et al. (2020)](https://github.com/aaronmberger-nwfsc/Spatial-Assessment-Modeling-Workshop/blob/main/docs/articles/Relevant_literature_files/Dunn%2C%20Hoyle%2C%20Datta%202020%20v1%20SPM%20YFT%20OM.pdf)) did not include stochasticity in recruitment. We introduced stochasticity into the YFT OM used in this simulation experiment by introducing process error in recruitment across space (spatial apportionment) and time (year class strength; YCS). Thus, simulated observations were generated for 100 different realizations of the OM, integrating both process and observation sources of error. 
 
 We include only one OM scenario in this simulation experiment (which is based on realized fishery and biological data from the Indian Ocean), however we acknowledge that others could be used. A single OM scenario was chosen given the limitations of a worldwide simulation experiment and for ease of comparisons. The 100 different realizations of simulated data output from the experiment\'s YFT OM (including stochastic recruitment processes and observation error) encapsulate key sources of variability, allowing for an explicit evaluation of uncertainty in resultant estimation models.
 
@@ -45,7 +45,7 @@ We include only one OM scenario in this simulation experiment (which is based on
 Based on the domain assumed in the IOTC YFT operational assessment (Fig. 1a), a rectangular 13x17 grid of 5x5$^\circ$ cells (221 total), spanning 20$^\circ$E to 105$^\circ$E and 20$^\circ$N to 40$^\circ$S, demarcates the Indian Ocean into a planar Cartesian coordinate system. Of these, the 159 oceanic cells represent the spatial domain of the OM (Fig. 1b). No catch, CPUE or recruitment are attributed to cells fully on land. The temporal resolution in the OM is quarterly (referred to as a *pseudo-year*). The time series spans from pseudo-year 1 (first quarter of 1952) to pseudo-year 256 (fourth quarter of 2015). YFT ages are modeled from 0.25 age until 7 years of age (28 quarters or pseudo-years), where age 28 is a plus group. The quarterly ageing process moves fish between age classes.
 
 ```{r knitr-logo, out.width='100%', fig.show='hold',fig.align="center"}
-knitr::include_graphics(rep('C:/Users/caren.barcelo/Documents/images/baseplot_gridwlabels_5regions.png', 1))
+knitr::include_graphics(rep('C:/Users/Aaron.Berger/Documents/GitHub/Spatial-Assessment-Modeling-Workshop/docs/articles/images/baseplot_gridwlabels_regions.png', 1))
 ```
 ***Fig. 1) a) Assessment regions defined from Fu et al. (2018); b) Grid cells for which SPM simulated YFT population and fishery dynamics. Note: Regions 1a (R1a) and 1b (R1b) are combined to form Region 1 in the 4-area model aggregation following Fu et al. (2018).***
 
@@ -87,7 +87,7 @@ Natural mortality (M) is age-specific (Fig. 3d), and assumed to be constant thro
 | Length of weight: b | 2.9667 |
 
 ```{r knitr-logo3, out.width='75%',fig.align="center"}
-knitr::include_graphics(rep('C:/Users/caren.barcelo/Documents/images/biologicalparameters_v2.png', 1))
+knitr::include_graphics(rep('C:/Users/Aaron.Berger/Documents/GitHub/Spatial-Assessment-Modeling-Workshop/docs/articles/images/biologicalparameters_v2.png', 1))
 ```
 ***Fig. 2). Biological parameters used in the YFT OM. a) von Bertalanffy age-length relationship, b) length-weight relationship, c) Proportion mature by age, d) natural mortality (M) by age.***
 
@@ -95,7 +95,7 @@ knitr::include_graphics(rep('C:/Users/caren.barcelo/Documents/images/biologicalp
 Recruitment into the population occurs at age 0.25 (i.e. pseudo-year 1), and recruitment events take place every quarter with spatial apportionment among grid cells. The OM assumes a global, population level Beverton-Holt spawner-recruitment relationship (SRR) based on the domain-wide total SSB and pseudo-year recruitment deviations referred to as pseudo-year class strength multipliers (YCS).  Steepness of the Beverton-Holt SRR is 0.8, and R~0~=97.2506 * 10^6^ individuals (based on the 2018 YFT stock assessment estimates). The base YCS values for each pseudo-year were determined during the conditioning stage, and subsequently stochasticity in YCS was included for each pseudo-year across the 100 simulated data sets (see section 3.5). The mean spatial apportionment of recruitment among grid cells is based on the observed distribution of small (<40cm) YFT caught in the purse seine fishery (Fig 3). 
 
 ```{r knitr-logo2, out.width='75%',fig.align="center"}
-knitr::include_graphics(rep('C:/Users/caren.barcelo/Documents/images/Dunn_recruitment.png', 1))
+knitr::include_graphics(rep('C:/Users/Aaron.Berger/Documents/GitHub/Spatial-Assessment-Modeling-Workshop/docs/articles/images/Dunn_recruitment.png', 1))
 ```
 ***Fig. 3) Base layer (i.e., without stochasticity) of spatial apportionment of recruitment of age 1 YFT. Light blue to dark blue coloration represents low to high recruitment apportionment occurring in each cell. The base layer apportionment is based on the abundance of fish that were less than 40cm in length caught by the purse-seine fishery (Figure from Dunn et al., (2020)).***
 
@@ -147,17 +147,17 @@ CPUE is simulated for the longline fishery between pseudo-years 81-256 as an ind
 | Other | 135 | 256 | Multinomial |
 
 ```{r knitr-logo4, out.width='75%',fig.align="center"}
-knitr::include_graphics(rep('C:/Users/caren.barcelo/Documents/images/totalcatch_barplotbyfleet.png', 1))
+knitr::include_graphics(rep('C:/Users/Aaron.Berger/Documents/GitHub/Spatial-Assessment-Modeling-Workshop/docs/articles/images/totalcatch_barplotbyfleet.png', 1))
 ```
 ***Fig. 4) Aggregated (summed across cell and pseudo-year) catch (in numbers) from each of the 7 fisheries included in the YFT SPM OM.***
 
 ```{r knitr-logo5, out.width='75%',fig.align="center"}
-knitr::include_graphics(rep('C:/Users/caren.barcelo/Documents/images/totalcatch_N_mt.png', 1))
+knitr::include_graphics(rep('C:/Users/Aaron.Berger/Documents/GitHub/Spatial-Assessment-Modeling-Workshop/docs/articles/images/totalcatch_N_mt.png', 1))
 ```
 ***Fig. 5) Total catch of yellowfin tuna by model pseudo-year in numbers (black, left hand y axis) and metric tons (red, right hand y axis).***
 
 ```{r knitr-logo6, out.width='100%',fig.align="center"}
-knitr::include_graphics(rep('C:/Users/caren.barcelo/Documents/images/diff_fisheries_catch_spatial.png', 1))
+knitr::include_graphics(rep('C:/Users/Aaron.Berger/Documents/GitHub/Spatial-Assessment-Modeling-Workshop/docs/articles/images/diff_fleets_catch.png', 1))
 ```
 ***Fig. 6) Total catch by cell for the seven fisheries included in the OM. Bubble size is scaled to fleet specific catch. ***
 
@@ -170,7 +170,7 @@ Tag recapture observations were simulated for each model pseudo-year and cell fo
 
 Aside from initial mortality (i.e., the assumed proportion of fish that either lost their tags or died during the tagging process) and ongoing tag loss (i.e., an assumed rate that fish lost tags over time and were no longer identifiable as tagged fish), the population and movement processes applied to tagged fish were the same as the general population. Initial tag retention and survival is assumed to be 0.9 (i.e., 10% of fish with tags were assumed to have either lost their tag immediately or died as a result of the tagging process, or otherwise were not identifiable as tagged fish in the population), and implemented as a fixed process by discounting the numbers of released fish in each cohort by 10%. Ongoing tag loss rates were assumed to be 20% per 2000 days (Fu et al. (2018)), and is implemented as a model pseudo-year (i.e. quarterly) mortality of 0.91%. Age of recaptured fish is set equal to the age of that individual at release plus its time at liberty. Tag recaptures were reported solely by the purse seine fishery, equivalent to 90% reporting rate. Tag detection in other fisheries is not considered (i.e. only the purse seine fleet is assumed to report tags and reporting rates for other fisheries are set to 0%).
 ```{r knitr-logo7, out.width='65%',fig.align="center"}
-knitr::include_graphics(rep('C:/Users/caren.barcelo/Documents/images/tagreleaserecapt_movement.png', 1))
+knitr::include_graphics(rep('C:/Users/Aaron.Berger/Documents/GitHub/Spatial-Assessment-Modeling-Workshop/docs/articles/images/tagreleaserecapt_movement.png', 1))
 ```
 ***Fig. 7) Movement of tagged yellowfin tuna in the Indian Ocean; a) spatially binned release locations, b) spatially binned recapture locations, c) distance moved by each fish between release and recapture locations. Warmer colors reflect highest releases and recaptures in subpanels (a) and (b).***
 
@@ -181,10 +181,10 @@ The simulation model was run 100 times to encapsulate variation and provide 100 
 
 For each of the 100 simulation runs, the YCS multipliers varied as a log-normally distributed stochastic process with a mean equal to 1 with a standard deviation of 0.6. YCS multipliers were included across all model pseudo-years, 1 - 256.
 
-To introduce stochasticity (process error) into spatial recruitment apportionment within the OM, spatially correlated Gaussian random fields were generated for each of the 100 simulation runs. We used an exponential variogram model (from the *gstat* package in R (Pebesma,(2004)), which assumed a constant trend, with the partial sill = 0.025, range = 2, beta = 1 and the number of nearest observations used for the kriging prediction = 20. We then took the product of each of the random layers (100 simulations runs x 256 pseudo-years per run) and the original base layer (Fig. 2, the proportion of samples per grid cell that had fish <40cm in length from [Dunn et al. (2020)](https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/blob/main/Background%20files%20for%20participants/IOTC%20YFT%20OM%20application/Dunn%2C%20Hoyle%2C%20Datta%20(2020)%20IOTC-2020-YFT.pdf)) and divided by the grid total (total recruitment apportionment for each spatial grid summed to 1) to attain random spatial recruitment proportions weighted by the original base recruitment values (see Fig. 8 for an example). Spatiotemporal recruitment stochasticity is thus introduced by multiplying YCS vectors with spatial apportionment matrices across each of the 256 pseudo-years in each of the 100 simulation runs. 
+To introduce stochasticity (process error) into spatial recruitment apportionment within the OM, spatially correlated Gaussian random fields were generated for each of the 100 simulation runs. We used an exponential variogram model (from the *gstat* package in R (Pebesma,(2004)), which assumed a constant trend, with the partial sill = 0.025, range = 2, beta = 1 and the number of nearest observations used for the kriging prediction = 20. We then took the product of each of the random layers (100 simulations runs x 256 pseudo-years per run) and the original base layer (Fig. 2, the proportion of samples per grid cell that had fish <40cm in length from [Dunn et al. (2020)](https://github.com/aaronmberger-nwfsc/Spatial-Assessment-Modeling-Workshop/blob/main/docs/articles/Relevant_literature_files/Dunn%2C%20Hoyle%2C%20Datta%202020%20v1%20SPM%20YFT%20OM.pdf)) and divided by the grid total (total recruitment apportionment for each spatial grid summed to 1) to attain random spatial recruitment proportions weighted by the original base recruitment values (see Fig. 8 for an example). Spatiotemporal recruitment stochasticity is thus introduced by multiplying YCS vectors with spatial apportionment matrices across each of the 256 pseudo-years in each of the 100 simulation runs. 
 
 ```{r knitr-logo8, out.width='45%',fig.align="center"}
-knitr::include_graphics(rep('C:/Users/caren.barcelo/Documents/images/randomTestRecFull_1.png', 1))
+knitr::include_graphics(rep('C:/Users/Aaron.Berger/Documents/GitHub/Spatial-Assessment-Modeling-Workshop/docs/articles/images/randomTestRecFull_1.png', 1))
 ```
 ***Fig. 8) Heatmap of one realization of the spatial variability in recruitment apportionment constructed with correlated random fields weighted by the recruitment apportionment assumed in the base layer (Fig. 2). Warmer colors reflect higher apportionment.***
 
@@ -225,7 +225,7 @@ CPUE data from the OM was standardized for each region to generate indices of re
 Tagged fish were all released in region 1 between pseudo-years 214 and 223. Recaptures were tracked by release pseudo-year, and grouped by summing the numbers of fish recaptured by region, pseudo-year, and age (as well as maturity stage: immature & mature), including a plus group for fish aged 20 or older at recovery.
 
 ```{r knitr-logo9, out.width='75%',fig.align="center"}
-knitr::include_graphics(rep('C:/Users/caren.barcelo/Documents/images/data_plot.png',1))
+knitr::include_graphics(rep('C:/Users/Aaron.Berger/Documents/GitHub/Spatial-Assessment-Modeling-Workshop/docs/articles/images/data_plot.png',1))
 ```
 ***Fig. 9) Information on data time series included in the 4 area aggregated YFT simulated datasets. Note: Only tag recaptures are provided for the purse seine (ps) fishery as reporting rate for other fisheries was assumed to be 0%.***
 
@@ -245,7 +245,7 @@ CPUE was standardized by pseudo-year and cell location (5x5$^\circ$ cell) using 
 Tagged fish were all released in region 1 between pseudo-years 214 and 223. Recaptures were tracked by release pseudo-year, and grouped by summing the numbers of fish recaptured by region, pseudo-year, as well as by maturity stage: immature & mature.
 
 ```{r knitr-logo10, out.width='75%',fig.align="center"}
-knitr::include_graphics(rep('C:/Users/caren.barcelo/Documents/images/data_plot_1a.png',1))
+knitr::include_graphics(rep('C:/Users/Aaron.Berger/Documents/GitHub/Spatial-Assessment-Modeling-Workshop/docs/articles/images/data_plot_1a.png',1))
 ```
 ***Fig. 10) Information on data time series included in the 1 area aggregated YFT simulated datasets. Note: Only tag recaptures are provided for the purse seine (ps) fishery as reporting rate for other fisheries was assumed to be 0%.***
 

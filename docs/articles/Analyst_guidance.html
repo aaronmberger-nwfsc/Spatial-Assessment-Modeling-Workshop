@@ -20,6 +20,8 @@
 <![endif]-->
 </head>
 <body data-spy="scroll" data-target="#toc">
+    
+
     <div class="container template-article">
       <header><div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -32,7 +34,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">SpatialAssessmentModelingWorkshop</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.4</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.4</span>
       </span>
     </div>
 
@@ -57,7 +59,7 @@
       <a href="../articles/OM_Description_TOA.html">TOA OM Description</a>
     </li>
     <li>
-      <a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/tree/main/docs/articles/Relevant_literature_files">Relevant Literature Files</a>
+      <a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/tree/main/docs/articles/Relevant_literature_files" class="external-link">Relevant Literature Files</a>
     </li>
     <li>
       <a href="../articles/Team_info.html">Participating Team Info</a>
@@ -84,13 +86,13 @@
   </a>
   <ul class="dropdown-menu" role="menu">
 <li>
-      <a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/discussions/2">General Questions</a>
+      <a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/discussions/2" class="external-link">General Questions</a>
     </li>
     <li>
-      <a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/discussions/6">YFT Questions</a>
+      <a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/discussions/6" class="external-link">YFT Questions</a>
     </li>
     <li>
-      <a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/discussions/7">TOA Questions</a>
+      <a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/discussions/7" class="external-link">TOA Questions</a>
     </li>
   </ul>
 </li>
@@ -102,14 +104,22 @@
   </a>
 </li>
 <li>
-  <a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/">
+  <a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/" class="external-link">
     <span class="fa fa-github fa-lg"></span>
      
     Github
   </a>
 </li>
       </ul>
-<ul class="nav navbar-nav navbar-right"></ul>
+<ul class="nav navbar-nav navbar-right">
+<li>
+  <a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/" class="external-link">
+    <span class="fa fa-github fa-lg"></span>
+     
+    Github
+  </a>
+</li>
+      </ul>
 </div>
 <!--/.nav-collapse -->
   </div>
@@ -119,37 +129,37 @@
 
       
 
-      </header><script src="Analyst_guidance_files/header-attrs-2.11/header-attrs.js"></script><div class="row">
+      </header><div class="row">
   <div class="col-md-9 contents">
     <div class="page-header toc-ignore">
       <h1 data-toc-skip>ANALYST GUIDANCE FOR SIMULATION EXPERIMENT</h1>
             
-            <h4 class="date">18 December 2021</h4>
+            <h4 data-toc-skip class="date">04 March 2022</h4>
       
-      <small class="dont-index">Source: <a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/blob/master/vignettes/Analyst_guidance.Rmd"><code>vignettes/Analyst_guidance.Rmd</code></a></small>
+      <small class="dont-index">Source: <a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/blob/HEAD/vignettes/Analyst_guidance.Rmd" class="external-link"><code>vignettes/Analyst_guidance.Rmd</code></a></small>
       <div class="hidden name"><code>Analyst_guidance.Rmd</code></div>
 
     </div>
 
     
     
-<div id="overview-of-the-analyst-process" class="section level1">
-<h1 class="hasAnchor">
-<a href="#overview-of-the-analyst-process" class="anchor"></a>1. Overview of the analyst process</h1>
-<p>An overview of the <a href="https://carenbarcelo-noaa.github.io/Spatial-Assessment-Modeling-Workshop/">Study Design</a> document and objectives was provided previously and can be found on the <a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop">GitHub repository</a>. Here, we provide a detailed outline of the expectations of each analyst participating in the simulation experiment at each stage of the study, including information on model parametrization, expected deliverables, and discussion questions to consider. Using the yellowfin tuna (YFT) operating model and/or Antarctic toothfish (TOA) operating model, each analyst will develop, using initially a single representative dataset:</p>
+<div class="section level2">
+<h2 id="overview-of-the-analyst-process">1. Overview of the analyst process<a class="anchor" aria-label="anchor" href="#overview-of-the-analyst-process"></a>
+</h2>
+<p>An overview of the <a href="https://github.com/aaronmberger-nwfsc/Spatial-Assessment-Modeling-Workshop/blob/main/docs/PDFs/Study_Design.pdf" class="external-link">Study Design</a> document and objectives was provided previously and can be found on the <a href="https://github.com/aaronmberger-nwfsc/Spatial-Assessment-Modeling-Workshop" class="external-link">GitHub repository</a>. Here, we provide a detailed outline of the expectations of each analyst participating in the simulation experiment at each stage of the study, including information on model parametrization, expected deliverables, and discussion questions to consider. Using the yellowfin tuna (YFT) operating model and/or Antarctic toothfish (TOA) operating model, each analyst will develop, using initially a single representative dataset:</p>
 <ol style="list-style-type: decimal">
 <li>A single area, panmictic assessment to then apply it to the 100 one area simulated data sets (i.e., simulation runs) using their chosen assessment application;</li>
 <li>A 4 area, spatially stratified assessment and apply it to the 100 spatial (4 area) simulated data sets (i.e., simulation runs) using their chosen assessment application;</li>
-<li>A summary of their decision point model development process, which outlines how analysts arrived at the final spatially stratified stock assessment model parametrization (<a href="https://carenbarcelo-noaa.github.io/Spatial-Assessment-Modeling-Workshop/">Study Design</a> <strong>Objective #1</strong>; see Section 4)</li>
+<li>A summary of their decision point model development process, which outlines how analysts arrived at the final spatially stratified stock assessment model parametrization (<a href="https://github.com/aaronmberger-nwfsc/Spatial-Assessment-Modeling-Workshop/blob/main/docs/PDFs/Study_Design.pdf" class="external-link">Study Design</a> <strong>Objective #1</strong>; see Section 4)</li>
 <li>A summary of results from each model configuration (i.e., 1 area &amp; 4 area models);</li>
 <li>A brief comparison of the panmictic and spatial assessment outputs and diagnostics (<strong>Objective #2</strong>);</li>
 <li>Output files to be provided to the workshop/experiment organizers via Box (links and folder structure to be provided).</li>
 </ol>
 <p>After the base runs (i.e., 1 and 4 area assessment models) are complete, the analysts are encouraged to develop other model parametrizations or implement alternate data aggregations (e.g. 2 areas or 8 areas for the YFT model) and comparisons across spatial aggregation approaches are very much welcomed. Results can be pushed to a Box repository (given space limitations on Github) and analysts are encouraged to pursue publication of their results and comparisons across parametrizations (see Section 7.3 for more info on publications and deliverables).</p>
 </div>
-<div id="questions-to-keep-in-mind" class="section level1">
-<h1 class="hasAnchor">
-<a href="#questions-to-keep-in-mind" class="anchor"></a>2. Questions to keep in mind</h1>
+<div class="section level2">
+<h2 id="questions-to-keep-in-mind">2. Questions to keep in mind<a class="anchor" aria-label="anchor" href="#questions-to-keep-in-mind"></a>
+</h2>
 <p>We ask that analysts keep the following questions in mind, while generating panmictic and spatial assessments. These general questions will help guide group discussion sessions during the virtual webinars and aid in developing suggestions for best practices and future needs for spatial models from the simulation experiment. After completing the simulation experiment provide detailed answers to these questions:</p>
 <ul>
 <li>What types of spatial data that are currently collected are necessary to fit when developing spatial stock assessment? What types of novel or unique data could be fit or used to help parametrize spatial models, and, thus, should be more routinely collected and integrated into the next generation of spatial assessment platforms?</li>
@@ -161,15 +171,15 @@
 <li>How can we develop biological reference points that adequately account for spatial structure?</li>
 </ul>
 </div>
-<div id="model-parameterization" class="section level1">
-<h1 class="hasAnchor">
-<a href="#model-parameterization" class="anchor"></a>3. Model parameterization</h1>
+<div class="section level2">
+<h2 id="model-parameterization">3. Model parameterization<a class="anchor" aria-label="anchor" href="#model-parameterization"></a>
+</h2>
 <p>We would like the analysts to treat this experiment as though they were developing a real world assessment based on observed data and typically available knowledge regarding biological and fishery dynamics. Of course, all analysts will have more information than is typical in a real world assessment development application (e.g., true values of difficult to estimate parameters, such as natural mortality, will be provided), which will reduce uncertainty and produce overly optimistic results. Yet, we believe that, even with a handful of parameters fixed at true values, the resultant model development process will be extremely useful to better elucidate best practices for building spatial assessments and identifying sub-optimal parametrizations through residual analysis.</p>
 <p>The complete model description can be found in the OM description document for each species (YFT and TOA). Below we provide examples of the minimum parameters that we are requesting each analyst to estimate or derive, as well as those that are provided and may either be fixed or estimated. We note that depending on model parametrization (e.g., choice of population structure) some of these parameters may not be estimated or included in a given model.</p>
 <p>For each simulated dataset at each assessment aggregation, we ask that the analysts estimate or derive the following parameters.</p>
-<div id="parameters-to-be-estimated" class="section level3">
-<h3 class="hasAnchor">
-<a href="#parameters-to-be-estimated" class="anchor"></a>Parameters to be <em>Estimated</em>:</h3>
+<div class="section level4">
+<h4 id="parameters-to-be-estimated">Parameters to be <em>Estimated</em>:<a class="anchor" aria-label="anchor" href="#parameters-to-be-estimated"></a>
+</h4>
 <ol style="list-style-type: lower-roman">
 <li>B0: although given in the OM description document, please do not fix at this value in your models, as it is a key scaling parameter that is almost always estimated in an assessment model.</li>
 <li>R0: same as above.</li>
@@ -180,9 +190,9 @@
 <li>Fishery Selectivity: provide estimates of selectivity for each fleet by age or length along with any spatiotemporal variation that might be estimated in these parameters.</li>
 </ol>
 </div>
-<div id="parameters-to-be-derived" class="section level3">
-<h3 class="hasAnchor">
-<a href="#parameters-to-be-derived" class="anchor"></a>Parameters to be <em>Derived</em>:</h3>
+<div class="section level4">
+<h4 id="parameters-to-be-derived">Parameters to be <em>Derived</em>:<a class="anchor" aria-label="anchor" href="#parameters-to-be-derived"></a>
+</h4>
 <ol style="list-style-type: lower-roman">
 <li>SSB: provide time series estimates of SSB by area.</li>
 <li>Abundance-at-age: provide time series estimates of abundance-at-age by area.</li>
@@ -201,13 +211,12 @@
 </ol>
 </div>
 </div>
-<div id="analyst-documentation-of-model-development-objective-1-of-study-design" class="section level1">
-<h1 class="hasAnchor">
-<a href="#analyst-documentation-of-model-development-objective-1-of-study-design" class="anchor"></a>4. Analyst documentation of model development (Objective #1 of <a href="https://carenbarcelo-noaa.github.io/Spatial-Assessment-Modeling-Workshop/">Study Design</a>
-</h1>
-<div id="decision-point-analysis" class="section level2">
-<h2 class="hasAnchor">
-<a href="#decision-point-analysis" class="anchor"></a>4.1 Decision Point Analysis</h2>
+<div class="section level2">
+<h2 id="analyst-documentation-of-model-development-objective-1-of-study-design">4. Analyst documentation of model development (Objective #1 of <a href="https://github.com/aaronmberger-nwfsc/Spatial-Assessment-Modeling-Workshop/blob/main/docs/PDFs/Study_Design.pdf" class="external-link">Study Design</a><a class="anchor" aria-label="anchor" href="#analyst-documentation-of-model-development-objective-1-of-study-design"></a>
+</h2>
+<div class="section level3">
+<h3 id="decision-point-analysis">4.1 Decision Point Analysis<a class="anchor" aria-label="anchor" href="#decision-point-analysis"></a>
+</h3>
 <p>The focal point of the experiment is a comparison among analysts’ approaches to develop, parametrize, and assess goodness of fit for spatial stock assessment models. Towards this end, we request that each analyst describe and document, the parametrization of their spatial model, the assumptions implicit or explicit in their model platform, and how these influence the decisions made during the modeling process. The following questions provide a general guideline of major decision points to be documented (loosely based on Punt, 2019), but are not all-inclusive:</p>
 <ol style="list-style-type: decimal">
 <li>How did you arrive at your final spatial model parametrization? Did you first develop a panmictic assessment and look for residual patterns indicative of critical spatial processes to be included? Did you simply use the OM description? Did you use any particular diagnostic analyses to develop and refine parametrization (see sub-section 4.2 for more questions related to diagnostics)?</li>
@@ -225,9 +234,9 @@
 <li>Was tagging data fit in the model? Why or why not? How were tagging parameters dealt with (e.g., fixed or estimated? time-invariant or time-varying?)?</li>
 </ol>
 </div>
-<div id="model-diagnostics" class="section level2">
-<h2 class="hasAnchor">
-<a href="#model-diagnostics" class="anchor"></a>4.2 Model Diagnostics</h2>
+<div class="section level3">
+<h3 id="model-diagnostics">4.2 Model Diagnostics<a class="anchor" aria-label="anchor" href="#model-diagnostics"></a>
+</h3>
 <p>As residual analysis and model diagnostics are critical components of the assessment process, which indicate whether a given model is adequately fitting observed data, we are particularly interested in the diagnostics that analysts use to determine goodness of fit in a spatial context. In particular, did particular residual patterns from panmictic assessments guide parametrizations of resultant spatial assessments? We ask that you consider and document responses to the following questions throughout the model development and parametrization stages:</p>
 <ol style="list-style-type: decimal">
 <li>Are the typical residual analyses used in panmictic assessments adequate for spatial models?</li>
@@ -235,12 +244,12 @@
 <li>Can we use the results of a non-spatial model to identify what spatial processes need to be included in a spatial model (e.g., are there diagnostics that can help infer that major assumptions are violated)? If so, please elaborate.</li>
 <li>Are alternate diagnostics needed for spatial models (e.g., by area or sub-populations)? Did you or have you in the past developed such diagnostics? If so, please elaborate.</li>
 </ol>
-<p>Please fill out the accompanying <a href="https://docs.google.com/forms/d/1XgO04RoEaETk9s-kKh4VJ1T-wsQSwexx1lC7-7LkGT8/viewform?edit_requested=true">google form</a> for decision point analysis and model diagnostics.</p>
+<p>Please fill out the accompanying <a href="https://docs.google.com/forms/d/1XgO04RoEaETk9s-kKh4VJ1T-wsQSwexx1lC7-7LkGT8/viewform?edit_requested=true" class="external-link">google form</a> for decision point analysis and model diagnostics.</p>
 </div>
 </div>
-<div id="reporting-model-outputs" class="section level1">
-<h1 class="hasAnchor">
-<a href="#reporting-model-outputs" class="anchor"></a>5. Reporting model outputs</h1>
+<div class="section level2">
+<h2 id="reporting-model-outputs">5. Reporting model outputs<a class="anchor" aria-label="anchor" href="#reporting-model-outputs"></a>
+</h2>
 <p>We request that raw assessment outputs be provided at each specific platform’s Box repository (to be provided to each analyst/group of analysts) for each of the 100 assessment runs for each of the assessment aggregations (1 area and 4 areas). Results should include, but are not limited to:</p>
 <ol style="list-style-type: lower-roman">
 <li>R0, B0.</li>
@@ -257,19 +266,19 @@
 </ol>
 <p>Additionally, we request that the analyst upload all raw report files from each assessment run (200 total) to the Box directory under the appropriate spatial aggregation (further details on <em>Box</em> to be provided).</p>
 </div>
-<div id="communication-during-experiment" class="section level1">
-<h1 class="hasAnchor">
-<a href="#communication-during-experiment" class="anchor"></a>6. Communication during experiment</h1>
-<p>Questions can be directed to Caren Barcelo (<a href="mailto:caren.barcelo@noaa.gov" class="email">caren.barcelo@noaa.gov</a>) or other workshop organizers via email or by way of Github Team Discussions. The Github discussions will serve as a location for Q&amp;A with organizers as well as to offer a platform for analysts to discuss amongst themselves details related to the experiment. Organizers will also reach out, likely in September 2021, to coordinate best times for each analyst (or team of analysts) to give presentations on their findings.</p>
+<div class="section level2">
+<h2 id="communication-during-experiment">6. Communication during experiment<a class="anchor" aria-label="anchor" href="#communication-during-experiment"></a>
+</h2>
+<p>Questions can be directed to Aaron Berger (<a href="mailto:aaron.berger@noaa.gov" class="email">aaron.berger@noaa.gov</a>) or other workshop organizers via email or by way of Github Team Discussions. The Github discussions will serve as a location for Q&amp;A with organizers as well as to offer a platform for analysts to discuss amongst themselves details related to the experiment. Organizers will also reach out, likely in September 2021, to coordinate best times for each analyst (or team of analysts) to give presentations on their findings.</p>
 </div>
-<div id="simulation-experiment-deliverables" class="section level1">
-<h1 class="hasAnchor">
-<a href="#simulation-experiment-deliverables" class="anchor"></a>7. Simulation experiment deliverables</h1>
-<div id="virtual-presentations-of-results-and-comparisons" class="section level2">
-<h2 class="hasAnchor">
-<a href="#virtual-presentations-of-results-and-comparisons" class="anchor"></a>7.1 Virtual presentations of results and comparisons</h2>
+<div class="section level2">
+<h2 id="simulation-experiment-deliverables">7. Simulation experiment deliverables<a class="anchor" aria-label="anchor" href="#simulation-experiment-deliverables"></a>
+</h2>
+<div class="section level3">
+<h3 id="virtual-presentations-of-results-and-comparisons">7.1 Virtual presentations of results and comparisons<a class="anchor" aria-label="anchor" href="#virtual-presentations-of-results-and-comparisons"></a>
+</h3>
 <p>Analysts are asked to give a 90 minute virtual webinar (approximately 45min seminar with 45min for questions and discussion with analysts using other platforms). These will be public seminars and are intended to elicit feedback and discussions on the decision point analysis, model diagnostics, and within-model comparisons.</p>
-<p>We will provide further details regarding guidance on webinar and presentation formats. But, generally, we hope analysts will walk through their model development approach including providing responses to the questions outlined in the decision point analysis section, explore model diagnostics, provide population trends and stock status, and compare results across different model runs (e.g., between the panmictic and spatially stratified models). For the within model comparisons (i.e., panmictic vs. spatially stratified assessments; <strong>Objective #2</strong> of <a href="https://carenbarcelo-noaa.github.io/Spatial-Assessment-Modeling-Workshop/">Study Design</a>, we request that you provide summary statements and figures addressing the following questions:</p>
+<p>We will provide further details regarding guidance on webinar and presentation formats. But, generally, we hope analysts will walk through their model development approach including providing responses to the questions outlined in the decision point analysis section, explore model diagnostics, provide population trends and stock status, and compare results across different model runs (e.g., between the panmictic and spatially stratified models). For the within model comparisons (i.e., panmictic vs. spatially stratified assessments; <strong>Objective #2</strong> of <a href="https://github.com/aaronmberger-nwfsc/Spatial-Assessment-Modeling-Workshop/blob/main/docs/PDFs/Study_Design.pdf" class="external-link">Study Design</a>, we request that you provide summary statements and figures addressing the following questions:</p>
 <ol style="list-style-type: lower-alpha">
 <li>How did model estimates compare?</li>
 <li>Did panmictic models give similar estimates of total biomass?</li>
@@ -278,26 +287,26 @@
 <li>How did uncertainty compare among models, and what were the main differences among model parameters?</li>
 </ol>
 </div>
-<div id="organizers-synthesize-data" class="section level2">
-<h2 class="hasAnchor">
-<a href="#organizers-synthesize-data" class="anchor"></a>7.2 Organizers synthesize data</h2>
-<p>Organizers will compile all information from each assessment platform and synthesize differences and similarities among model types and across panmictic v. spatial assessment results (<strong>Objective #3</strong> of <a href="https://carenbarcelo-noaa.github.io/Spatial-Assessment-Modeling-Workshop/">Study Design</a>. The organizers will conclude the virtual webinars with a summary presentation discussing these aggregate results. The results will be made available to each analyst at the conclusion of the study and all will be encouraged to participate in a collaborative manuscript(s) resulting from the experiment (Section 7.3).</p>
+<div class="section level3">
+<h3 id="organizers-synthesize-data">7.2 Organizers synthesize data<a class="anchor" aria-label="anchor" href="#organizers-synthesize-data"></a>
+</h3>
+<p>Organizers will compile all information from each assessment platform and synthesize differences and similarities among model types and across panmictic v. spatial assessment results (<strong>Objective #3</strong> of <a href="https://github.com/aaronmberger-nwfsc/Spatial-Assessment-Modeling-Workshop/blob/main/docs/PDFs/Study_Design.pdf" class="external-link">Study Design</a>. The organizers will conclude the virtual webinars with a summary presentation discussing these aggregate results. The results will be made available to each analyst at the conclusion of the study and all will be encouraged to participate in a collaborative manuscript(s) resulting from the experiment (Section 7.3).</p>
 </div>
-<div id="manuscript-development" class="section level2">
-<h2 class="hasAnchor">
-<a href="#manuscript-development" class="anchor"></a>7.3 Manuscript development</h2>
+<div class="section level3">
+<h3 id="manuscript-development">7.3 Manuscript development<a class="anchor" aria-label="anchor" href="#manuscript-development"></a>
+</h3>
 <p>We aim to develop results from the YFT simulation experiment into a collaborative manuscript on best practices for spatial assessment model development. We will use information from each analyst’s description of their decision points when developing models, diagnostics used, and a comparison of spatial vs panmictic assessment results for the YFT case study. We invite all those who are interested/have time and who actively participated in the simulation experiment with their assessment model/platforms to be co-authors on the resulting manuscript led by the workshop organizers.</p>
 <p>Analysts are also encouraged to develop their own collaborative manuscripts based on the results of their work within the broader simulation experiment design. We envision that many interesting results will be uncovered through this collaborative experiment, which can be useful for advancing the state of knowledge regarding performance and development of both spatially explicit and spatially aggregated stock assessment models. Manuscripts might include comparing across a variety of model parametrizations or working with other analyst/platform groups to do further cross model comparisons. The workshop organizers will provide true values of important population parameters from each SPM run to analysts wishing to develop summary statistics or figures of model fit and bias for manuscripts once final model results are submitted to the organizers. Pending interest a special issue in a journal (TBD) may be organized.</p>
 </div>
-<div id="spatial-assessment-methods-in-person-workshop-2022" class="section level2">
-<h2 class="hasAnchor">
-<a href="#spatial-assessment-methods-in-person-workshop-2022" class="anchor"></a>7.4 Spatial assessment methods in-person workshop 2022</h2>
+<div class="section level3">
+<h3 id="spatial-assessment-methods-in-person-workshop-2022">7.4 Spatial assessment methods in-person workshop 2022<a class="anchor" aria-label="anchor" href="#spatial-assessment-methods-in-person-workshop-2022"></a>
+</h3>
 <p>We also plan to have an in-person workshop in 2022 (dates and locations TBD) as a forum for further discussion and collaboration on topics of spatial assessment development and emerging issues. Details will be provided as the experiment progresses and the travel restrictions due to the COVID pandemic are further loosened.</p>
 <p><em>Thank you for your participation! Please reach out to any of the workshop organizers with questions or concerns.</em></p>
 </div>
-<div id="references" class="section level2">
-<h2 class="hasAnchor">
-<a href="#references" class="anchor"></a>References</h2>
+<div class="section level3">
+<h3 id="references">References<a class="anchor" aria-label="anchor" href="#references"></a>
+</h3>
 <p>Punt, A.E. (2019). Spatial stock assessment methods: a viewpoint on current issues and assumptions. Fisheries Research. 213: 132-134. DOI: 10.1016/j.fishres.2019.01.014.</p>
 </div>
 </div>
@@ -314,11 +323,13 @@
 
 
       <footer><div class="copyright">
-  <p>Developed by Caren Barcelo.</p>
+  <p></p>
+<p>Developed by Caren Barcelo.</p>
 </div>
 
 <div class="pkgdown">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.5.0.9000.</p>
+  <p></p>
+<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.2.</p>
 </div>
 
       </footer>
@@ -326,6 +337,8 @@
 
   
 
+
+  
 
   </body>
 </html>

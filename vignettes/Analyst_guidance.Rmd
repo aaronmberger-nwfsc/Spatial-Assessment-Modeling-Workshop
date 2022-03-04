@@ -13,11 +13,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # 1. Overview of the analyst process
 
-An overview of the [Study Design](https://carenbarcelo-noaa.github.io/Spatial-Assessment-Modeling-Workshop/) document and objectives was provided previously and can be found on the [GitHub repository](https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop). Here, we provide a detailed outline of the expectations of each analyst participating in the simulation experiment at each stage of the study, including information on model parametrization, expected deliverables, and discussion questions to consider. Using the yellowfin tuna (YFT) operating model and/or Antarctic toothfish (TOA) operating model, each analyst will develop, using initially a single representative dataset:
+An overview of the [Study Design](https://github.com/aaronmberger-nwfsc/Spatial-Assessment-Modeling-Workshop/blob/main/docs/PDFs/Study_Design.pdf) document and objectives was provided previously and can be found on the [GitHub repository](https://github.com/aaronmberger-nwfsc/Spatial-Assessment-Modeling-Workshop). Here, we provide a detailed outline of the expectations of each analyst participating in the simulation experiment at each stage of the study, including information on model parametrization, expected deliverables, and discussion questions to consider. Using the yellowfin tuna (YFT) operating model and/or Antarctic toothfish (TOA) operating model, each analyst will develop, using initially a single representative dataset:
 
 1. A single area, panmictic assessment to then apply it to the 100 one area simulated data sets (i.e., simulation runs) using their chosen assessment application; 
 2. A 4 area, spatially stratified assessment and apply it to the 100 spatial (4 area) simulated data sets (i.e., simulation runs) using their chosen assessment application; 
-3. A summary of their decision point model development process, which outlines how analysts arrived at the final spatially stratified stock assessment model parametrization ([Study Design](https://carenbarcelo-noaa.github.io/Spatial-Assessment-Modeling-Workshop/) __Objective #1__; see Section 4)
+3. A summary of their decision point model development process, which outlines how analysts arrived at the final spatially stratified stock assessment model parametrization ([Study Design](https://github.com/aaronmberger-nwfsc/Spatial-Assessment-Modeling-Workshop/blob/main/docs/PDFs/Study_Design.pdf) __Objective #1__; see Section 4)
 4. A summary of results from each model configuration (i.e., 1 area & 4 area models); 
 5. A brief comparison of the panmictic and spatial assessment outputs and diagnostics (__Objective #2__); 
 6. Output files to be provided to the workshop/experiment organizers via Box (links and folder structure to be provided).
@@ -67,7 +67,7 @@ c. Tag Retention: initial tag retention can be estimated or fixed (for the YFT O
 d. Tag Reporting Rate: the proportion of tags reported (for the YFT OM, 90% tag reporting was assumed in the purse seine fishery and 0% reporting was assumed for all other fisheries).
 e. Chronic Tag Loss: chronic tag loss can be estimated or fixed (for the YFT OM, chronic tag loss was assumed to 0.91% per quarter).
 
-# 4.	Analyst documentation of model development (Objective #1 of [Study Design](https://carenbarcelo-noaa.github.io/Spatial-Assessment-Modeling-Workshop/)
+# 4.	Analyst documentation of model development (Objective #1 of [Study Design](https://github.com/aaronmberger-nwfsc/Spatial-Assessment-Modeling-Workshop/blob/main/docs/PDFs/Study_Design.pdf)
 ## 4.1 Decision Point Analysis
 The focal point of the experiment is a comparison among analysts' approaches to develop, parametrize, and assess goodness of fit for spatial stock assessment models. Towards this end, we request that each analyst describe and document, the parametrization of their spatial model, the assumptions implicit or explicit in their model platform, and how these influence the decisions made during the modeling process. The following questions provide a general guideline of major decision points to be documented (loosely based on Punt, 2019), but are not all-inclusive:
 
@@ -110,14 +110,14 @@ xi. Spatial Reference Points (if possible in your platform).
 Additionally, we request that the analyst upload all raw report files from each assessment run (200 total) to the Box directory under the appropriate spatial aggregation (further details on *Box* to be provided).
 
 # 6.	Communication during experiment
-Questions can be directed to Caren Barcelo (caren.barcelo@noaa.gov) or other workshop organizers via email or by way of Github Team Discussions. The Github discussions will serve as a location for Q&A with organizers as well as to offer a platform for analysts to discuss amongst themselves details related to the experiment. Organizers will also reach out, likely in September 2021, to coordinate best times for each analyst (or team of analysts) to give presentations on their findings.  
+Questions can be directed to Aaron Berger (aaron.berger@noaa.gov) or other workshop organizers via email or by way of Github Team Discussions. The Github discussions will serve as a location for Q&A with organizers as well as to offer a platform for analysts to discuss amongst themselves details related to the experiment. Organizers will also reach out, likely in September 2021, to coordinate best times for each analyst (or team of analysts) to give presentations on their findings.  
 
 # 7.	Simulation experiment deliverables
 ## 7.1 Virtual presentations of results and comparisons
 
 Analysts are asked to give a 90 minute virtual webinar (approximately 45min seminar with 45min for questions and discussion with analysts using other platforms). These will be public seminars and are intended to elicit feedback and discussions on the decision point analysis, model diagnostics, and within-model comparisons.
 
-We will provide further details regarding guidance on webinar and presentation formats. But, generally, we hope analysts will walk through their model development approach including providing responses to the questions outlined in the decision point analysis section, explore model diagnostics, provide population trends and stock status, and compare results across different model runs (e.g., between the panmictic and spatially stratified models). For the within model comparisons (i.e., panmictic vs. spatially stratified assessments; __Objective #2__ of [Study Design](https://carenbarcelo-noaa.github.io/Spatial-Assessment-Modeling-Workshop/), we request that you provide summary statements and figures addressing the following questions:
+We will provide further details regarding guidance on webinar and presentation formats. But, generally, we hope analysts will walk through their model development approach including providing responses to the questions outlined in the decision point analysis section, explore model diagnostics, provide population trends and stock status, and compare results across different model runs (e.g., between the panmictic and spatially stratified models). For the within model comparisons (i.e., panmictic vs. spatially stratified assessments; __Objective #2__ of [Study Design](https://github.com/aaronmberger-nwfsc/Spatial-Assessment-Modeling-Workshop/blob/main/docs/PDFs/Study_Design.pdf), we request that you provide summary statements and figures addressing the following questions:
 
 a. How did model estimates compare? 
 b. Did panmictic models give similar estimates of total biomass? 
@@ -127,7 +127,7 @@ e. How did uncertainty compare among models, and what were the main differences 
 
 ## 7.2 Organizers synthesize data
 
-Organizers will compile all information from each assessment platform and synthesize differences and similarities among model types and across panmictic v. spatial assessment results (__Objective #3__ of [Study Design](https://carenbarcelo-noaa.github.io/Spatial-Assessment-Modeling-Workshop/). The organizers will conclude the virtual webinars with a summary presentation discussing these aggregate results. The results will be made available to each analyst at the conclusion of the study and all will be encouraged to participate in a collaborative manuscript(s) resulting from the experiment (Section 7.3).
+Organizers will compile all information from each assessment platform and synthesize differences and similarities among model types and across panmictic v. spatial assessment results (__Objective #3__ of [Study Design](https://github.com/aaronmberger-nwfsc/Spatial-Assessment-Modeling-Workshop/blob/main/docs/PDFs/Study_Design.pdf). The organizers will conclude the virtual webinars with a summary presentation discussing these aggregate results. The results will be made available to each analyst at the conclusion of the study and all will be encouraged to participate in a collaborative manuscript(s) resulting from the experiment (Section 7.3).
 
 ## 7.3 Manuscript development
 We aim to develop results from the YFT simulation experiment into a collaborative manuscript on best practices for spatial assessment model development. We will use information from each analyst's description of their decision points when developing models, diagnostics used, and a comparison of spatial vs panmictic assessment results for the YFT case study. We invite all those who are interested/have time and who actively participated in the simulation experiment with their assessment model/platforms to be co-authors on the resulting manuscript led by the workshop organizers. 

@@ -59,7 +59,7 @@ We envision three primary stages of model development that each analyst should d
 | Several Other Bespoke Models |  |
 
 #' ```{r knitr-logo, out.width='100%', fig.show='hold',fig.align="center"}
-#' knitr::include_graphics(rep('C:/Users/caren.barcelo/Documents/Github/Spatial-Assessment-Modeling-Workshop/docs/s#' tudydesignconceptualfig_v2.png', 1))
+#' knitr::include_graphics(rep('C:/Users/Aaron.Berger/Documents/GitHub/Spatial-Assessment-Modeling-Workshop/vignettes/images/studydesignconceptualfig_v2.png', 1))
 #' ```
 ***Fig. 1) Stages of model development for the simulation experiment conceptual flowchart as applied to each stock assessment platform.***
 
@@ -87,7 +87,7 @@ An outline of the experimental timeline for the YFT study, including key milesto
 7. Analysts and workshop organizers collaboratively provide text, feedback, and edits on a manuscript (to be submitted to a peer reviewed journal) highlighting the key findings of the experiment and workshop (2022)
 
 #'```{r knitr-logo2, out.width='100%', fig.show='hold',fig.align="center"}
-#'knitr::include_graphics(rep('C:/Users/caren.barcelo/Documents/images/ganttchartstudydesign_v2.png', 1))
+#'knitr::include_graphics(rep('C:/Users/Aaron.Berger/Documents/GitHub/Spatial-Assessment-Modeling-Workshop/vignettes/images/ganttchartstudydesign_v2.png', 1))
 #'```
 ***Fig. 2) Overview of key milestones associated with the YFT simulation experiment study design. Timelines flexible and may vary.***
 
