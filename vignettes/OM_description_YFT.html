@@ -11,7 +11,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 
-<meta name="date" content="2021-11-17" />
+<meta name="date" content="2022-03-04" />
 
 <title>YELLOWFIN TUNA OPERATING MODEL DESCRIPTION</title>
 
@@ -139,7 +139,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 
 <h1 class="title toc-ignore">YELLOWFIN TUNA OPERATING MODEL DESCRIPTION</h1>
-<h4 class="date">17 November 2021</h4>
+<h4 class="date">04 March 2022</h4>
 
 
 
@@ -147,12 +147,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="overview" class="section level1">
 <h1>1. Overview</h1>
 <p>In this document, we provide a general description of the yellowfin tuna (<em>Thunnus albacares</em>) case study and associated operating model (OM) used for the simulation experiment. This document will help simulation experiment participants develop and apply both spatially stratified and spatially aggregated stock assessments using their chosen modeling platform. The following description provides an overview of the primary assumptions and main components of the YFT operating model, including spatial configuration, population dynamics, simulated data, and model stochasticity.</p>
-<p>Recent YFT stock assessments performed for the Indian Ocean Tuna Commission (IOTC), as well as supplementary papers that describe the operating model (i.e., the simulation model) in more detail are also provided on the Spatial Stock Assessment Workshop <a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/">GitHub repository</a>. While the recent operational YFT stock assessment is provided as general background (<a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/tree/main/docs/articles/Relevant_literature_files/">Fu et al., (2018), Cardinale et al. (2020)</a>), this simulation experiment is strictly a research endeavor, with the Indian Ocean YFT stock chosen as an example to address broad study objectives. Analysts should be aware that the reality simulated by the YFT OM differs substantially in some respects from the real IO-YFT population.</p>
-<p>The Indian Ocean YFT operating model developed for this simulation experiment is described below. It is based on a previous version described in detail in <a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/tree/main/docs/articles/Relevant_literature_files/">Dunn et al. (2020)</a>, but with key differences. Specifically, it incorporates time-varying spatial recruitment apportionment layers, a longer time series of stochastic recruitment deviations, and fixes an issue with the previously used growth curve.</p>
+<p>Recent YFT stock assessments performed for the Indian Ocean Tuna Commission (IOTC), as well as supplementary papers that describe the operating model (i.e., the simulation model) in more detail are also provided on the Spatial Stock Assessment Workshop <a href="https://github.com/aaronmberger-nwfsc/Spatial-Assessment-Modeling-Workshop/">GitHub repository</a>. While the recent operational YFT stock assessment is provided as general background (<a href="https://github.com/aaronmberger-nwfsc/Spatial-Assessment-Modeling-Workshop/blob/main/docs/articles/Relevant_literature_files/Fu%20et%20al.%20(2018)%20IOTC-2018-WPTT20-33.pdf/">Fu et al., (2018), Cardinale et al. (2020)</a>), this simulation experiment is strictly a research endeavor, with the Indian Ocean YFT stock chosen as an example to address broad study objectives. Analysts should be aware that the reality simulated by the YFT OM differs substantially in some respects from the real IO-YFT population.</p>
+<p>The Indian Ocean YFT operating model developed for this simulation experiment is described below. It is based on a previous version described in detail in <a href="https://github.com/aaronmberger-nwfsc/Spatial-Assessment-Modeling-Workshop/blob/main/docs/articles/Relevant_literature_files/Dunn%2C%20Hoyle%2C%20Datta%202020%20v1%20SPM%20YFT%20OM.pdf">Dunn et al. (2020)</a>, but with key differences. Specifically, it incorporates time-varying spatial recruitment apportionment layers, a longer time series of stochastic recruitment deviations, and fixes an issue with the previously used growth curve.</p>
 </div>
 <div id="architecture-of-the-yft-om-and-prior-model-conditioning" class="section level1">
 <h1>2. Architecture of the YFT OM and prior model conditioning</h1>
-<p>Using the Spatial Population Model software (SPM, developed by A. Dunn, S. Rasmussen, and S. Mormede, available <a href="https://github.com/alistairdunn1/SPM">here</a>), a spatially explicit population dynamics OM was developed for YFT, a highly migratory pelagic species, in the Indian Ocean. This model was conditioned using empirical data from region-specific fisheries and spatially explicit (disaggregated) catch, longline CPUE, tag recapture data, and length frequencies at a 5x5<span class="math inline">\(^\circ\)</span> grid cell resolution (221 total cells). The OM was conditioned by fitting the disaggregated IOTC data within SPM itself using maximum likelihood to estimate fishery and population parameter values (e.g., fishery selectivity, fishing mortality, recruitment, and movement; see <a href="https://github.com/carenbarcelo-NOAA/Spatial-Assessment-Modeling-Workshop/tree/main/docs/articles/Relevant_literature_files/">Dunn et al. (2020)</a> for further details). R<sub>0</sub>, recruitment deviations and recruitment apportionment were fixed based on values described in a recent stock assessment conducted by Fu et al. (2018). The conditioned YFT SPM model was then used as an operating model to simulate pseudo-data with observation error, such that these <em>simulated observations</em> provide plausible values for Indian Ocean YFT. Each 5x5<span class="math inline">\(^\circ\)</span> grid cell within the spatial domain of the SPM OM is treated as a unique population sub-unit with local recruitment, mortality, and movement dynamics.</p>
+<p>Using the Spatial Population Model software (SPM, developed by A. Dunn, S. Rasmussen, and S. Mormede, available <a href="https://github.com/alistairdunn1/SPM">here</a>), a spatially explicit population dynamics OM was developed for YFT, a highly migratory pelagic species, in the Indian Ocean. This model was conditioned using empirical data from region-specific fisheries and spatially explicit (disaggregated) catch, longline CPUE, tag recapture data, and length frequencies at a 5x5<span class="math inline">\(^\circ\)</span> grid cell resolution (221 total cells). The OM was conditioned by fitting the disaggregated IOTC data within SPM itself using maximum likelihood to estimate fishery and population parameter values (e.g., fishery selectivity, fishing mortality, recruitment, and movement; see <a href="https://github.com/aaronmberger-nwfsc/Spatial-Assessment-Modeling-Workshop/blob/main/docs/articles/Relevant_literature_files/Dunn%2C%20Hoyle%2C%20Datta%202020%20v1%20SPM%20YFT%20OM.pdf">Dunn et al. (2020)</a> for further details). R<sub>0</sub>, recruitment deviations and recruitment apportionment were fixed based on values described in a recent stock assessment conducted by Fu et al. (2018). The conditioned YFT SPM model was then used as an operating model to simulate pseudo-data with observation error, such that these <em>simulated observations</em> provide plausible values for Indian Ocean YFT. Each 5x5<span class="math inline">\(^\circ\)</span> grid cell within the spatial domain of the SPM OM is treated as a unique population sub-unit with local recruitment, mortality, and movement dynamics.</p>
 <p>As a check on the simulated dynamics and associated data from the YFT SPM OM, an integrated assessment model (Stock Synthesis 3, SS3) was fit to the 4 area aggregated data from a subset of the simulated datasets. The SS3 model, though not optimized, was able to fit the pseudo-data without any major diagnostic or convergence issues. The estimated population trajectories adequately reflected the true values from the SPM OM. Thus, the organizers have verified that the OM is producing reliable outputs that should be interpretable by any flexible integrated assessment platform.</p>
 <p>The general process of OM development and OM conditioning was as follows:</p>
 <ol style="list-style-type: lower-roman">
@@ -166,7 +166,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div id="yft-om-build-for-the-spatial-simulation-experiment" class="section level1">
 <h1>3. YFT OM build for the spatial simulation experiment</h1>
-<p>The previous version of the YFT OM (<a href="https://carenbarcelo-noaa.github.io/Spatial-Assessment-Modeling-Workshop/articles/Relevant_literature_files/">Dunn et al. (2020)</a> did not include stochasticity in recruitment. We introduced stochasticity into the YFT OM used in this simulation experiment by introducing process error in recruitment across space (spatial apportionment) and time (year class strength; YCS). Thus, simulated observations were generated for 100 different realizations of the OM, integrating both process and observation sources of error.</p>
+<p>The previous version of the YFT OM (<a href="https://github.com/aaronmberger-nwfsc/Spatial-Assessment-Modeling-Workshop/blob/main/docs/articles/Relevant_literature_files/Dunn%2C%20Hoyle%2C%20Datta%202020%20v1%20SPM%20YFT%20OM.pdf">Dunn et al. (2020)</a> did not include stochasticity in recruitment. We introduced stochasticity into the YFT OM used in this simulation experiment by introducing process error in recruitment across space (spatial apportionment) and time (year class strength; YCS). Thus, simulated observations were generated for 100 different realizations of the OM, integrating both process and observation sources of error.</p>
 <p>We include only one OM scenario in this simulation experiment (which is based on realized fishery and biological data from the Indian Ocean), however we acknowledge that others could be used. A single OM scenario was chosen given the limitations of a worldwide simulation experiment and for ease of comparisons. The 100 different realizations of simulated data output from the experiment&#39;s YFT OM (including stochastic recruitment processes and observation error) encapsulate key sources of variability, allowing for an explicit evaluation of uncertainty in resultant estimation models.</p>
 <div id="spatial-temporal-operating-model-dimensions" class="section level2">
 <h2>3.1 Spatial &amp; temporal operating model dimensions</h2>
@@ -207,7 +207,7 @@ L_{t+1,a} = L_{t,a} + (L_{t,a-k_{a}} - L_{inf}) (e^{-k_{a}-1}) \tag{Eq. 1}
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">B<sub>0</sub></td>
+<td align="left">R<sub>0</sub></td>
 <td align="center">97.2506x10<sup>6</sup></td>
 </tr>
 <tr class="even">
@@ -375,7 +375,7 @@ L_{t+1,a} = L_{t,a} + (L_{t,a-k_{a}} - L_{inf}) (e^{-k_{a}-1}) \tag{Eq. 1}
 <h3>3.5.1 Stochasticity in recruitment</h3>
 <p>The simulation model was run 100 times to encapsulate variation and provide 100 unique pseudo-data sets (more may be requested). The only population process that included stochasticity is recruitment, which included random pseudo-year deviations in YCS and pseudo-year deviations in spatial apportionment.</p>
 <p>For each of the 100 simulation runs, the YCS multipliers varied as a log-normally distributed stochastic process with a mean equal to 1 with a standard deviation of 0.6. YCS multipliers were included across all model pseudo-years, 1 - 256.</p>
-<p>To introduce stochasticity (process error) into spatial recruitment apportionment within the OM, spatially correlated Gaussian random fields were generated for each of the 100 simulation runs. We used an exponential variogram model (from the <em>gstat</em> package in R (Pebesma,(2004)), which assumed a constant trend, with the partial sill = 0.025, range = 2, beta = 1 and the number of nearest observations used for the kriging prediction = 20. We then took the product of each of the random layers (100 simulations runs x 256 pseudo-years per run) and the original base layer (Fig. 2, the proportion of samples per grid cell that had fish &lt;40cm in length from <a href="https://carenbarcelo-noaa.github.io/Spatial-Assessment-Modeling-Workshop/articles/Relevant_literature_files/">Dunn et al. (2020)</a> and divided by the grid total (total recruitment apportionment for each spatial grid summed to 1) to attain random spatial recruitment proportions weighted by the original base recruitment values (see Fig. 8 for an example). Spatiotemporal recruitment stochasticity is thus introduced by multiplying YCS vectors with spatial apportionment matrices across each of the 256 pseudo-years in each of the 100 simulation runs.</p>
+<p>To introduce stochasticity (process error) into spatial recruitment apportionment within the OM, spatially correlated Gaussian random fields were generated for each of the 100 simulation runs. We used an exponential variogram model (from the <em>gstat</em> package in R (Pebesma,(2004)), which assumed a constant trend, with the partial sill = 0.025, range = 2, beta = 1 and the number of nearest observations used for the kriging prediction = 20. We then took the product of each of the random layers (100 simulations runs x 256 pseudo-years per run) and the original base layer (Fig. 2, the proportion of samples per grid cell that had fish &lt;40cm in length from <a href="https://github.com/aaronmberger-nwfsc/Spatial-Assessment-Modeling-Workshop/blob/main/docs/articles/Relevant_literature_files/Dunn%2C%20Hoyle%2C%20Datta%202020%20v1%20SPM%20YFT%20OM.pdf">Dunn et al. (2020)</a> and divided by the grid total (total recruitment apportionment for each spatial grid summed to 1) to attain random spatial recruitment proportions weighted by the original base recruitment values (see Fig. 8 for an example). Spatiotemporal recruitment stochasticity is thus introduced by multiplying YCS vectors with spatial apportionment matrices across each of the 256 pseudo-years in each of the 100 simulation runs.</p>
 <p><img src="data:image/png;base64,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" width="500" height="400"></p>
 <p><strong><em>Fig. 8) Heatmap of one realization of the spatial variability in recruitment apportionment constructed with correlated random fields weighted by the recruitment apportionment assumed in the base layer (Fig. 2). Warmer colors reflect higher apportionment.</em></strong></p>
 </div>
@@ -500,7 +500,7 @@ L_{t+1,a} = L_{t,a} + (L_{t,a-k_{a}} - L_{inf}) (e^{-k_{a}-1}) \tag{Eq. 1}
 <th align="center">M</th>
 <th align="center">L</th>
 <th align="center">Mat</th>
-<th align="center">k</th>
+<th align="center">K</th>
 </tr>
 </thead>
 <tbody>
@@ -510,7 +510,7 @@ L_{t+1,a} = L_{t,a} + (L_{t,a-k_{a}} - L_{inf}) (e^{-k_{a}-1}) \tag{Eq. 1}
 <td align="center">0.3358</td>
 <td align="center">22</td>
 <td align="center">0</td>
-<td align="center">0.5</td>
+<td align="center">1</td>
 </tr>
 <tr class="even">
 <td align="center">2</td>
@@ -518,7 +518,7 @@ L_{t+1,a} = L_{t,a} + (L_{t,a-k_{a}} - L_{inf}) (e^{-k_{a}-1}) \tag{Eq. 1}
 <td align="center">0.2955</td>
 <td align="center">35.2865</td>
 <td align="center">0</td>
-<td align="center">0.75</td>
+<td align="center">0.5</td>
 </tr>
 <tr class="odd">
 <td align="center">3</td>
@@ -526,7 +526,7 @@ L_{t+1,a} = L_{t,a} + (L_{t,a-k_{a}} - L_{inf}) (e^{-k_{a}-1}) \tag{Eq. 1}
 <td align="center">0.2552</td>
 <td align="center">41.384</td>
 <td align="center">0</td>
-<td align="center">1</td>
+<td align="center">0.75</td>
 </tr>
 <tr class="even">
 <td align="center">4</td>
@@ -550,7 +550,7 @@ L_{t+1,a} = L_{t,a} + (L_{t,a-k_{a}} - L_{inf}) (e^{-k_{a}-1}) \tag{Eq. 1}
 <td align="center">0.1343</td>
 <td align="center">53.8991</td>
 <td align="center">0.15</td>
-<td align="center">1.8</td>
+<td align="center">1</td>
 </tr>
 <tr class="odd">
 <td align="center">7</td>
@@ -566,7 +566,7 @@ L_{t+1,a} = L_{t,a} + (L_{t,a-k_{a}} - L_{inf}) (e^{-k_{a}-1}) \tag{Eq. 1}
 <td align="center">0.1343</td>
 <td align="center">64.2198</td>
 <td align="center">0.3</td>
-<td align="center">1.2</td>
+<td align="center">1.8</td>
 </tr>
 <tr class="odd">
 <td align="center">9</td>
@@ -582,7 +582,7 @@ L_{t+1,a} = L_{t,a} + (L_{t,a-k_{a}} - L_{inf}) (e^{-k_{a}-1}) \tag{Eq. 1}
 <td align="center">0.1343</td>
 <td align="center">85.5489</td>
 <td align="center">0.7</td>
-<td align="center">1</td>
+<td align="center">1.2</td>
 </tr>
 <tr class="odd">
 <td align="center">11</td>
@@ -606,7 +606,7 @@ L_{t+1,a} = L_{t,a} + (L_{t,a-k_{a}} - L_{inf}) (e^{-k_{a}-1}) \tag{Eq. 1}
 <td align="center">0.1780</td>
 <td align="center">112.534</td>
 <td align="center">1</td>
-<td align="center">1</td>
+<td align="center"></td>
 </tr>
 <tr class="even">
 <td align="center">14</td>
@@ -614,7 +614,7 @@ L_{t+1,a} = L_{t,a} + (L_{t,a-k_{a}} - L_{inf}) (e^{-k_{a}-1}) \tag{Eq. 1}
 <td align="center">0.1915</td>
 <td align="center">118.496</td>
 <td align="center">1</td>
-<td align="center">1</td>
+<td align="center"></td>
 </tr>
 <tr class="odd">
 <td align="center">15</td>
@@ -622,7 +622,7 @@ L_{t+1,a} = L_{t,a} + (L_{t,a-k_{a}} - L_{inf}) (e^{-k_{a}-1}) \tag{Eq. 1}
 <td align="center">0.1994</td>
 <td align="center">123.383</td>
 <td align="center">1</td>
-<td align="center">1</td>
+<td align="center"></td>
 </tr>
 <tr class="even">
 <td align="center">16</td>
@@ -630,7 +630,7 @@ L_{t+1,a} = L_{t,a} + (L_{t,a-k_{a}} - L_{inf}) (e^{-k_{a}-1}) \tag{Eq. 1}
 <td align="center">0.2009</td>
 <td align="center">127.387</td>
 <td align="center">1</td>
-<td align="center">1</td>
+<td align="center"></td>
 </tr>
 <tr class="odd">
 <td align="center">17</td>
@@ -638,7 +638,7 @@ L_{t+1,a} = L_{t,a} + (L_{t,a-k_{a}} - L_{inf}) (e^{-k_{a}-1}) \tag{Eq. 1}
 <td align="center">0.1962</td>
 <td align="center">130.669</td>
 <td align="center">1</td>
-<td align="center">1</td>
+<td align="center"></td>
 </tr>
 <tr class="even">
 <td align="center">18</td>
@@ -646,7 +646,7 @@ L_{t+1,a} = L_{t,a} + (L_{t,a-k_{a}} - L_{inf}) (e^{-k_{a}-1}) \tag{Eq. 1}
 <td align="center">0.1865</td>
 <td align="center">133.359</td>
 <td align="center">1</td>
-<td align="center">1</td>
+<td align="center"></td>
 </tr>
 <tr class="odd">
 <td align="center">19</td>
@@ -654,7 +654,7 @@ L_{t+1,a} = L_{t,a} + (L_{t,a-k_{a}} - L_{inf}) (e^{-k_{a}-1}) \tag{Eq. 1}
 <td align="center">0.1743</td>
 <td align="center">135.563</td>
 <td align="center">1</td>
-<td align="center">1</td>
+<td align="center"></td>
 </tr>
 <tr class="even">
 <td align="center">20</td>
@@ -662,7 +662,7 @@ L_{t+1,a} = L_{t,a} + (L_{t,a-k_{a}} - L_{inf}) (e^{-k_{a}-1}) \tag{Eq. 1}
 <td align="center">0.1623</td>
 <td align="center">137.369</td>
 <td align="center">1</td>
-<td align="center">1</td>
+<td align="center"></td>
 </tr>
 <tr class="odd">
 <td align="center">21</td>
@@ -670,7 +670,7 @@ L_{t+1,a} = L_{t,a} + (L_{t,a-k_{a}} - L_{inf}) (e^{-k_{a}-1}) \tag{Eq. 1}
 <td align="center">0.1522</td>
 <td align="center">138.85</td>
 <td align="center">1</td>
-<td align="center">1</td>
+<td align="center"></td>
 </tr>
 <tr class="even">
 <td align="center">22</td>
@@ -678,7 +678,7 @@ L_{t+1,a} = L_{t,a} + (L_{t,a-k_{a}} - L_{inf}) (e^{-k_{a}-1}) \tag{Eq. 1}
 <td align="center">0.1449</td>
 <td align="center">140.063</td>
 <td align="center">1</td>
-<td align="center">1</td>
+<td align="center"></td>
 </tr>
 <tr class="odd">
 <td align="center">23</td>
@@ -686,7 +686,7 @@ L_{t+1,a} = L_{t,a} + (L_{t,a-k_{a}} - L_{inf}) (e^{-k_{a}-1}) \tag{Eq. 1}
 <td align="center">0.1401</td>
 <td align="center">141.058</td>
 <td align="center">1</td>
-<td align="center">1</td>
+<td align="center"></td>
 </tr>
 <tr class="even">
 <td align="center">24</td>
@@ -694,7 +694,7 @@ L_{t+1,a} = L_{t,a} + (L_{t,a-k_{a}} - L_{inf}) (e^{-k_{a}-1}) \tag{Eq. 1}
 <td align="center">0.1373</td>
 <td align="center">141.872</td>
 <td align="center">1</td>
-<td align="center">1</td>
+<td align="center"></td>
 </tr>
 <tr class="odd">
 <td align="center">25</td>
@@ -702,7 +702,7 @@ L_{t+1,a} = L_{t,a} + (L_{t,a-k_{a}} - L_{inf}) (e^{-k_{a}-1}) \tag{Eq. 1}
 <td align="center">0.1357</td>
 <td align="center">142.54</td>
 <td align="center">1</td>
-<td align="center">1</td>
+<td align="center"></td>
 </tr>
 <tr class="even">
 <td align="center">26</td>
@@ -710,7 +710,7 @@ L_{t+1,a} = L_{t,a} + (L_{t,a-k_{a}} - L_{inf}) (e^{-k_{a}-1}) \tag{Eq. 1}
 <td align="center">0.1349</td>
 <td align="center">143.088</td>
 <td align="center">1</td>
-<td align="center">1</td>
+<td align="center"></td>
 </tr>
 <tr class="odd">
 <td align="center">27</td>
@@ -718,7 +718,7 @@ L_{t+1,a} = L_{t,a} + (L_{t,a-k_{a}} - L_{inf}) (e^{-k_{a}-1}) \tag{Eq. 1}
 <td align="center">0.1346</td>
 <td align="center">143.536</td>
 <td align="center">1</td>
-<td align="center">1</td>
+<td align="center"></td>
 </tr>
 <tr class="even">
 <td align="center">28+</td>
@@ -726,7 +726,7 @@ L_{t+1,a} = L_{t,a} + (L_{t,a-k_{a}} - L_{inf}) (e^{-k_{a}-1}) \tag{Eq. 1}
 <td align="center">0.1344</td>
 <td align="center">144.168</td>
 <td align="center">1</td>
-<td align="center">1</td>
+<td align="center"></td>
 </tr>
 </tbody>
 </table>

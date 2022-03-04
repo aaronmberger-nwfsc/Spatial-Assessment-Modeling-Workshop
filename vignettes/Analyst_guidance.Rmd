@@ -2,7 +2,7 @@
 title: ANALYST GUIDANCE FOR SIMULATION EXPERIMENT
 date: "`r format(Sys.time(), '%d %B %Y')`"
 output:
-  html_document
+  pdf_document
 urlcolor: blue
 documentclass: scrartcl
 ---
