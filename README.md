@@ -18,7 +18,7 @@ Many generic assessment platforms use the same mathematical formulations for sin
 ᵃ MS Teams connection details: meeting id - 444 541 045 841, passcode - 6TsAbz (see calender invite for direct links)\
 ᵇ MS Teams connection details:  meeting id - 473 427 490 516, passcode - T43jGM (see calender invite for direct links)\
 ᶜ MS Teams connection details:  meeting id - 410 348 618 239, passcode - rqCQYq (see calender invite for direct links)\
-ᵈ MS Teams connection details:  meeting id - 468 299 151 35, passcode - fGKe8u (see calender invite for direct links)\
+ᵈ MS Teams connection details:  meeting id - 468 299 151 35, passcode - fGKe8u (see calender invite for direct links)
 
 # Experiment Overview
 
