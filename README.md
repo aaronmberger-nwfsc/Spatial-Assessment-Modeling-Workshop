@@ -4,7 +4,7 @@
 
 Many generic assessment platforms use the same mathematical formulations for single area population models. In contrast, assessment frameworks use a range of methods and assumptions to model spatial dynamics. The spatial capabilities of assessment software influence the decision-making process for assessment analysts and may affect how analysts interpret population status. Moreover, there is little guidance on how to identify model misspecification resulting from spatial structure within spatially aggregated or spatially explicit models. Given this diversity of approaches and limited documentation, the Spatial Stock Assessment Methods Workshop will explore and compare how analysts familiar with spatial assessment platforms develop spatial models, and formulate guidance on best practices for spatial stock assessment modeling. Discussions among researchers across regions and fisheries agencies will help to identify critical spatial modeling capabilities that should be incorporated into the next generation of generic spatial stock assessment software. This document provides an overview of the Spatial Stock Assessment Methods Workshop and associated simulation experiment, highlighting the overarching aims, scope, and approach. 
 
-Spatial simulation experiment event schedule for sharing project-related information and results.
+**Spatial simulation experiment event schedule for sharing project-related information and results.**
 
 | Dates* | Time | Location | Presentation 1 | Presentation 2 | Presentation 3 | Wrap-up Discussion |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -14,7 +14,7 @@ Spatial simulation experiment event schedule for sharing project-related informa
 | Jan 5, 2023 | 1200 - 1430 | Virtual Webinar 4ᵈ | Team Spatiotemporal (60 min) | Team SPASAM (60 min) | -- | 30 min |
 | Mar 5-7, 2023 | 2.5 days | Prefab Hall, Wellington, NZ | Agenda forthcoming -- | -- | -- | 30 min |
 
-* Dates and times are listed as U.S. Pacific Time
+(*) Dates and times are listed as U.S. Pacific Time
 ᵃ MS Teams connection details: meeting id - 444 541 045 841, passcode - 6TsAbz (see calender invite for direct links)
 ᵇ MS Teams connection details:  meeting id - 473 427 490 516, passcode - T43jGM (see calender invite for direct links)
 ᶜ MS Teams connection details:  meeting id - 410 348 618 239, passcode - rqCQYq (see calender invite for direct links)
