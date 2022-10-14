@@ -6,13 +6,13 @@ Many generic assessment platforms use the same mathematical formulations for sin
 
 **Spatial simulation experiment event schedule for sharing project-related information and results.**
 
-| Dates* | Time | Location | Presentation 1 | Presentation 2 | Presentation 3 | Wrap-up Discussion |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Oct 13, 2022 | 1300 - 1600 | Virtual Webinar 1ᵃ | Introduction (Organizers; 30 min) | Team CASAL YFT (60 min) | Team SS/VAST-IATTC (60 min) | 30 min |
-| Nov 21, 2022 | 2100 - 2330 | Virtual Webinar 2ᵇ | Team MFCL (60 min) | Team SS-IOTC (60 min) | -- | 30 min |
-| Dec 12, 2022 | 1100 - 1430 | Virtual Webinar 3ᶜ | Team SS-ICES (60 min) | Team Gadget (60 min) | Team CASAL2 TOA (60 min) | 30 min |
-| Jan 5, 2023 | 1200 - 1430 | Virtual Webinar 4ᵈ | Team Spatiotemporal (60 min) | Team SPASAM (60 min) | -- | 30 min |
-| Mar 5-7, 2023 | 2.5 days | Prefab Hall, Wellington, NZ | Agenda forthcoming -- | -- | -- | 30 min |
+| Dates* | Time | Location | Presentation 1 | Presentation 2 | Presentation 3 | Wrap-up Discussion | Recording |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Oct 13, 2022 | 1300 - 1600 | Virtual Webinar 1ᵃ | Introduction (Organizers; 30 min) | Team CASAL YFT (60 min) | Team SS/VAST-IATTC (60 min) | 30 min | [webinar 1](https://youtu.be/9ImQ6snjQT4) |
+| Nov 21, 2022 | 2100 - 2330 | Virtual Webinar 2ᵇ | Team MFCL (60 min) | Team SS-IOTC (60 min) | -- | 30 min | not yet available |
+| Dec 12, 2022 | 1100 - 1430 | Virtual Webinar 3ᶜ | Team SS-ICES (60 min) | Team Gadget (60 min) | Team CASAL2 TOA (60 min) | 30 min | not yet available |
+| Jan 5, 2023 | 1200 - 1430 | Virtual Webinar 4ᵈ | Team Spatiotemporal (60 min) | Team SPASAM (60 min) | -- | 30 min | not yet available |
+| Mar 5-7, 2023 | 2.5 days | Prefab Hall, Wellington, NZ | Agenda forthcoming -- | -- | -- | 30 min | -- |
 
 (*) Dates and times are listed as U.S. Pacific Time\
 ᵃ MS Teams connection details: meeting id - 444 541 045 841, passcode - 6TsAbz (see calender invite for direct links)\
