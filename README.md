@@ -4,15 +4,14 @@
 
 Many generic assessment platforms use the same mathematical formulations for single area population models. In contrast, assessment frameworks use a range of methods and assumptions to model spatial dynamics. The spatial capabilities of assessment software influence the decision-making process for assessment analysts and may affect how analysts interpret population status. Moreover, there is little guidance on how to identify model misspecification resulting from spatial structure within spatially aggregated or spatially explicit models. Given this diversity of approaches and limited documentation, the Spatial Stock Assessment Methods Workshop will explore and compare how analysts familiar with spatial assessment platforms develop spatial models, and formulate guidance on best practices for spatial stock assessment modeling. Discussions among researchers across regions and fisheries agencies will help to identify critical spatial modeling capabilities that should be incorporated into the next generation of generic spatial stock assessment software. This document provides an overview of the Spatial Stock Assessment Methods Workshop and associated simulation experiment, highlighting the overarching aims, scope, and approach. 
 
-**Spatial simulation experiment event schedule for sharing project-related information and results. Webinar recordings are provided by date, or can collectively be viewed [here](https://www.youtube.com/playlist?list=PLCQhR-SP8UuHfMJrvcyTML88S4HnSQVbP); presentations are available under [docs\media]
-(https://github.com/aaronmberger-nwfsc/Spatial-Assessment-Modeling-Workshop/tree/main/docs/media) **
+**Spatial simulation experiment event schedule for sharing project-related information and results. Webinar recordings are provided by date, or can collectively be viewed [here](https://www.youtube.com/playlist?list=PLCQhR-SP8UuHfMJrvcyTML88S4HnSQVbP); presentations are available under [media](https://github.com/aaronmberger-nwfsc/Spatial-Assessment-Modeling-Workshop/tree/main/docs/media) **
 
 | Dates* | Time | Location | Presentation 1 | Presentation 2 | Presentation 3 | Wrap-up Discussion | Recording |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Oct 13, 2022 | 1300 - 1600 | Virtual Webinar 1ᵃ | Introduction (Organizers; 30 min) | Team CASAL YFT (60 min) | Team SS/VAST-IATTC (60 min) | 30 min | [webinar 1](https://youtu.be/9ImQ6snjQT4) |
 | Nov 21, 2022 | 2100 - 2330 | Virtual Webinar 2ᵇ | Team MFCL (60 min) | Team SS-IOTC (60 min) | -- | 30 min | [webinar 2](https://www.youtube.com/watch?v=n0hrynJ-6ZI)  |
 | Dec 12, 2022 | 1100 - 1430 | Virtual Webinar 3ᶜ | Team SS-ICES (60 min) | Team Gadget (60 min) | Team CASAL2 TOA (60 min) | 30 min | webinar 3 [part 1](https://youtu.be/vvko8F0eR3A) and [part 2](https://youtu.be/7c-5FkZ5ixE)  |
-| Jan 5, 2023 | 1200 - 1430 | Virtual Webinar 4ᵈ | Team SPASAM (60 min) | Team Spatiotemporal (delayed) | -- | 30 min | [webinar 1](https://www.youtube.com/watch?v=29sraZeViN4) |
+| Jan 5, 2023 | 1200 - 1430 | Virtual Webinar 4ᵈ | Team SPASAM (60 min) | Team Spatiotemporal (delayed) | -- | 30 min | [webinar 4](https://www.youtube.com/watch?v=29sraZeViN4) |
 | Mar 5-7, 2023 | 2.5 days | Prefab Hall, Wellington, NZ | Agenda forthcoming -- | -- | -- | 30 min | Register [here](https://docs.google.com/forms/d/e/1FAIpQLSeX0WlkisPLmzcrS7-hjDsceOICgpWP1g-V45SbD4n9HMfc5Q/viewform) |
 
 (*) Dates and times are listed as U.S. Pacific Time\
