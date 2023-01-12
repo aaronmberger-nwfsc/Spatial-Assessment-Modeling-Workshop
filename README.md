@@ -20,41 +20,40 @@ Many generic assessment platforms use the same mathematical formulations for sin
 ᶜ MS Teams connection details:  meeting id - 410 348 618 239, passcode - rqCQYq (see calender invite for direct links)\
 ᵈ MS Teams connection details:  meeting id - 468 299 151 35, passcode - fGKe8u (see calender invite for direct links)
 
-Workshop Rationale
+Workshop Rationale\
 Many generic assessment platforms use similar mathematical formulations for single area population models. In contrast, methods and assumptions for modeling spatial dynamics often exist across platforms with the ability to model spatial dynamics. The spatial capabilities of assessment software influence the decision-making process for assessment analysts and may affect how analysts interpret population status. Moreover, there is little guidance on how to identify model misspecification resulting from spatial structure within spatially aggregated or spatially explicit models. Given this diversity of approaches and limited documentation, the Spatial Stock Assessment Simulation ExperimentWorkshop will explore and compare how analysts familiar with spatial assessment platforms develop spatial models, and formulate guidance on best practices for spatial stock assessment modeling. Discussions among researchers across regions and fisheries agencies will help to identify critical spatial modeling capabilities that should be incorporated into the next generation of generic spatial stock assessment software. This document provides an overview of the Spatial Stock Assessment Methods Workshop and associated simulation experiment, highlighting the overarching aims, scope, and approach. 
 
-Draft Agenda
+Draft Agenda\
 Dates/times are local for Wellington, NZ (NZDT; UTC +13)
 
-Sunday (5 March), 9:00 – 17:30 - Simulation Synopsis
-Welcome and opening remarks
-Updates from simulation experiment teams	
-Aggregate experiment results to date
-Small group mixed team focus discussions (What did we learn?)
-Plenary small group discussion reporting
-
+Sunday (5 March), 9:00 – 17:30 - Simulation Synopsis\
+Welcome and opening remarks\
+Updates from simulation experiment teams\	
+Aggregate experiment results to date\
+Small group mixed team focus discussions (What did we learn?)\
+Plenary small group discussion reporting\
 Evening Social – Local establishment TBD	
 
-Monday (6 March), 9:00 – 17:30 - Critical Process Elements
-Summary/highlights from Day 1
-Session topic/discussion 1 - Data analysis and aggregation
-Session topic/discussion 2 - Identifying appropriate/adequate model structure
+Monday (6 March), 9:00 – 17:30 - Critical Process Elements\
+Summary/highlights from Day 1\
+Session topic/discussion 1 - Data analysis and aggregation\
+Session topic/discussion 2 - Identifying appropriate/adequate model structure\
 Session topic/discussion 3 - Developing best practices for spatial stock assessments
 
-Tuesday (7 March), 9:00 – 12:30 - Future Needs for Spatial Assessments
-Summary/highlights from day 2
-Session topic/discussion 4 - Overcoming limitations
-Session topic/discussion 5 - Future directions and opportunities
+Tuesday (7 March), 9:00 – 12:30 - Future Needs for Spatial Assessments\
+Summary/highlights from day 2\
+Session topic/discussion 4 - Overcoming limitations\
+Session topic/discussion 5 - Future directions and opportunities\
 
-Accommodation Ideas
+Accommodation Ideas\
 Below is a short list of accommodations and an example nightly rate (NZD), though there are many more options that are within walking distance of the PreFab Hall.
 
-Apollo Lodge Motel, 49 Majoribanks St, Mount Victoria, $279.
-Copthorne Hotel, 100 Oriental Parade, $289.
-Ohtel, 66 Oriental Parade, $313.
-West Plaza Hotel, 110 Wakefield St, $230
-U Boutique Hotel, 25 Frederick St, $206
-Quest on Johnston Serviced Apartments, 35 Johnston St, $308
+Apollo Lodge Motel, 49 Majoribanks St, Mount Victoria, $279\
+Copthorne Hotel, 100 Oriental Parade, $289\
+Ohtel, 66 Oriental Parade, $313\
+West Plaza Hotel, 110 Wakefield St, $230\
+U Boutique Hotel, 25 Frederick St, $206\
+Quest on Johnston Serviced Apartments, 35 Johnston St, $308\
 Cambridge Hotel, 28 Cambridge Terrace, Te Aro, $86.
 
 
