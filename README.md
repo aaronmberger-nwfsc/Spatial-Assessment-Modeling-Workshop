@@ -26,12 +26,12 @@ Many generic assessment platforms use similar mathematical formulations for sing
 Analysis Teams - please complete your [google form](https://docs.google.com/forms/d/e/1FAIpQLSduc_vmqcUrV2pJcjp3_Vq-bQYkHPwmOuxPlR1fxt91swWWpw/viewform) responses (even if in a shortened version) first and then submit your model output (to date) using the [Workshop Results Reporting Format](https://docs.google.com/document/d/1uE0DEi7V_xd8AD7kTMYePS_MWkoY_cTloo4uJff8DuQ/edit) guidance document by March 1.  This deadline is necessary to give the organizers a bit of time to compile experiment results prior to the workshop. If meeting it will be a problem for you, please reach out (aaron.berger@noaa.gov) to discuss. 
 
 Workshop attendees - please read over the participant [handout](https://docs.google.com/document/d/1ghJMvOTJEWg0Oxsjje4Y9FZ7AO1kQPAcrUK1SGJyKqI/edit).  The handout contains a lot of useful information for the workshop, including:\
-Agenda (also see below)\
-Goals and objective statement\
-Day 1 discussion questions related to decision-point analyses\
-Guidance for analyst team presentations\
-Day 2 breakout group assignments (across 3 topics) and related discussion questions for each topic\
-Common set of spatial stock assessment nomenclature to consider
+- Agenda (also see below)\
+- Goals and objective statement\
+- Day 1 discussion questions related to decision-point analyses\
+- Guidance for analyst team presentations\
+- Day 2 breakout group assignments (across 3 topics) and related discussion questions for each topic\
+- Common set of spatial stock assessment nomenclature to consider
 
 Virtual attendees will not take part in the Day 2 (morning) Breakout Groups in real-time. Instead, remote participants will take part in this activity through a live google document by adding thoughts/comments on breakout group discussion topics ahead of time (during or after) using the google document assigned to your group (see the handout for group assignment and link to the documents). Each breakout group has a discussion lead - thanks for stepping up leads!  Leads will include comments made ahead of time by virtual attendees in related discussions at the workshop. Real-time virtual participation will be accommodated for all other agenda items. 
 
@@ -52,41 +52,41 @@ Dates/times are local for Wellington, NZ (NZDT; UTC +13)
 Sunday (5 March), 8:30 – 17:00 - Simulation Synopsis\
 Welcome, opening remarks, and introductions\
 Review of project goals\
-    Brief overview and establish a common nomenclature for discussions\
+- Brief overview and establish a common nomenclature for discussions\
 Webinar summary presentation\
-    Status of experiment to date\
-    Synthesis of decision point analyses and responses\
+- Status of experiment to date\
+- Synthesis of decision point analyses and responses\
 Analytical team updates (8 teams, 25 min each)\
-    Updates on spatial modeling attempts/results\
-    Comparison of 1-area and spatial models\
+- Updates on spatial modeling attempts/results\
+- Comparison of 1-area and spatial models\
 Operating model ‘truth’ reveal\
-    True OM dynamics, population trajectories, and model performance\
+- True OM dynamics, population trajectories, and model performance\
 Simulation experiment lessons learned\
-    Similarities and differences among group approaches\
-    Is another simulation study needed? How could the approach be improved?\
+- Similarities and differences among group approaches\
+- Is another simulation study needed? How could the approach be improved?\
 Evening Social – Local establishment TBD
 
 Monday (6 March), 8:30 – 17:00 - Towards Good Practices\
 Discuss workshop group manuscript\
 Breakout groups\
-    Discuss ‘good’ practices or recommended approaches for the topic\
-    See workshop handout for further details\
+- Discuss ‘good’ practices or recommended approaches for the topic\
+- See workshop handout for further details\
 Discussion topic 1 --  Identifying adequate model structure through data analysis\
-    Good practices for fine-scale data analysis\
-    Model diagnostics to identify adequate structure\
+- Good practices for fine-scale data analysis\
+- Model diagnostics to identify adequate structure\
 Discussion topic 2 -- Good practices for spatial model development\
-    Spatial model decision points and assumptions\
-    Good practices for parametrizing spatial models
+- Spatial model decision points and assumptions\
+- Good practices for parametrizing spatial models
 
 Tuesday (7 March), 8:30 – 12:00 - Future Needs for Spatial Assessments\
 Presentation on generic assessment model spatial capabilities\
 Discussion topic 3 -- Needs for next generation spatial models\
-    Current spatial modeling limitations\
-    Spatial needs for next generation platforms\
+- Current spatial modeling limitations\
+- Spatial needs for next generation platforms\
 Wrap up discussion\
-    Should a special issue (SI) be developed?\
-    Review manuscript assignments, agree on tasks and timelines\
-    General feedback
+- Should a special issue (SI) be developed?\
+- Review manuscript assignments, agree on tasks and timelines\
+- General feedback
 
 Accommodation Ideas\
 Below is a short list of accommodations and an example nightly rate (NZD), though there are many more options that are within walking distance of the PreFab Hall.
