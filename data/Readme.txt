@@ -1,2 +1,2 @@
-The datasets have been moved to a google drive location (https://drive.google.com/drive/folders/1RhV24puPyohUOTGsTUXA9u09E31Ny63Q?usp=sharing)
+The simulated datasets have been moved to a google drive location (https://drive.google.com/drive/folders/1RhV24puPyohUOTGsTUXA9u09E31Ny63Q?usp=sharing)
 due to file size constraints in GitHub. If you do not have access, please request it or send an email to Aaron Berger directly (aaron.berger@noaa.gov).

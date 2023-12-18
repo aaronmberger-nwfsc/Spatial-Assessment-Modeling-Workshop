@@ -1,0 +1,127 @@
+@parameter_transformation log_b0_R1
+type log
+parameters process[Recruitment_R1].b0
+
+
+@parameter_transformation log_b0_R2
+type log
+parameters process[Recruitment_R2].b0
+
+
+@parameter_transformation log_b0_R3
+type log
+parameters process[Recruitment_R3].b0
+
+
+@parameter_transformation log_b0_R4
+type log
+parameters process[Recruitment_R4].b0
+
+
+@parameter_transformation logistic_q
+type logistic
+parameters catchability[llcpue_q].q
+lower_bound 0.00001
+upper_bound 100
+
+
+@parameter_transformation log_ps_sel_sr
+type log
+parameters selectivity[Sel_ps].sigma_r
+
+
+@parameter_transformation log_ps_sel_sl
+type log
+parameters selectivity[Sel_ps].sigma_l
+
+
+@parameter_transformation log_ps_sel_mu
+type log
+parameters selectivity[Sel_ps].mu
+
+
+@parameter_transformation log_gi_sel_mu
+type log
+parameters selectivity[Sel_gi].mu
+
+
+@parameter_transformation log_gi_sel_sr
+type log
+parameters selectivity[Sel_gi].sigma_r
+
+
+@parameter_transformation log_gi_sel_sl
+type log
+parameters selectivity[Sel_gi].sigma_l
+
+
+@parameter_transformation log_hd_sel_mu
+type log
+parameters selectivity[Sel_hd].mu
+
+
+@parameter_transformation log_hd_sel_sr
+type log
+parameters selectivity[Sel_hd].sigma_r
+
+
+@parameter_transformation log_hd_sel_sl
+type log
+parameters selectivity[Sel_hd].sigma_l
+
+
+@parameter_transformation log_other_sel_mu
+type log
+parameters selectivity[Sel_other].mu
+
+
+@parameter_transformation log_other_sel_sr
+type log
+parameters selectivity[Sel_other].sigma_r
+
+
+@parameter_transformation log_other_sel_sl
+type log
+parameters selectivity[Sel_other].sigma_l
+
+
+@parameter_transformation log_trol_sel_mu
+type log
+parameters selectivity[Sel_trol].mu
+
+
+@parameter_transformation log_trol_sel_sr
+type log
+parameters selectivity[Sel_trol].sigma_r
+
+
+@parameter_transformation log_trol_sel_sl
+type log
+parameters selectivity[Sel_trol].sigma_l
+
+
+@parameter_transformation log_bb_sel_mu
+type log
+parameters selectivity[Sel_bb].mu
+
+
+@parameter_transformation log_bb_sel_sr
+type log
+parameters selectivity[Sel_bb].sigma_r
+
+
+@parameter_transformation log_bb_sel_sl
+type log
+parameters selectivity[Sel_bb].sigma_l
+
+
+@parameter_transformation log_ll_sel_a50
+type log
+parameters selectivity[Sel_ll].a50
+
+
+@parameter_transformation log_ll_sel_ato95
+type log
+parameters selectivity[Sel_ll].ato95
+
+

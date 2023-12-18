@@ -1,3 +1,1 @@
-April 10, 2023
-
-This folder will contain team-specific subfolders to house results, base model files, and executables as they become available.
+These team folders contain platform user manuals (if applicable) and final model file output files compiled as RData or RDS files. Individual model runs, supporting code, and further information can be requested by emailing Aaron Berger (aaron.berger@noaa.gov).

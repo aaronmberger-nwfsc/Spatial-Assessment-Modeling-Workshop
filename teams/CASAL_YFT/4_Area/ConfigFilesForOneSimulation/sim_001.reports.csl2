@@ -1,0 +1,54 @@
+@report default
+type default
+catchabilities true
+derived_quantities true
+observations true
+processes true
+selectivities true
+parameter_transformations true
+time_varying true
+
+
+@report startInitialisation
+type Initialisation_Partition
+
+
+@report partition
+type partition
+time_step pseudo_step
+
+
+@report ageLength
+type age_length
+age_length age_length
+time_step pseudo_step
+
+
+@report estimated_values
+type estimate_value
+
+
+@report estimated_summary
+type estimate_summary
+
+
+@report obj_fun
+type objective_function
+
+
+@report minimiser_result
+type estimation_result
+
+
+@report hessian_matrix
+type hessian_matrix
+
+
+@report covariance_matrix
+type covariance_matrix
+
+
+@report correlation_matrix
+type correlation_matrix
+
+
